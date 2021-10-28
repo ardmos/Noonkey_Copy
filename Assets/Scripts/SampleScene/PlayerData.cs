@@ -9,6 +9,7 @@ using UnityEngine;
 /// 3. 현재 탭 당 획득(치유력)
 /// 4. 총 터치 횟수
 /// 5. 보유 재화 : 하트, 다이아
+/// 6. 초당 엘프가 생산하는 하트 수
 /// </summary>
 
 
@@ -24,6 +25,11 @@ public class PlayerData : MonoBehaviour
     public int totalTapCount;
     //보유 재화 : 하트, 다이아
     public int heart, dia;
+    //초당 엘프가 생산하는 총 하트 수
+    public int elfProvidesOneSec_total;
+    //장미, 튤립, 수선화, 샤프란, 아도니스, 양귀비, 칼라, 백일홍, 아몬드, 매화  각각의 요정이 제공하는 하트 양
+    public int[] elfProvidesOneSec_Each;
+
 
 
     private void Start()
@@ -70,6 +76,20 @@ public class PlayerData : MonoBehaviour
     public void AddDia(int num)
     {
         dia += num;
+    }
+    #endregion
+
+    #region 초당 엘프가 생산하는 하트 수
+    public int GetTotalElfProvidesHeartInOneSecCount()  //하단UI 인디케이터바에서 호출해서 씀. 
+    {
+        elfProvidesOneSec_total = 0;
+
+        foreach (int elfProvides in elfProvidesOneSec_Each)
+        {
+            elfProvidesOneSec_total += elfProvides;
+        }
+
+        return elfProvidesOneSec_total;
     }
     #endregion
 }
