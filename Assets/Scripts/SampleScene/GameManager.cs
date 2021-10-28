@@ -5,6 +5,7 @@ using UnityEngine;
 
 /// <summary>
 /// 전체적인 흐름을 관장합니다. 
+/// 0. 터치횟수, 하트 증가
 /// 1. 가장 중요한 터치 인식.  빠른 터치인지 느린 터치인지 확인 후 캐릭터컨트롤러에서 알맞은 메서드 호출
 /// 
 /// 
@@ -23,6 +24,8 @@ public class GameManager : MonoBehaviour
     public PlayerData playerData;
     //캐릭터 컨트롤러
     public CharacterController_m characterController_M;
+    //오버헤드메세지 컨트롤러
+    public OverHeadMessageController overHeadMessageController;
 
     //최근 터치 시간, 현재 터치 시간
     public DateTime lastTouchTime, currentTouchTime;
@@ -41,15 +44,24 @@ public class GameManager : MonoBehaviour
     }
 
     #region 터치 인식해서 눈물 만드는 부분.
+    /// 0. 터치횟수, 하트 증가, 머리 위에 획득 하트 표시!
     /// 1. 가장 중요한 터치 인식.  빠른 터치인지 느린 터치인지 확인 후 캐릭터컨트롤러에서 알맞은 눈물 흘리기 메서드 호출
-    /// 2. 처음 터치인 경우 터치간격 계산 안하고 바로 최근 터치 시간 갱신.
+    /// 2. 처음 터치인 경우 터치간격 계산 안하고 바로 최근 터치 시간 갱신, 슬로우로 하나 발사.
     /// 3. 최근 터치 시간 - 현재 터치 시간 값이 0.5초 이내면 빠른터치로 간주.
     /// 
     //1. 가장 중요한 터치 인식.  빠른 터치인지 느린 터치인지 확인 후 캐릭터컨트롤러에서 알맞은 메서드 호출
     public void OnScreenBtnTouched()
     {
-        //2. 처음 터치인 경우 터치간격 계산 안하고 바로 최근 터치 시간 갱신.
-        if (FistTouchCheck()) return;
+        //0. 터치횟수, 하트 증가, 머리 위에 획득 하트 표시!
+        playerData.AddTotalTapCount();  
+        playerData.AddHeart(playerData.GetCurrentCureAtOneTap());
+        overHeadMessageController.OverHeadMessageGenerator(playerData.GetCurrentCureAtOneTap());
+
+        //2. 처음 터치인 경우 터치간격 계산 안하고 바로 최근 터치 시간 갱신, 슬로우로 하나 발사.
+        if (FistTouchCheck()) {
+            characterController_M.MakeSadFace("slow");
+            return;
+        }
 
         //처음 터치가 아닐 경우에만 아래 내용 진행
         //3. 최근 터치 시간 - 현재 터치 시간 값이 0.2초 이내면 빠른터치로 간주.
@@ -95,7 +107,11 @@ public class GameManager : MonoBehaviour
         return intervalTime;
     }
 
+    
+
     #endregion
+
+
 
     #region 출석체크 하는 부분
     /// 1. 씬이 열리면 현재 날짜 확인    

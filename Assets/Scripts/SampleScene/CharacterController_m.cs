@@ -174,6 +174,4 @@ public class CharacterController_m : MonoBehaviour
     }
     #endregion
 
-
-
 }
