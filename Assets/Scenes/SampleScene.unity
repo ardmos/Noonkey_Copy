@@ -520,6 +520,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6155d70b1a25dd40a281d7f662c4d9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  entireCheckDay: 0
+  continuityCheckDay: 0
 --- !u!4 &459196381
 Transform:
   m_ObjectHideFlags: 0
@@ -755,6 +757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 349c6f3a4d6d62246813dd6b05cf6cda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerData: {fileID: 459196380}
 --- !u!4 &1443520613
 Transform:
   m_ObjectHideFlags: 0
