@@ -138,7 +138,7 @@ public class LeftUIController : MonoBehaviour
     //버프 발동 메서드. 온클릭리스너로 인스펙터상에서 호출됨. 
     public void OnStartBuffButtonClicked()
     {
-        Debug.Log("버프 시작 버튼 클릭됐습니다!");
+        //Debug.Log("버프 시작 버튼 클릭됐습니다!");
         if (!isCanBuff)
         {
             //버프가능한상황이 아니면 그냥 무시

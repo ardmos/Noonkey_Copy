@@ -112,7 +112,7 @@ public class Item_MagicTearStream : MonoBehaviour
                 buttonCovoerObj.SetActive(true);
                 //버튼 끄고
                 buttonObj.SetActive(false);
-                btnCover_qualification.text = "미구현";
+                btnCover_qualification.text = "";
                 return;                
         }
 
