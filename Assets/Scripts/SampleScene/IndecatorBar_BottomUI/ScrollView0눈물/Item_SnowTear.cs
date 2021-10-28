@@ -84,6 +84,6 @@ public class Item_SnowTear : MonoBehaviour
         //레벨업
         level++;
         //스킬벨트 Btn0_SnowTear스킬 활성화.
-
+        btn0_SnowTearController.ActivateButton();
     }
 }
