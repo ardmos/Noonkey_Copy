@@ -117,6 +117,9 @@ public class CharacterController_m : MonoBehaviour
         {
             //2 가지 랜덤 발사
             TearGenerator(tear_storms[Random.Range(0, 2)]);
+
+            //어깨들썩 실행
+            GetComponent<Animator>().SetTrigger("cry");
         }
         else Debug.Log("MakeTear에 잘못된 파라미터가 넘어왔습니다. slow나 fast 둘 중 하나로 변경해주세요.");
     }

@@ -1678,6 +1678,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1946326580}
   - component: {fileID: 1946326581}
+  - component: {fileID: 1946326582}
   m_Layer: 5
   m_Name: =====Character=====
   m_TagString: Untagged
@@ -1766,3 +1767,22 @@ MonoBehaviour:
   - {fileID: 1882481126964237343, guid: 5a66b82fbeeb5ab46939cb3a84027c5b, type: 3}
   lTearPoint: {fileID: 1911755085}
   rTearPoint: {fileID: 496478055}
+--- !u!95 &1946326582
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946326579}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 26f7c86ee8f6d464bbcfadfbaad54822, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
