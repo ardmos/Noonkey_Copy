@@ -14,7 +14,7 @@ public class OverHeadMessageController : MonoBehaviour
     
     public void OverHeadMessageGenerator(int num)   //출력할 하트 양을 전달받아서 전달한다!!
     {
-        Debug.Log("생산중!!" + num.ToString());
+        //Debug.Log("생산중!!" + num.ToString());
         GameObject prefObj = Instantiate(overHeadMessagePref) as GameObject;
         prefObj.GetComponent<OverHeadMessageObj>().SetMessage(num);
         prefObj.GetComponent<RectTransform>().SetParent(GetComponent<RectTransform>());
