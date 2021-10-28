@@ -24,6 +24,10 @@ public class CharacterController_m : MonoBehaviour
     public string touchspeed;
     //눈물흘리기 애니메이션
     public Animator sadFace_animator;
+    //눈물 프리팹들
+    public GameObject[] tear_drops, tear_storms;
+    //눈물 발사 위치
+    public GameObject lTearPoint, rTearPoint;
 
     private void Start()
     {
@@ -33,7 +37,6 @@ public class CharacterController_m : MonoBehaviour
         }
         catch (System.Exception)
         {
-
             throw;
         }
     }
@@ -52,7 +55,7 @@ public class CharacterController_m : MonoBehaviour
                 rArm.GetComponent<Image>().sprite = level0[3];
                 rHand.GetComponent<Image>().sprite = level0[4];
                 sadFace.GetComponent<Image>().sprite = level0[5];
-                sadFace.GetComponent<Image>().enabled = false;
+                //sadFace.GetComponent<Image>().enabled = false;   Idle애니메이션에서 해줍니다.
                 wig.GetComponent<Image>().enabled = false;
                 break;
             case 2:
@@ -65,7 +68,7 @@ public class CharacterController_m : MonoBehaviour
                 rArm.GetComponent<Image>().sprite = level2[3];
                 rHand.GetComponent<Image>().sprite = level2[4];
                 sadFace.GetComponent<Image>().sprite = level2[5];
-                sadFace.GetComponent<Image>().enabled = false;
+                //sadFace.GetComponent<Image>().enabled = false;   Idle애니메이션에서 해줍니다.
                 wig.GetComponent<Image>().sprite = level2[6];
                 break;
             case 6:
@@ -75,7 +78,7 @@ public class CharacterController_m : MonoBehaviour
                 rArm.GetComponent<Image>().sprite = level6[3];
                 rHand.GetComponent<Image>().sprite = level6[4];
                 sadFace.GetComponent<Image>().sprite = level6[5];
-                sadFace.GetComponent<Image>().enabled = false;
+                //sadFace.GetComponent<Image>().enabled = false;   Idle애니메이션에서 해줍니다.
                 wig.GetComponent<Image>().sprite = level6[6];
                 break;
 
@@ -101,21 +104,70 @@ public class CharacterController_m : MonoBehaviour
     //sadface 애니메이션에서 애니메이션 이벤트로 호출되는 메서드. (애니메이션 이벤트 -> SadFace.cs -> 현 메서드)
     public void MakeTear()
     {
-        Debug.Log("눈물 발사!!" + touchspeed);
-        //눈물 발사 4가지 
+        //Debug.Log("눈물 발사!!" + touchspeed);
 
-
-        //1. 눈물 흘리는 메서드(느린) : 발사 프리팹(티어드랍)
+        //1. 눈물 흘리는 메서드(느린) : 발사 프리팹(티어드랍)  
         if (touchspeed == "slow")
         {
-
+            //2 가지 랜덤 발사
+            TearGenerator(tear_drops[Random.Range(0, 2)]);
         }
         //1. 눈물 흘리는 메서드(빠른) : 발사 프리팹(티어스톰), 어깨들썩애니메이션 실행
         else if (touchspeed == "fast")
         {
-
+            //2 가지 랜덤 발사
+            TearGenerator(tear_storms[Random.Range(0, 2)]);
         }
         else Debug.Log("MakeTear에 잘못된 파라미터가 넘어왔습니다. slow나 fast 둘 중 하나로 변경해주세요.");
+    }
+
+    void TearGenerator(GameObject tearPrefabObj)
+    {
+        //눈물 프리팹 생성
+        GameObject lTearObj = Instantiate(tearPrefabObj) as GameObject;
+        GameObject rTearObj = Instantiate(tearPrefabObj) as GameObject;
+        //우선 위치를 잡고
+        lTearObj.GetComponent<RectTransform>().SetParent(lTearPoint.GetComponent<RectTransform>());
+        lTearObj.GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
+        rTearObj.GetComponent<RectTransform>().SetParent(rTearPoint.GetComponent<RectTransform>());
+        rTearObj.GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
+        //바로 발사도 해줘야함. 4 가지 각도 중 랜덤으로.
+        int ranNum = Random.Range(0, 4); //랜덤넘버
+        float mass = 10;//발사각을 조절해주는 매스
+        switch (ranNum)
+        {
+            case 0:
+                if (touchspeed == "slow") mass = 18;
+                else mass = 12;
+                break;
+            case 1:
+                if (touchspeed == "slow") mass = 20;
+                else mass = 13;
+                break;
+            case 2:
+                if (touchspeed == "slow") mass = 25;
+                else mass = 14;                
+                break;
+            case 3:
+                if (touchspeed == "slow") mass = 30;
+                else mass = 15;                
+                break;
+            default:
+                break;
+        }
+
+        //양쪽 눈가에서 똑같은게 반대로 발사되어야하는것을 잊지말자. lTearPoint, rTearPoint 두 곳에서 같은 값으로 동시 발사.
+        lTearObj.GetComponent<RectTransform>().rotation = Quaternion.Euler(0, 0, 120f);
+        lTearObj.GetComponent<Tear>().tcd = true; //발사 방향을 결정해줍니다. 
+        lTearObj.GetComponent<Rigidbody2D>().mass = mass;
+        lTearObj.GetComponent<Rigidbody2D>().AddForce(new Vector2(3000, 1500), ForceMode2D.Impulse);
+
+
+        rTearObj.GetComponent<RectTransform>().rotation = Quaternion.Euler(0, 0, -120f);
+        rTearObj.GetComponent<Rigidbody2D>().mass = mass;
+        rTearObj.GetComponent<Rigidbody2D>().AddForce(new Vector2(-3000, 1500), ForceMode2D.Impulse);
+
+
     }
     #endregion
 

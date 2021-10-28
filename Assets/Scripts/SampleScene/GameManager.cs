@@ -52,8 +52,8 @@ public class GameManager : MonoBehaviour
         if (FistTouchCheck()) return;
 
         //처음 터치가 아닐 경우에만 아래 내용 진행
-        //3. 최근 터치 시간 - 현재 터치 시간 값이 0.5초 이내면 빠른터치로 간주.
-        if (CalcTouchinterval().TotalSeconds <= 0.5f){
+        //3. 최근 터치 시간 - 현재 터치 시간 값이 0.2초 이내면 빠른터치로 간주.
+        if (CalcTouchinterval().TotalSeconds <= 0.2f){
             //빠른 터치인 경우
             characterController_M.MakeSadFace("fast");
             //Debug.Log("빠른 터치 입니다!");
