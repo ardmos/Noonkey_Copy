@@ -66,7 +66,7 @@ public class Item_Tear : MonoBehaviour
         level = 0;
         price = 10;
         price_increasement = 10;
-        difference = 10;
+        difference = 1;
         isCanUpGrade = false;
     }
     void Update()
@@ -74,9 +74,9 @@ public class Item_Tear : MonoBehaviour
         // 1. 현재 스킬 내용 detail에 설명.
         itemDetail.text = "탭당 치유력 " + playerData.GetCurrentCureAtOneTap().ToString();
         // 현재 레벨 출력. level
-        itemLevel.text = level.ToString();
+        itemLevel.text = "레벨 " + level.ToString();
         //현재 버튼 변화량 출력 deference (업그레이드 되면 변화량만큼 탭 당 하트 증가수가 증가합니다.)
-        btn_difference.text = difference.ToString();
+        btn_difference.text = "+" + difference.ToString() +" 치유력";
         //현재 버튼 가격 출력 price
         btn_price.text = price.ToString();
 
@@ -99,7 +99,7 @@ public class Item_Tear : MonoBehaviour
             // 현재 하트/버튼price 해서 버튼슬라이더에 반영하기
             btn_slider.value = (float)playerData.GetHeartCount() / (float)price;
             // 배경 색 어두워짐
-            buttonObj.GetComponent<Image>().color = new Color(1037736f, 1037736f, 1037736f, 1f);
+            buttonObj.GetComponent<Image>().color = new Color(0.1037736f, 0.1037736f, 0.1037736f, 1f);
         }                    
     }
 
@@ -111,6 +111,8 @@ public class Item_Tear : MonoBehaviour
 
         //업그레이드 가능일 경우만 아래 내용 실행됨.
 
+        //보유 하트 차감
+        playerData.heart -= price;
         //탭 당 하트 획득량이 defference 만큼 증가.
         playerData.SetCurrentCureAtOneTap(playerData.GetCurrentCureAtOneTap() + difference);
         //price도 priceIncreasement만큼 증가.

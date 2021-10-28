@@ -3514,10 +3514,10 @@ RectTransform:
   m_Father: {fileID: 1627181258}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 540, y: -770}
-  m_SizeDelta: {x: 1040, y: 160}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &525733946
 MonoBehaviour:
@@ -5004,10 +5004,10 @@ RectTransform:
   m_Father: {fileID: 1627181258}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 540, y: -430}
-  m_SizeDelta: {x: 1040, y: 160}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &886991643
 MonoBehaviour:
@@ -6316,10 +6316,10 @@ RectTransform:
   m_Father: {fileID: 1627181258}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 540, y: -600}
-  m_SizeDelta: {x: 1040, y: 160}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1169464641
 MonoBehaviour:
@@ -6624,10 +6624,10 @@ RectTransform:
   m_Father: {fileID: 1627181258}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 540, y: -90}
-  m_SizeDelta: {x: 1040, y: 160}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1264324888
 MonoBehaviour:
@@ -8796,10 +8796,10 @@ RectTransform:
   m_Father: {fileID: 1627181258}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 540, y: -260}
-  m_SizeDelta: {x: 1040, y: 160}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1736254699
 MonoBehaviour:
@@ -10492,16 +10492,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 1973173379}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4812cdaaab539284abafeca23d8741a6, type: 3}
+  m_Script: {fileID: 11500000, guid: b69a4e856aba2564aae8394bb2090b7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollViewItems:
-  - {iconImg: {fileID: 21300000, guid: eb8561b7ef155884bbbe210215f6c3ae, type: 3}, itemName: "\uB208\uBB3C\uC758 \uCE58\uC720\uB825", itemDetail: "\uD0ED\uB2F9 \uCE58\uC720\uB825 1", itemLevel: "\uB808\uBCA8 0", btn_heartValue: "+1 \uCE58\uC720\uB825", btn_price: 10, btn_icon: {fileID: 21300000,
-      guid: 10fdb7df99220354fb324d87508978be, type: 3}, btn_slider: {fileID: 0}, buttonCover_BG: {fileID: 0}, buttonCover_icon: {fileID: 0}, buttonCover_price: }
-  - {iconImg: {fileID: 0}, itemName: , itemDetail: , itemLevel: , btn_heartValue: , btn_price: , btn_icon: {fileID: 0}, btn_slider: {fileID: 0}, buttonCover_BG: {fileID: 0}, buttonCover_icon: {fileID: 0}, buttonCover_price: }
-  - {iconImg: {fileID: 0}, itemName: , itemDetail: , itemLevel: , btn_heartValue: , btn_price: , btn_icon: {fileID: 0}, btn_slider: {fileID: 0}, buttonCover_BG: {fileID: 0}, buttonCover_icon: {fileID: 0}, buttonCover_price: }
-  - {iconImg: {fileID: 0}, itemName: , itemDetail: , itemLevel: , btn_heartValue: , btn_price: , btn_icon: {fileID: 0}, btn_slider: {fileID: 0}, buttonCover_BG: {fileID: 0}, buttonCover_icon: {fileID: 0}, buttonCover_price: }
-  - {iconImg: {fileID: 0}, itemName: , itemDetail: , itemLevel: , btn_heartValue: , btn_price: , btn_icon: {fileID: 0}, btn_slider: {fileID: 0}, buttonCover_BG: {fileID: 0}, buttonCover_icon: {fileID: 0}, buttonCover_price: }
+  IconImage: {fileID: 2136055029}
+  middleTextObj: {fileID: 455580300}
+  itemName: {fileID: 40037896}
+  itemDetail: {fileID: 228313247}
+  itemLevel: {fileID: 1826705649}
+  buttonObj: {fileID: 1565468572}
+  btn_difference: {fileID: 508509874}
+  btn_price: {fileID: 2011549227}
+  btn_icon: {fileID: 249339645}
+  btn_slider: {fileID: 1918607665}
+  buttonCovoerObj: {fileID: 82034812}
+  btnCover_BGimg: {fileID: 82034814}
+  btnCover_icon: {fileID: 1957195126}
+  btnCover_qualification: {fileID: 659065990}
+  level: 0
+  price: 0
+  price_increasement: 0
+  difference: 0
+  isCanUpGrade: 0
+  playerData: {fileID: 459196380}
 --- !u!1 &1975594269
 GameObject:
   m_ObjectHideFlags: 0
