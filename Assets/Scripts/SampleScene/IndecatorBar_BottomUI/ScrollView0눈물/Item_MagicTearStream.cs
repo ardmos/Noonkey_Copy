@@ -20,7 +20,9 @@ using UnityEngine.UI;
 /// 4. 개방 조건 충족 시 버튼 기능 처리. 탭 카운트해서 2000탭이 될 때마다 1분간 버프 발동. 탭카운트 초기화. 
 /// 
 /// 5. 현 스킬 개방 조건 설정. 조건은 두 개
-///   눈물의 치유력 레벨 5때 개방-3000탭 1분간 2배,  30때 개방- 2000탭 3분간 4배
+///   눈물의 치유력 레벨  5때 개방-3000탭 1분간 2배,  30때 개방- 2000탭 3분간 4배
+///   
+/// 개방하면 저 내용.
 /// 
 /// </summary>
 
@@ -61,6 +63,8 @@ public class Item_MagicTearStream : MonoBehaviour
     public PlayerData playerData;
     //눈물스킬
     public Item_Tear item_Tear;
+    //좌측 UI 컨트롤러
+    public LeftUIController leftUIController;
 
     void Start()
     {
@@ -72,7 +76,7 @@ public class Item_MagicTearStream : MonoBehaviour
     {
         level = 0;
         isCanUpGrade = false;
-        qualification_TabCount = 3000;
+        qualification_TabCount = 10;
         bufftime_min = 1;
         buff_power = 2;
         needLevel = 5;
@@ -84,16 +88,22 @@ public class Item_MagicTearStream : MonoBehaviour
         switch (level)
         {
             case 0:
-                qualification_TabCount = 3000;
+                qualification_TabCount = 10;
                 bufftime_min = 1;
                 buff_power = 2;
                 needLevel = 5;
                 break;
             case 1:
-                qualification_TabCount = 2000;
+                qualification_TabCount = 10;
+                bufftime_min = 1;
+                //버퍼파워는 1씩 증가하니까 아래에서 처리해줬다
+                needLevel = 10;
+                break;
+            case 2:
+                qualification_TabCount = 100;
                 bufftime_min = 3;
-                buff_power = 4;
-                needLevel = 30;
+                //버퍼파워는 1씩 증가하니까 아래에서 처리해줬다
+                needLevel = 20;
                 break;
             default:
                 //나머지 레벨 미구현. 
@@ -139,19 +149,10 @@ public class Item_MagicTearStream : MonoBehaviour
 
     //개방조건을 충족했는가??? 확인해주는 메서드.
     bool CheckQualification()
-    {        
+    {
         //개방조건은 마법의눈물샘레벨1 - 눈물의치유력 레벨 5,  마법의눈물샘레벨2 - 눈물의치유력레벨30
 
         if (level == 0)
-        {            
-            if (item_Tear.level >= needLevel)
-            {
-                //조건 만족! 
-                good = true;
-            }
-            else good = false;
-        }
-        else if(level == 1)
         {
             if (item_Tear.level >= needLevel)
             {
@@ -160,7 +161,16 @@ public class Item_MagicTearStream : MonoBehaviour
             }
             else good = false;
         }
-        else { Debug.Log("나머지 마법의눈물샘 레벨은 미개발."); }
+        else if (level == 1)
+        {
+            if (item_Tear.level >= needLevel)
+            {
+                //조건 만족! 
+                good = true;
+            }
+            else good = false;
+        }
+        else { } //Debug.Log("나머지 마법의눈물샘 레벨은 미개발."); }
 
         return good;
     }
@@ -174,17 +184,14 @@ public class Item_MagicTearStream : MonoBehaviour
         buttonCovoerObj.SetActive(true);
         //버튼 끄고
         buttonObj.SetActive(false);
-        //탭 카운트 초기화
-        playerData.totalTapCount = 0;
         //레벨올리고
         level++;
+        //버퍼파워1 씩 증가
+        buff_power++;
 
-        //좌측슬라이더UI의 버프시작 메서드 호출.       
+        //좌측슬라이더UI의 버프상세내용 설정 메서드 호출.   탭 카운트 초기화도 여기서 해줄거임.     
+        //바뀐내용 적용
+        leftUIController.SetBuffDetails();
 
-
-        // (땡) - (버프시작시간-현재시간)  / (땡)분  만큼 좌측UI 슬라이더에 표시.  아래 아이콘에는 (x몇배) 라고 적음.까만뒷배경으로.
-
-        // 버프 끝나면 if (땡) - (버프시작시간-현재시간) <= 0 
-        // 좌측 슬라이더 UI는 다시 토탈탭카운트/목표수치 를 표시하는 슬라이더로 역할 변경. 아래 아이콘도 얌전하게 마법의눈물샘 아이콘으로 돌아옴.
     }
 }

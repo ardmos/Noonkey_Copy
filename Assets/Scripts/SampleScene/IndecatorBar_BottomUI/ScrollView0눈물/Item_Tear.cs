@@ -51,6 +51,8 @@ public class Item_Tear : MonoBehaviour
 
     //플레이어 데이타
     public PlayerData playerData;
+    //LeftUIController
+    public LeftUIController leftUIController;
 
     void Start()
     {
@@ -120,6 +122,9 @@ public class Item_Tear : MonoBehaviour
         //레벨도 +1 증가.
         level++;
         //버튼 가격은 동결.
+
+        //새로 갱신된 획득량을 버프에도 반영시키기 위해서 아래 메서드 호출.(버프 중에 레벨업했을 경우를 대비한 처사임.)
+        leftUIController.SetBuffDetailsByItem_Tear(difference);
     }
 
 
