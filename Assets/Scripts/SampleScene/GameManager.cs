@@ -21,9 +21,11 @@ public class GameManager : MonoBehaviour
 
     //플레이어 정보
     public PlayerData playerData;
+    //캐릭터 컨트롤러
+    public CharacterController_m characterController_M;
 
-    //최근 터치 시간
-    public DateTime lastTouchTime;
+    //최근 터치 시간, 현재 터치 시간
+    public DateTime lastTouchTime, currentTouchTime;
 
     // Start is called before the first frame update
     void Start()
@@ -39,38 +41,46 @@ public class GameManager : MonoBehaviour
     }
 
     #region 터치 인식해서 눈물 만드는 부분.
-    /// 1. 가장 중요한 터치 인식.  빠른 터치인지 느린 터치인지 확인 후 캐릭터컨트롤러에서 알맞은 메서드 호출
+    /// 1. 가장 중요한 터치 인식.  빠른 터치인지 느린 터치인지 확인 후 캐릭터컨트롤러에서 알맞은 눈물 흘리기 메서드 호출
     /// 2. 처음 터치인 경우 터치간격 계산 안하고 바로 최근 터치 시간 갱신.
     /// 3. 최근 터치 시간 - 현재 터치 시간 값이 0.5초 이내면 빠른터치로 간주.
     /// 
     //1. 가장 중요한 터치 인식.  빠른 터치인지 느린 터치인지 확인 후 캐릭터컨트롤러에서 알맞은 메서드 호출
-    public void GetScreenBtnTouched()
+    public void OnScreenBtnTouched()
     {
         //2. 처음 터치인 경우 터치간격 계산 안하고 바로 최근 터치 시간 갱신.
-        FistTouchCheck();
+        if (FistTouchCheck()) return;
 
+        //처음 터치가 아닐 경우에만 아래 내용 진행
         //3. 최근 터치 시간 - 현재 터치 시간 값이 0.5초 이내면 빠른터치로 간주.
-        
         if (CalcTouchinterval().TotalSeconds <= 0.5f){
-            Debug.Log("빠른 터치 입니다!");
+            //빠른 터치인 경우
+            characterController_M.MakeSadFace("fast");
+            //Debug.Log("빠른 터치 입니다!");
         }
         else
         {
-            Debug.Log("느린 터치 입니다!");
-        }       
+            //느린 터치인 경우
+            characterController_M.MakeSadFace("slow");
+            //Debug.Log("느린 터치 입니다!");
+        }
+
+        //최근 터치 시간 갱신
+        lastTouchTime = currentTouchTime;
 
     }
 
     //2. 처음 터치인 경우 터치간격 계산 안하고 바로 최근 터치 시간 갱신.
-    void FistTouchCheck()
+    bool FistTouchCheck()
     {
         DateTime dateTime = new DateTime(1, 1, 1, 0, 0, 0);
         if (lastTouchTime == dateTime)
         {
             lastTouchTime = DateTime.Now;
-            Debug.Log("첫 터치 입니다. 터치 시간 갱신!");
-            return;
+            //Debug.Log("첫 터치 입니다. 터치 시간 갱신!");
+            return true;
         }
+        else return false;
     }
 
     //3. 최근 터치 시간 - 현재 터치 시간 값이 0.5초 이내면 빠른터치로 간주.
@@ -78,9 +88,9 @@ public class GameManager : MonoBehaviour
     {
         TimeSpan intervalTime;
 
-        DateTime currentTouchTime = DateTime.Now;
+        currentTouchTime = DateTime.Now;
         intervalTime = currentTouchTime - lastTouchTime;
-        Debug.Log("터치 인터벌 타임: " + intervalTime);
+        //Debug.Log("터치 인터벌 타임: " + intervalTime);
 
         return intervalTime;
     }
@@ -97,7 +107,7 @@ public class GameManager : MonoBehaviour
     void CheckToDayDate()
     {
         DateTime currentDateTime = DateTime.Now;
-        Debug.Log(currentDateTime);
+        //Debug.Log(currentDateTime);
 
         //2.
         if (lastDateTime.Date.AddDays(1) == currentDateTime.Date)
