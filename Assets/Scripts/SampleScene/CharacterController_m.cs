@@ -110,7 +110,9 @@ public class CharacterController_m : MonoBehaviour
         if (touchspeed == "slow")
         {
             //2 가지 랜덤 발사
-            TearGenerator(tear_drops[Random.Range(0, 2)]);
+            //TearGenerator(tear_drops[Random.Range(0, 2)]);
+            //전부 큰 눈물방울로 교체했음. 
+            TearGenerator(tear_storms[Random.Range(0, 2)]);
         }
         //1. 눈물 흘리는 메서드(빠른) : 발사 프리팹(티어스톰), 어깨들썩애니메이션 실행
         else if (touchspeed == "fast")
