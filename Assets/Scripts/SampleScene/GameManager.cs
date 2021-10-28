@@ -6,7 +6,9 @@ using UnityEngine;
 /// <summary>
 /// 전체적인 흐름을 관장합니다. 
 /// 1. 가장 중요한 터치 인식.  빠른 터치인지 느린 터치인지 확인 후 캐릭터컨트롤러에서 알맞은 메서드 호출
-///   1. 씬이 열릴 때 마다 현재 날짜를 확인하여 출석체크를 해줍니다. 마지막 출석날짜와 현재 날짜가 다르다면 PlayerData에 총 출석 일수를 +1 해줍니다. 출석일수를 증가시킨 후에는 마지막 출석날짜를 갱신해줍니다.  추가로 만약 지난번 출석 날짜가 오늘-1 과 같다면 PlayerData의 연속출석을 +1 해줍니다. 다르다면 연속출석을 0로 만듭니다.
+/// 
+/// 
+/// 2. 씬이 열릴 때 마다 현재 날짜를 확인하여 출석체크를 해줍니다. 마지막 출석날짜와 현재 날짜가 다르다면 PlayerData에 총 출석 일수를 +1 해줍니다. 출석일수를 증가시킨 후에는 마지막 출석날짜를 갱신해줍니다.  추가로 만약 지난번 출석 날짜가 오늘-1 과 같다면 PlayerData의 연속출석을 +1 해줍니다. 다르다면 연속출석을 0로 만듭니다.
 /// 
 ///
 /// 
@@ -20,10 +22,14 @@ public class GameManager : MonoBehaviour
     //플레이어 정보
     public PlayerData playerData;
 
+    //최근 터치 시간
+    public DateTime lastTouchTime;
+
     // Start is called before the first frame update
     void Start()
     {
         CheckToDayDate();
+
     }
 
     // Update is called once per frame
@@ -32,7 +38,54 @@ public class GameManager : MonoBehaviour
 
     }
 
+    #region 터치 인식해서 눈물 만드는 부분.
+    /// 1. 가장 중요한 터치 인식.  빠른 터치인지 느린 터치인지 확인 후 캐릭터컨트롤러에서 알맞은 메서드 호출
+    /// 2. 처음 터치인 경우 터치간격 계산 안하고 바로 최근 터치 시간 갱신.
+    /// 3. 최근 터치 시간 - 현재 터치 시간 값이 0.5초 이내면 빠른터치로 간주.
+    /// 
+    //1. 가장 중요한 터치 인식.  빠른 터치인지 느린 터치인지 확인 후 캐릭터컨트롤러에서 알맞은 메서드 호출
+    public void GetScreenBtnTouched()
+    {
+        //2. 처음 터치인 경우 터치간격 계산 안하고 바로 최근 터치 시간 갱신.
+        FistTouchCheck();
 
+        //3. 최근 터치 시간 - 현재 터치 시간 값이 0.5초 이내면 빠른터치로 간주.
+        
+        if (CalcTouchinterval().TotalSeconds <= 0.5f){
+            Debug.Log("빠른 터치 입니다!");
+        }
+        else
+        {
+            Debug.Log("느린 터치 입니다!");
+        }       
+
+    }
+
+    //2. 처음 터치인 경우 터치간격 계산 안하고 바로 최근 터치 시간 갱신.
+    void FistTouchCheck()
+    {
+        DateTime dateTime = new DateTime(1, 1, 1, 0, 0, 0);
+        if (lastTouchTime == dateTime)
+        {
+            lastTouchTime = DateTime.Now;
+            Debug.Log("첫 터치 입니다. 터치 시간 갱신!");
+            return;
+        }
+    }
+
+    //3. 최근 터치 시간 - 현재 터치 시간 값이 0.5초 이내면 빠른터치로 간주.
+    TimeSpan CalcTouchinterval()
+    {
+        TimeSpan intervalTime;
+
+        DateTime currentTouchTime = DateTime.Now;
+        intervalTime = currentTouchTime - lastTouchTime;
+        Debug.Log("터치 인터벌 타임: " + intervalTime);
+
+        return intervalTime;
+    }
+
+    #endregion
 
     #region 출석체크 하는 부분
     /// 1. 씬이 열리면 현재 날짜 확인    
