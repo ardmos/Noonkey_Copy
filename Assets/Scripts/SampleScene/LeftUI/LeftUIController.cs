@@ -28,7 +28,7 @@ public class LeftUIController : MonoBehaviour
     //플레이어데이타
     public PlayerData playerData;
     //마법의눈물샘 컨트롤러
-    public Item_MagicTearStream item_MagicTearStream;
+    //public Item_MagicTearStream item_MagicTearStream;
 
 
     //버프 관련 정보
@@ -84,8 +84,8 @@ public class LeftUIController : MonoBehaviour
         else
         {
             //버프중이 아닐 때
-
-            if((float)playerData.GetTotalTapCount() / (float)item_MagicTearStream.qualification_TabCount >= 1)
+            //Debug.Log((float)playerData.GetTotalTapCount()/(float)playerData.qualification_TabCount);
+            if((float)playerData.GetTotalTapCount() / (float)playerData.qualification_TabCount >= 1)
             {
                 
                 //버프중이 아닌데 버프 발동 가능할 때.  블링크 애니메이션 재생.  버프 버튼 클릭 가능.하다는 뜻. 
@@ -96,7 +96,9 @@ public class LeftUIController : MonoBehaviour
             else
             {
                 //버프중인 아닌데 버프 발동 불가능할때
-                slider.value = (float)playerData.GetTotalTapCount() / (float)item_MagicTearStream.qualification_TabCount;
+                //slider.value = (float)playerData.GetTotalTapCount() / (float)playerData.qualification_TabCount;
+                slider.value = (float)playerData.GetTotalTapCount() / (float)playerData.qualification_TabCount;
+                
                 isCanBuff = false;
             }
 
@@ -108,8 +110,8 @@ public class LeftUIController : MonoBehaviour
     //버프 조건 변경 메서드..  마법의눈물샘 컨트롤러에서 호출함, 눈물마법(기본획득량증가)에서도 레벨업 할 때 호출함. 레벨업으로 증가된 획득량을 반영시키기 위해서.
     public void SetBuffDetails()
     {
-        this.buff_power = item_MagicTearStream.buff_power;
-        this.bufftime = new TimeSpan(0, item_MagicTearStream.bufftime_min, 0);
+        this.buff_power = playerData.buff_power;
+        this.bufftime = new TimeSpan(0, playerData.bufftime_min, 0);
         //버프도중에 호출된거면. 탭 당 배율 증가를 갱신해준다.
         if (isNowOnBuff)
         {
@@ -120,8 +122,8 @@ public class LeftUIController : MonoBehaviour
     }
     public void SetBuffDetailsByItem_Tear(int tearIncreasement)
     {
-        this.buff_power = item_MagicTearStream.buff_power;
-        this.bufftime = new TimeSpan(0, item_MagicTearStream.bufftime_min, 0);
+        this.buff_power = playerData.buff_power;
+        this.bufftime = new TimeSpan(0, playerData.bufftime_min, 0);
 
         //버프도중에 호출된거면. 탭 당 배율 증가를 갱신해준다.
         if (isNowOnBuff)
@@ -147,8 +149,8 @@ public class LeftUIController : MonoBehaviour
         }
         
         //버프파워, 버프타임 한 번 더 갱신. 혹시 모르니.
-        this.buff_power = item_MagicTearStream.buff_power;
-        this.bufftime = new TimeSpan(0, item_MagicTearStream.bufftime_min, 0);
+        this.buff_power = playerData.buff_power;
+        this.bufftime = new TimeSpan(0, playerData.bufftime_min, 0);
         this.buffStartTime = DateTime.Now;
         isCanBuff = false;
         isNowOnBuff = true;

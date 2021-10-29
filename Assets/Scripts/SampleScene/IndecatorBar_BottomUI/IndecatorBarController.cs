@@ -14,6 +14,10 @@ public class IndecatorBarController : MonoBehaviour
     //인디케이터 텍스트들
     public Text heartText, tearText, elfText, diaText;
 
+
+    //스크롤뷰들
+    public GameObject scrollView0, scrollView1, scrollView2;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +35,7 @@ public class IndecatorBarController : MonoBehaviour
     {
         heartText.text = playerData.GetHeartCount().ToString();
         tearText.text = playerData.GetCurrentCureAtOneTap().ToString();
-        elfText.text = playerData.GetTotalElfProvidesHeartInOneSecCount().ToString();
+        elfText.text = playerData.heartOneSec.ToString();
         diaText.text = playerData.GetDiaCount().ToString();
     }
 
@@ -39,7 +43,32 @@ public class IndecatorBarController : MonoBehaviour
 
     //위 아래 이동 버튼 기능 처리 부분.  위<->아래 이동, 이동시작시 스크롤뷰 노출. 이동 종료시 스크롤뷰 숨김.   어떤 스크롤뷰 보고있는중인지 스테이터스 저장 기능. 
 
-    
+    //스크롤뷰 위아래로 열기 닫기
+    //열기
+    public void OpenBottomUI()
+    {
+        gameObject.GetComponent<Animator>().SetTrigger("up");
+    }
+    //닫기
+    public void CloseBottomUI()
+    {
+        gameObject.GetComponent<Animator>().SetTrigger("down");
+    }
 
+    //스크롤뷰 노출 컨트롤. 
+    public void UPSlide()
+    {
+        scrollView0.SetActive(true);
+        scrollView1.SetActive(false);
+        scrollView2.SetActive(false);
+    }
+
+    //ㅅ크롤뷰 숨김
+    public void DownSlide()
+    {
+        scrollView0.SetActive(false);
+        scrollView1.SetActive(false);
+        scrollView2.SetActive(false);
+    }
 
 }

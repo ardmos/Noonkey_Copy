@@ -53,6 +53,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gUTMprefObj: {fileID: 8913380647288908741, guid: 4296d900590e5594fbc96c551906f241,
     type: 3}
+  isarrived: 0
 --- !u!58 &2643802470974587253
 CircleCollider2D:
   m_ObjectHideFlags: 0

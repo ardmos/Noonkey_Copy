@@ -83,6 +83,9 @@ public class Item_MagicTearStream : MonoBehaviour
     }
     void Update()
     {
+
+
+
         tearLevelCheck = item_Tear.level;
 
         switch (level)
@@ -144,7 +147,10 @@ public class Item_MagicTearStream : MonoBehaviour
             btnCover_qualification.text = "눈물레벨 " + needLevel.ToString();
         }
 
-
+        //저장
+        playerData.qualification_TabCount = qualification_TabCount;
+        playerData.buff_power = buff_power;
+        playerData.bufftime_min = bufftime_min;
     }
 
     //개방조건을 충족했는가??? 확인해주는 메서드.

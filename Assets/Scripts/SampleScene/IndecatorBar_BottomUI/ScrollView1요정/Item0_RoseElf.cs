@@ -56,32 +56,22 @@ public class Item0_RoseElf : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //저장
+        GameObject.Find("PlayerData").GetComponent<PlayerData>().heartOneSec = heartOneSec;
+        GameObject.Find("PlayerData").GetComponent<PlayerData>().elfProvidesOneSec_total = heartOneSec;
+
         //소환조건체크
-        switch (item_Tear.level)
+        if (item_Tear.level>=10)
         {
-            case 0:
-            case 1:
-            case 2:
-            case 3:
-            case 4:
-            case 5:
-            case 6:
-            case 7:
-            case 8:
-            case 9:
-                break;
-            case 10:
-                if (level == 0)
-                {
-                    //소환버튼 활성화 
-                    btnObj.SetActive(true);
-                    btn_increaseText.text = "+" + heartOneSecIncreasement + " 치유력";
-                    btn_priceText.text = price.ToString();
-                    btnCovoerObj.SetActive(false);
-                }
-                break;
-            default:
-                break;
+
+            if (level == 0)
+            {
+                //소환버튼 활성화 
+                btnObj.SetActive(true);
+                btn_increaseText.text = "+" + heartOneSecIncreasement + " 치유력";
+                btn_priceText.text = price.ToString();
+                btnCovoerObj.SetActive(false);
+            }
         }
 
         if (level == 0)

@@ -24,6 +24,11 @@ public class RoseObj : MonoBehaviour
         isarrived = true;
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        isarrived = true;
+    }
+
     //터치하면 호출되는 메서드.  인스펙터에서 버튼 온클릭 속성으로 호출한다.
     public void OnRoseClick()
     {
@@ -31,7 +36,8 @@ public class RoseObj : MonoBehaviour
         {
             return;
         }
-        int gainheart = GameObject.Find("Item0(장미의 요정)").GetComponent<Item0_RoseElf>().heartOneSec * 10;
+        //int gainheart = GameObject.Find("Item0(장미의 요정)").GetComponent<Item0_RoseElf>().heartOneSec * 10;
+        int gainheart = GameObject.Find("PlayerData").GetComponent<PlayerData>().heartOneSec * 10;
         //현재 Item0_RoseElf의 초당 치유량 * 10 만큼 얻어짐!
         GameObject.Find("PlayerData").GetComponent<PlayerData>().heart += gainheart;
         //머리 위에 얻은 양이 뾰롱 하고 뜨기도 함. 

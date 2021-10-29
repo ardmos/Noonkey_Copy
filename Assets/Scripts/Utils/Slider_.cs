@@ -16,7 +16,7 @@ public class Slider_ : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (slider.value <= 0f)
+        if (slider.value < 0f)
         {
             slider.value = 0f;
             fillArea.SetActive(false);

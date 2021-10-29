@@ -30,6 +30,11 @@ public class PlayerData : MonoBehaviour
     //장미, 튤립, 수선화, 샤프란, 아도니스, 양귀비, 칼라, 백일홍, 아몬드, 매화  각각의 요정이 제공하는 하트 양
     public int[] elfProvidesOneSec_Each;
 
+    //
+    public int heartOneSec;
+    //
+    public int qualification_TabCount;
+    public int buff_power, bufftime_min;
 
 
     private void Start()
