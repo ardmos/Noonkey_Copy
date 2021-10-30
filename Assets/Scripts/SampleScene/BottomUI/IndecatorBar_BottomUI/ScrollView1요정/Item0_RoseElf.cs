@@ -42,7 +42,7 @@ public class Item0_RoseElf : MonoBehaviour
     {
         //초기화. 
         level = 0;
-        heartOneSec = 10;
+        heartOneSec = 0;
         heartOneSecIncreasement = 2;
         price = 20;
         qulificationTearLevel = 10;
