@@ -11,12 +11,17 @@ public class Slider_ : MonoBehaviour
     void Start()
     {
         slider = gameObject.GetComponent<Slider>();
+        if (fillArea == null)
+        {
+            fillArea = gameObject.transform.GetChild(1).gameObject;
+        }
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (slider.value < 0f)
+        if (slider.value <= 0f)
         {
             slider.value = 0f;
             fillArea.SetActive(false);
