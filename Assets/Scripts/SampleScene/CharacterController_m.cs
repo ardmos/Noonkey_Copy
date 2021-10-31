@@ -22,8 +22,8 @@ public class CharacterController_m : MonoBehaviour
 
     //눈물발사 터치 스피드
     public string touchspeed;
-    //눈물흘리기 애니메이션
-    public Animator sadFace_animator;
+    //눈물흘리기 애니메이션, 훌쩍훌쩍 애니메이션
+    public Animator sadFace_animator, bodyCry_animator;
     //눈물 프리팹들
     public GameObject[] tear_drops, tear_storms;
     //눈물 발사 위치
@@ -49,37 +49,37 @@ public class CharacterController_m : MonoBehaviour
         {
             case 0:
             case 1:
-                body.GetComponent<Image>().sprite = level0[0];
-                lArm.GetComponent<Image>().sprite = level0[1];
-                lHand.GetComponent<Image>().sprite = level0[2];
-                rArm.GetComponent<Image>().sprite = level0[3];
-                rHand.GetComponent<Image>().sprite = level0[4];
-                sadFace.GetComponent<Image>().sprite = level0[5];
+                body.GetComponent<SpriteRenderer>().sprite = level0[0];
+                lArm.GetComponent<SpriteRenderer>().sprite = level0[1];
+                lHand.GetComponent<SpriteRenderer>().sprite = level0[2];
+                rArm.GetComponent<SpriteRenderer>().sprite = level0[3];
+                rHand.GetComponent<SpriteRenderer>().sprite = level0[4];
+                sadFace.GetComponent<SpriteRenderer>().sprite = level0[5];
                 //sadFace.GetComponent<Image>().enabled = false;   Idle애니메이션에서 해줍니다.
-                wig.GetComponent<Image>().enabled = false;
+                wig.GetComponent<SpriteRenderer>().enabled = false;
                 break;
             case 2:
             case 3:
             case 4:
             case 5:
-                body.GetComponent<Image>().sprite = level2[0];
-                lArm.GetComponent<Image>().sprite = level2[1];
-                lHand.GetComponent<Image>().sprite = level2[2];
-                rArm.GetComponent<Image>().sprite = level2[3];
-                rHand.GetComponent<Image>().sprite = level2[4];
-                sadFace.GetComponent<Image>().sprite = level2[5];
+                body.GetComponent<SpriteRenderer>().sprite = level2[0];
+                lArm.GetComponent<SpriteRenderer>().sprite = level2[1];
+                lHand.GetComponent<SpriteRenderer>().sprite = level2[2];
+                rArm.GetComponent<SpriteRenderer>().sprite = level2[3];
+                rHand.GetComponent<SpriteRenderer>().sprite = level2[4];
+                sadFace.GetComponent<SpriteRenderer>().sprite = level2[5];
                 //sadFace.GetComponent<Image>().enabled = false;   Idle애니메이션에서 해줍니다.
-                wig.GetComponent<Image>().sprite = level2[6];
+                wig.GetComponent<SpriteRenderer>().sprite = level2[6];
                 break;
             case 6:
-                body.GetComponent<Image>().sprite = level6[0];
-                lArm.GetComponent<Image>().sprite = level6[1];
-                lHand.GetComponent<Image>().sprite = level6[2];
-                rArm.GetComponent<Image>().sprite = level6[3];
-                rHand.GetComponent<Image>().sprite = level6[4];
-                sadFace.GetComponent<Image>().sprite = level6[5];
+                body.GetComponent<SpriteRenderer>().sprite = level6[0];
+                lArm.GetComponent<SpriteRenderer>().sprite = level6[1];
+                lHand.GetComponent<SpriteRenderer>().sprite = level6[2];
+                rArm.GetComponent<SpriteRenderer>().sprite = level6[3];
+                rHand.GetComponent<SpriteRenderer>().sprite = level6[4];
+                sadFace.GetComponent<SpriteRenderer>().sprite = level6[5];
                 //sadFace.GetComponent<Image>().enabled = false;   Idle애니메이션에서 해줍니다.
-                wig.GetComponent<Image>().sprite = level6[6];
+                wig.GetComponent<SpriteRenderer>().sprite = level6[6];
                 break;
 
             default:
@@ -122,7 +122,8 @@ public class CharacterController_m : MonoBehaviour
             //2 가지 랜덤 발사
             TearGenerator(tear_storms[Random.Range(0, 2)]);
             //어깨들썩 실행
-            GetComponent<Animator>().SetTrigger("cry");
+            //GetComponent<Animator>().SetTrigger("cry");
+            bodyCry_animator.SetTrigger("cry");
         }
         else Debug.Log("MakeTear에 잘못된 파라미터가 넘어왔습니다. slow나 fast 둘 중 하나로 변경해주세요.");
         
