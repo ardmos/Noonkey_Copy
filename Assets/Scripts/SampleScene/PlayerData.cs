@@ -32,7 +32,7 @@ public class PlayerData : MonoBehaviour
 
     //
     public int heartOneSec;
-    //
+    //마법의 샘 스킬을 위한 정보
     public int qualification_TabCount;
     public int buff_power, bufftime_min;
 
@@ -40,6 +40,9 @@ public class PlayerData : MonoBehaviour
     private void Start()
     {
         currentCureAtOneTap = 1;    //1로 시작
+
+        //마법의 샘 스킬 초기정보 세팅
+        InitMagicTearStreamData();
     }
 
     #region 탭 당 획득 관련(치유력)
@@ -95,6 +98,15 @@ public class PlayerData : MonoBehaviour
         }
 
         return elfProvidesOneSec_total;
+    }
+    #endregion
+
+    #region 마법의 샘 스킬을 위한 정보들. 
+    void InitMagicTearStreamData()
+    {
+        qualification_TabCount = 10;
+        bufftime_min = 1;
+        buff_power = 2;
     }
     #endregion
 }

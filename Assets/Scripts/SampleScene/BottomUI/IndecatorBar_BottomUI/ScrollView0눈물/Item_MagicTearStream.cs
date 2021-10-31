@@ -76,9 +76,6 @@ public class Item_MagicTearStream : MonoBehaviour
     {
         level = 0;
         isCanUpGrade = false;
-        qualification_TabCount = 10;
-        bufftime_min = 1;
-        buff_power = 2;
         needLevel = 5;
     }
     void Update()

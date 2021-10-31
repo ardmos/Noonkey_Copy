@@ -77,7 +77,7 @@ public class BottomUIController : MonoBehaviour
     //최근 스크롤뷰 열기 메서드. 애니메이션이벤트로 호출된 IndecatorBarController의 메서드에서 호출될것임.
     public void OpenRecentScrollView()
     {
-        Debug.Log("here");
+        //Debug.Log("here");
 
         if (clickedBtn_recent == null)
         {
