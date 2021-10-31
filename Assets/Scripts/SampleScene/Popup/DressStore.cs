@@ -26,6 +26,8 @@ public class DressStore : MonoBehaviour
 
     public void ClosePopup()
     {
+        //효과음!
+        GameObject.Find("SFX").GetComponent<SFX_Controller>().PlaySFX(SFX_Controller.Sounds.tear);
         bottomUIController.HighlightRecentBtn();
         gameObject.SetActive(false);
     }
@@ -33,18 +35,24 @@ public class DressStore : MonoBehaviour
     //2. 상품 탭 선택
     public void OnHatListBtnClicked()
     {
+        //효과음!
+        GameObject.Find("SFX").GetComponent<SFX_Controller>().PlaySFX(SFX_Controller.Sounds.tear);
         hatobj.SetActive(true);
         wandobj.SetActive(false);
         wingobj.SetActive(false);
     }
     public void OnWandListBtnClicked()
     {
+        //효과음!
+        GameObject.Find("SFX").GetComponent<SFX_Controller>().PlaySFX(SFX_Controller.Sounds.tear);
         hatobj.SetActive(false);
         wandobj.SetActive(true);
         wingobj.SetActive(false);
     }
     public void OnWingListBtnClicked()
     {
+        //효과음!
+        GameObject.Find("SFX").GetComponent<SFX_Controller>().PlaySFX(SFX_Controller.Sounds.tear);
         hatobj.SetActive(false);
         wandobj.SetActive(false);
         wingobj.SetActive(true);

@@ -17,16 +17,22 @@ public class TopUIController : MonoBehaviour
 
     public void OnBoxBtnClicked()
     {
+        //효과음!
+        GameObject.Find("SFX").GetComponent<SFX_Controller>().PlaySFX(SFX_Controller.Sounds.tear);
         boxPopup.SetActive(true);
     }
 
     public void OnCupBtnClicked()
     {
+        //효과음!
+        GameObject.Find("SFX").GetComponent<SFX_Controller>().PlaySFX(SFX_Controller.Sounds.tear);
         cupPopup.SetActive(true);
     }
 
     public void OnSettingsBtnClicked()
     {
+        //효과음!
+        GameObject.Find("SFX").GetComponent<SFX_Controller>().PlaySFX(SFX_Controller.Sounds.tear);
         settingsPopup.SetActive(true);
     }
 

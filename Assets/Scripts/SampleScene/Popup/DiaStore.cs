@@ -16,6 +16,8 @@ public class DiaStore : MonoBehaviour
     public BottomUIController bottomUIController;
     public void ClosePopup()
     {
+        //효과음!
+        GameObject.Find("SFX").GetComponent<SFX_Controller>().PlaySFX(SFX_Controller.Sounds.tear);
         bottomUIController.HighlightRecentBtn();
         gameObject.SetActive(false);
     }
