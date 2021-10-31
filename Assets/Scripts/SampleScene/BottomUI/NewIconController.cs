@@ -29,7 +29,7 @@ public class NewIconController : MonoBehaviour
     void Start()
     {
         playerData = GameObject.Find("PlayerData").GetComponent<PlayerData>();
-        price_tear = 10;
+        price_tear = 20;
     }
 
     // Update is called once per frame
@@ -49,7 +49,7 @@ public class NewIconController : MonoBehaviour
         }
         //마법의 샘
         //개방조건은 마법의눈물샘레벨1 - 눈물의치유력 레벨 5,  마법의눈물샘레벨2 - 눈물의치유력레벨30
-        if (lvl_magicTearStream == 0)
+        if (lvl_magicTearStream == 1)
         {
             if (lvl_tear >= 5)
             {
@@ -64,7 +64,7 @@ public class NewIconController : MonoBehaviour
                 //newicon_tear.SetActive(false);
             }
         }
-        else if (lvl_magicTearStream == 1)
+        else if (lvl_magicTearStream == 2)
         {
             if (lvl_tear >= 30)
             {
@@ -84,9 +84,9 @@ public class NewIconController : MonoBehaviour
         //눈꽃
         switch (lvl_snowTear)
         {
-            case 0:
-                //눈꽃눈물 스킬이 2일때 개방됨. 
-                if (lvl_tear >= 2)
+            case 1:
+                //눈꽃눈물 스킬이 20일때 개방됨. 
+                if (lvl_tear >= 20)
                 {
                     //new 아이콘 켜고
                     //newicon_tear.SetActive(true);

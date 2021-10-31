@@ -50,7 +50,7 @@ public class Item_MagicTearStream : MonoBehaviour
     //성공시 상승하는 탭 당 치유력 (몇 배.  배단위 숫자임.)
     public int buff_power;
     //업그레이드하려면 필요 레벨
-    public int needLevel;
+    public int needTearLevel_ForNextMagicTearStreamLevel;
     //업그레이드 가능여부
     public bool isCanUpGrade;
     //개방조건 만족했는지
@@ -69,14 +69,15 @@ public class Item_MagicTearStream : MonoBehaviour
     void Start()
     {
         Init();
+        leftUIController.gameObject.SetActive(false);
     }
 
     //초기화
     private void Init()
     {
-        level = 0;
+        level = 1;
         isCanUpGrade = false;
-        needLevel = 5;
+        needTearLevel_ForNextMagicTearStreamLevel = 5;
     }
     void Update()
     {
@@ -85,23 +86,23 @@ public class Item_MagicTearStream : MonoBehaviour
 
         switch (level)
         {
-            case 0:
-                qualification_TabCount = 10;
+            case 1:
+                qualification_TabCount = 3000;
                 bufftime_min = 1;
                 buff_power = 2;
-                needLevel = 5;
-                break;
-            case 1:
-                qualification_TabCount = 10;
-                bufftime_min = 1;
-                //버퍼파워는 1씩 증가하니까 아래에서 처리해줬다
-                needLevel = 10;
+                needTearLevel_ForNextMagicTearStreamLevel = 5;
                 break;
             case 2:
-                qualification_TabCount = 100;
+                qualification_TabCount = 2000;
                 bufftime_min = 3;
-                //버퍼파워는 1씩 증가하니까 아래에서 처리해줬다
-                needLevel = 20;
+                buff_power = 4;
+                needTearLevel_ForNextMagicTearStreamLevel = 30;
+                break;
+            case 3:
+                qualification_TabCount = 2000;
+                bufftime_min = 3;
+                buff_power = 5;
+                needTearLevel_ForNextMagicTearStreamLevel = 60;
                 break;
             default:
                 //나머지 레벨 미구현. 
@@ -140,7 +141,7 @@ public class Item_MagicTearStream : MonoBehaviour
             buttonCovoerObj.SetActive(true);
             //버튼 끄고
             buttonObj.SetActive(false);
-            btnCover_qualification.text = "눈물레벨 " + needLevel.ToString();
+            btnCover_qualification.text = "눈물레벨 " + needTearLevel_ForNextMagicTearStreamLevel.ToString();
 
         }
 
@@ -155,18 +156,18 @@ public class Item_MagicTearStream : MonoBehaviour
     {
         //개방조건은 마법의눈물샘레벨1 - 눈물의치유력 레벨 5,  마법의눈물샘레벨2 - 눈물의치유력레벨30
 
-        if (level == 0)
+        if (level == 1)
         {
-            if (item_Tear.level >= needLevel)
+            if (item_Tear.level >= needTearLevel_ForNextMagicTearStreamLevel)
             {
                 //조건 만족! 
-                good = true;
+                good = true;                
             }
             else good = false;
         }
-        else if (level == 1)
+        else if (level == 2)
         {
-            if (item_Tear.level >= needLevel)
+            if (item_Tear.level >= needTearLevel_ForNextMagicTearStreamLevel)
             {
                 //조건 만족! 
                 good = true;
@@ -183,14 +184,14 @@ public class Item_MagicTearStream : MonoBehaviour
     {
         if (!isCanUpGrade) return;
 
+        //왼쪽 UI 켜준다.
+        leftUIController.gameObject.SetActive(true);
         //커버 켜고
         buttonCovoerObj.SetActive(true);
         //버튼 끄고
         buttonObj.SetActive(false);
         //레벨올리고
         level++;
-        //버퍼파워1 씩 증가
-        buff_power++;
 
         //좌측슬라이더UI의 버프상세내용 설정 메서드 호출.   탭 카운트 초기화도 여기서 해줄거임.     
         //바뀐내용 적용

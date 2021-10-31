@@ -65,9 +65,9 @@ public class Item_Tear : MonoBehaviour
     //초기화
     private void Init()
     {
-        level = 0;
-        price = 10;
-        price_increasement = 10;
+        level = 1;
+        price = 20;
+        price_increasement = 0;
         difference = 1;
         isCanUpGrade = false;
     }
@@ -121,6 +121,7 @@ public class Item_Tear : MonoBehaviour
         //탭 당 하트 획득량이 defference 만큼 증가.
         playerData.SetCurrentCureAtOneTap(playerData.GetCurrentCureAtOneTap() + difference);
         //price도 priceIncreasement만큼 증가.
+        price_increasement += level * 20;
         price += price_increasement;
         //레벨도 +1 증가.
         level++;

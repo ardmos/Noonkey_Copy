@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 /// <summary>
 /// 미구현 엘프들. 스크롤뷰 상에서 디테일 설명 문구 채워주기 위한 스크립트.
+/// 버튼도 알아서 꺼준다.
 /// </summary>
 
 
@@ -16,6 +17,7 @@ public class Elf_Tmp : MonoBehaviour
     void Start()
     {
         transform.GetComponentsInChildren<Text>()[1].text = "초당 치유력 " + power_value;
+        transform.GetChild(2).gameObject.SetActive(false);
     }
 
     // Update is called once per frame

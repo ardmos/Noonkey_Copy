@@ -20237,6 +20237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lvl_tear: 0
+  price_tear: 0
   lvl_magicTearStream: 0
   lvl_snowTear: 0
   lvl_RoseElf: 0
@@ -20246,6 +20247,7 @@ MonoBehaviour:
   newicon_tree: {fileID: 847237222}
   newicon_elf: {fileID: 132096126}
   newicon_tear: {fileID: 2061667062}
+  isnewicon_tearOn: 0
 --- !u!1 &461311154
 GameObject:
   m_ObjectHideFlags: 0
@@ -20894,7 +20896,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -43322,6 +43324,7 @@ MonoBehaviour:
   item_Tear: {fileID: 1264324890}
   elfGenerator: {fileID: 757833423}
   isSohwan: 0
+  isalreadySohwaned: 0
   newicon_elf: {fileID: 132096126}
 --- !u!222 &1213292219
 CanvasRenderer:
@@ -59730,7 +59733,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1718576518
 RectTransform:
   m_ObjectHideFlags: 0
@@ -60511,7 +60514,7 @@ MonoBehaviour:
   qualification_TabCount: 0
   bufftime_min: 0
   buff_power: 0
-  needLevel: 0
+  needTearLevel_ForNextMagicTearStreamLevel: 0
   isCanUpGrade: 0
   good: 0
   tearLevelCheck: 0

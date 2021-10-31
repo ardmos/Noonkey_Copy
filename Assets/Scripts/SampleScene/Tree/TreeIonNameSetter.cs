@@ -6,6 +6,8 @@ using UnityEngine.UI;
 /// <summary>
 /// 하단 UI 트리 스크롤뷰의 이름과 아이콘을 자동으로 설정해주는 스크립트.
 /// 붙이기만 하면 됩니다!
+/// 
+/// 버튼들도 꺼줌.
 /// </summary>
 
 public class TreeIonNameSetter : MonoBehaviour
@@ -38,6 +40,9 @@ public class TreeIonNameSetter : MonoBehaviour
         Sprite sprite = Resources.Load<Sprite>(path);
         transform.GetComponentInChildren<Image>().sprite = sprite;
 
+
+        transform.GetChild(2).gameObject.SetActive(false);
+        transform.GetChild(4).gameObject.SetActive(false);
     }
 
 }

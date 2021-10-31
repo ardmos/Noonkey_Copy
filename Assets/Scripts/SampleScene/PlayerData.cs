@@ -104,7 +104,7 @@ public class PlayerData : MonoBehaviour
     #region 마법의 샘 스킬을 위한 정보들. 
     void InitMagicTearStreamData()
     {
-        qualification_TabCount = 10;
+        qualification_TabCount = 3000;
         bufftime_min = 1;
         buff_power = 2;
     }

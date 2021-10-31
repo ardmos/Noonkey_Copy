@@ -42,6 +42,7 @@ public class Item_SnowTear : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        level = 1;
         itemDetail.text = "1분간 초당 10회의 자동탭(재사용대기시간 10분)";
         itemLevel.text = "레벨 " + level.ToString();
     }
@@ -52,9 +53,9 @@ public class Item_SnowTear : MonoBehaviour
         GameObject.Find("=====BottomUI=====").GetComponent<NewIconController>().lvl_snowTear = level;    //new 아이콘을 위한 갱신
         switch (level)
         {
-            case 0:
-                //눈꽃눈물 스킬이 2일때 개방됨. 
-                if (item_Tear.level >= 2 )
+            case 1:
+                //눈꽃눈물 스킬이 20일때 개방됨. 
+                if (item_Tear.level >= 20 )
                 {
                     //커버 끄고
                     buttonCovoerObj.SetActive(false);
@@ -68,15 +69,15 @@ public class Item_SnowTear : MonoBehaviour
                     //버튼 끄고
                     buttonObj.SetActive(false);
                     btnCover_qualification.text = "눈물레벨 2";
-                }
-                
+                }                
                 break;
+
             default:
                 //커버 켜고
                 buttonCovoerObj.SetActive(true);
                 //버튼 끄고
                 buttonObj.SetActive(false);
-                btnCover_qualification.text = "";
+                btnCover_qualification.text = "눈물레벨 100";
                 break;
         }
     }
