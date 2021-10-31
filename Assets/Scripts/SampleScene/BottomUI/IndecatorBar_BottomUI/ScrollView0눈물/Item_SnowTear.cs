@@ -68,7 +68,7 @@ public class Item_SnowTear : MonoBehaviour
                     buttonCovoerObj.SetActive(true);
                     //버튼 끄고
                     buttonObj.SetActive(false);
-                    btnCover_qualification.text = "눈물레벨 2";
+                    btnCover_qualification.text = "눈물레벨 20";
                 }                
                 break;
 
