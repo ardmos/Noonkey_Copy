@@ -83,7 +83,8 @@ public class Btn0_SnowTearController : MonoBehaviour
         }
         textObject.GetComponent<Animator>().SetBool("blink", false);
         image_YellowGage.SetActive(false);
-        //끝나면! 5번으로.
+        //끝나면! 배경 다시 원래대로 해주고 5번으로.
+        bgImg.SetActive(false);
         StartCoroutine(CoolTime());
     }
 
