@@ -11,6 +11,7 @@ using UnityEngine;
 /// 
 /// 2. 씬이 열릴 때 마다 현재 날짜를 확인하여 출석체크를 해줍니다. 마지막 출석날짜와 현재 날짜가 다르다면 PlayerData에 총 출석 일수를 +1 해줍니다. 출석일수를 증가시킨 후에는 마지막 출석날짜를 갱신해줍니다.  추가로 만약 지난번 출석 날짜가 오늘-1 과 같다면 PlayerData의 연속출석을 +1 해줍니다. 다르다면 연속출석을 0로 만듭니다.
 /// 
+/// 3. Android 백버튼 눌리면 게임 종료 여부 물어보는 팝업 출력. 
 ///
 /// 
 /// </summary>
@@ -30,6 +31,9 @@ public class GameManager : MonoBehaviour
     //최근 터치 시간, 현재 터치 시간
     public DateTime lastTouchTime, currentTouchTime;
 
+    //백버튼눌렸을 때 게임종료여부 물어보는 팝업.
+    public GameObject exitPopupObj;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,7 +44,11 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        // 3. Android 백버튼 눌리면 게임 종료 여부 물어보는 팝업 출력. 
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            exitPopupObj.SetActive(true);
+        }
     }
 
     #region 터치 인식해서 눈물 만드는 부분.
