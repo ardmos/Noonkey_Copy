@@ -43,7 +43,8 @@ public class RoseElfController : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {
+    {                
+
         StartCoroutine(DropRose(10));
         StartCoroutine(FlappingWings());
 

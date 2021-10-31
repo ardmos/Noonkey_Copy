@@ -79,5 +79,7 @@ public class Item0_Tree1 : MonoBehaviour
         prefObj.transform.position = new Vector3(0, 1.5f, 0f);
         prefObj.transform.localScale = Vector3.one;
 
+        //효과음!
+        GameObject.Find("SFX").GetComponent<SFX_Controller>().PlaySFX(SFX_Controller.Sounds.create);
     }
 }

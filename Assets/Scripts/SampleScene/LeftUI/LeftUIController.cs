@@ -140,6 +140,8 @@ public class LeftUIController : MonoBehaviour
     //버프 발동 메서드. 온클릭리스너로 인스펙터상에서 호출됨. 
     public void OnStartBuffButtonClicked()
     {
+
+
         //Debug.Log("버프 시작 버튼 클릭됐습니다!");
         if (!isCanBuff)
         {
@@ -147,7 +149,9 @@ public class LeftUIController : MonoBehaviour
             Debug.Log("무시됐습니다"); 
             return;
         }
-        
+
+        //효과음!
+        GameObject.Find("SFX").GetComponent<SFX_Controller>().PlaySFX(SFX_Controller.Sounds.skill);
         //버프파워, 버프타임 한 번 더 갱신. 혹시 모르니.
         this.buff_power = playerData.buff_power;
         this.bufftime = new TimeSpan(0, playerData.bufftime_min, 0);

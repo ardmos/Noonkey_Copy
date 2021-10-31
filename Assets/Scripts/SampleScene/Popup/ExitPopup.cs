@@ -18,6 +18,8 @@ public class ExitPopup : MonoBehaviour
     }
     public void OnNoBtnClicked()
     {
+        //효과음!
+        GameObject.Find("SFX").GetComponent<SFX_Controller>().PlaySFX(SFX_Controller.Sounds.tear);
         gameObject.SetActive(false);
     }
 }

@@ -33,6 +33,7 @@ public class CharacterController_m : MonoBehaviour
     {
         try
         {
+            touchspeed = "slow";
             InitCharacter(playerData.playerLevel);
         }
         catch (System.Exception)

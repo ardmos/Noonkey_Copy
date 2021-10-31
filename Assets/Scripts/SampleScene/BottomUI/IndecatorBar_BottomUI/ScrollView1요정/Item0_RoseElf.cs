@@ -139,6 +139,9 @@ public class Item0_RoseElf : MonoBehaviour
         elfGenerator.GenerateRoseElf();
 
         isalreadySohwaned = true;
+
+        //효과음!
+        GameObject.Find("SFX").GetComponent<SFX_Controller>().PlaySFX(SFX_Controller.Sounds.skill);
     }
 
     //업그레이드 버튼이 눌림!!
@@ -156,5 +159,8 @@ public class Item0_RoseElf : MonoBehaviour
 
         //비용 지불
         GameObject.Find("PlayerData").GetComponent<PlayerData>().heart -= price;
+
+        //효과음!
+        GameObject.Find("SFX").GetComponent<SFX_Controller>().PlaySFX(SFX_Controller.Sounds.levelup);
     }
 }

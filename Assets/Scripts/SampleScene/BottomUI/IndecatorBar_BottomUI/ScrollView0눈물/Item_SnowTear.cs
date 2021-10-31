@@ -89,5 +89,7 @@ public class Item_SnowTear : MonoBehaviour
         level++;
         //스킬벨트 Btn0_SnowTear스킬 활성화.
         btn0_SnowTearController.ActivateButton();
+        //효과음!
+        GameObject.Find("SFX").GetComponent<SFX_Controller>().PlaySFX(SFX_Controller.Sounds.levelup);
     }
 }

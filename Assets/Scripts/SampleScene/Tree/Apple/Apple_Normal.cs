@@ -11,7 +11,10 @@ public class Apple_Normal : MonoBehaviour
     public GameObject gUTMC;
 
     public void OnButtonClicked()
-    {        
+    {
+        //효과음!
+        GameObject.Find("SFX").GetComponent<SFX_Controller>().PlaySFX(SFX_Controller.Sounds.hearflower);
+
         int gainheart = GameObject.Find("PlayerData").GetComponent<PlayerData>().GetCurrentCureAtOneTap() * 100;
         GameObject.Find("PlayerData").GetComponent<PlayerData>().heart += gainheart;
         GameObject prefObj = Instantiate(gUTMC) as GameObject;

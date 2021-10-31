@@ -86,7 +86,7 @@ public class Item_Tear : MonoBehaviour
         btn_price.text = price.ToString();
 
         // 1_2. if 현재 하트가 price보다 많으면 버튼 두근두근 애니메이션 발동.배경 색 밝아짐. 업그레이드 가능, 그리고 많으면 1, 아니면 업그레이드 불가능, 현재 하트/버튼price해서 버튼slider에 자동 반영, 배경 색 어두워짐. 
-        if (playerData.GetHeartCount() >= price)
+        if (playerData.heart >= price)
         {
             buttonObj.GetComponent<Animator>().SetBool("activatePingPong", true);
             //업그레이드 가능
@@ -102,7 +102,7 @@ public class Item_Tear : MonoBehaviour
             //업그레이드 불가능
             isCanUpGrade = false;
             // 현재 하트/버튼price 해서 버튼슬라이더에 반영하기
-            btn_slider.value = (float)playerData.GetHeartCount() / (float)price;
+            btn_slider.value = (float)playerData.heart / (float)price;
             // 배경 색 어두워짐
             buttonObj.GetComponent<Image>().color = new Color(0.1037736f, 0.1037736f, 0.1037736f, 1f);
         }                    
@@ -129,6 +129,9 @@ public class Item_Tear : MonoBehaviour
 
         //새로 갱신된 획득량을 버프에도 반영시키기 위해서 아래 메서드 호출.(버프 중에 레벨업했을 경우를 대비한 처사임.)
         leftUIController.SetBuffDetailsByItem_Tear(difference);
+
+        //효과음!
+        GameObject.Find("SFX").GetComponent<SFX_Controller>().PlaySFX(SFX_Controller.Sounds.levelup);
     }
 
 

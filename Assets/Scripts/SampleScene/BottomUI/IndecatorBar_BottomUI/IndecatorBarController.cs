@@ -30,7 +30,10 @@ public class IndecatorBarController : MonoBehaviour
     //하단 인디케이터 바에 정보 출력하는 부분
     void ShowDataOnIndecatorBar()
     {
-        heartText.text = playerData.GetHeartCount().ToString();
+        //heartText.text = playerData.GetHeartCount().ToString();
+        //단위를 넣기 위해서.  1000단위.  ABCD
+        heartText.text = playerData.GetHeartCount();
+
         tearText.text = playerData.GetCurrentCureAtOneTap().ToString();
         elfText.text = playerData.heartOneSec.ToString();
         //elf의 초당 회복량이 10 이상일 때 인디케이터 텍스트 점멸.

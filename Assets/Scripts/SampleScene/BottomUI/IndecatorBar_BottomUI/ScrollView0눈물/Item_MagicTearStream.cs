@@ -197,5 +197,7 @@ public class Item_MagicTearStream : MonoBehaviour
         //바뀐내용 적용
         leftUIController.SetBuffDetails();
 
+        //효과음!
+        GameObject.Find("SFX").GetComponent<SFX_Controller>().PlaySFX(SFX_Controller.Sounds.levelup);
     }
 }

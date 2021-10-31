@@ -52,6 +52,9 @@ public class Btn0_SnowTearController : MonoBehaviour
     //스킬 발동 메서드  버튼의 온클릭 속성으로 호출됨.
     public void OnActivateSkillButtonClicked()
     {
+        //효과음!
+        GameObject.Find("SFX").GetComponent<SFX_Controller>().PlaySFX(SFX_Controller.Sounds.skill);
+
         //스킬 발동!
         Debug.Log("스킬 발동!");
 

@@ -21,6 +21,12 @@ public class RoseElfDDaDDan : MonoBehaviour
     public GameObject RoseDDaObj;
     public ElfGenerator elfGenerator;
 
+    private void Start()
+    {
+        //효과음!
+        GameObject.Find("SFX").GetComponent<SFX_Controller>().PlaySFX(SFX_Controller.Sounds.create);
+    }
+
     public void DDaDDanEnd()
     {
         //장미엘프 생성

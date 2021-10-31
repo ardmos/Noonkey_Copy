@@ -155,19 +155,27 @@ public class BottomUIController : MonoBehaviour
     #region 버튼들 클릭됐을때 호출되는 OnClick 메서드들.
     public void OnButton0Clicked()
     {
+        //효과음!
+        GameObject.Find("SFX").GetComponent<SFX_Controller>().PlaySFX(SFX_Controller.Sounds.tear);
         OpenThisScrollView(0);
     }
     public void OnButton1Clicked()
     {
+        //효과음!
+        GameObject.Find("SFX").GetComponent<SFX_Controller>().PlaySFX(SFX_Controller.Sounds.tear);
         OpenThisScrollView(1);
     }
     public void OnButton2Clicked()
     {
+        //효과음!
+        GameObject.Find("SFX").GetComponent<SFX_Controller>().PlaySFX(SFX_Controller.Sounds.tear);
         OpenThisScrollView(2);
     }
 
     public void OnButton3Clicked()
     {
+        //효과음!
+        GameObject.Find("SFX").GetComponent<SFX_Controller>().PlaySFX(SFX_Controller.Sounds.tear);
         //버튼 상태를 갱신해준다.
         MakeThisBtnStateClicked(btn_States[3]);
 
@@ -178,7 +186,9 @@ public class BottomUIController : MonoBehaviour
         popUp_DiaStore.SetActive(true);
     }
     public void OnButton4Clicked()
-    {        
+    {
+        //효과음!
+        GameObject.Find("SFX").GetComponent<SFX_Controller>().PlaySFX(SFX_Controller.Sounds.tear);
         //버튼 상태를 갱신해준다.
         MakeThisBtnStateClicked(btn_States[4]);
 
@@ -190,6 +200,8 @@ public class BottomUIController : MonoBehaviour
     }
     public void OnButtonUpDownClicked()
     {
+        //효과음!
+        GameObject.Find("SFX").GetComponent<SFX_Controller>().PlaySFX(SFX_Controller.Sounds.tear);
         //슬라이드 상태에 알맞는 메서드를 호출해준다.
         if (slide_State == UISlide_State.Closed)
         {

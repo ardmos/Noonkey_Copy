@@ -33,6 +33,9 @@ public class RoseObj : MonoBehaviour
         {
             return;
         }
+
+        //효과음!
+        GameObject.Find("SFX").GetComponent<SFX_Controller>().PlaySFX(SFX_Controller.Sounds.hearflower);
         //int gainheart = GameObject.Find("Item0(장미의 요정)").GetComponent<Item0_RoseElf>().heartOneSec * 10;
         int gainheart = GameObject.Find("PlayerData").GetComponent<PlayerData>().heartOneSec * 10;
         //현재 Item0_RoseElf의 초당 치유량 * 10 만큼 얻어짐!

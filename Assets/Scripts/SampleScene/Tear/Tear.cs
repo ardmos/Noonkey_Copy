@@ -15,6 +15,13 @@ public class Tear : MonoBehaviour
     public bool tcd;
     public GameObject tearBlastPref;
 
+
+    private void Start()
+    {
+        //효과음!
+        GameObject.Find("SFX").GetComponent<SFX_Controller>().PlaySFX(SFX_Controller.Sounds.tear);
+    }
+
     private void Update()
     {
         //true면 시계방향, false면 반시계 방향으로 회전
