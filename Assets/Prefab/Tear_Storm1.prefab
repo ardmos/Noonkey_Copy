@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4534105250243361888}
   - component: {fileID: 7993847065502755562}
   - component: {fileID: 3904631529816898599}
-  - component: {fileID: 5267570032229003731}
+  - component: {fileID: 5342263143237894307}
   m_Layer: 5
   m_Name: Tear_Storm1
   m_TagString: Untagged
@@ -113,8 +113,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!70 &5267570032229003731
-CapsuleCollider2D:
+--- !u!61 &5342263143237894307
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -126,6 +126,16 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.41799927, y: -13.018684}
-  m_Size: {x: 15.262634, y: 15.262634}
-  m_Direction: 0
+  m_Offset: {x: 0, y: -18.81}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 28.56, y: 4.19}
+  m_EdgeRadius: 0

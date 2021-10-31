@@ -52,6 +52,7 @@ public class GameManager : MonoBehaviour
     //1. 가장 중요한 터치 인식.  빠른 터치인지 느린 터치인지 확인 후 캐릭터컨트롤러에서 알맞은 메서드 호출
     public void OnScreenBtnTouched()
     {
+
         //0. 터치횟수, 하트 증가, 머리 위에 획득 하트 표시!
         playerData.AddTotalTapCount();  
         playerData.AddHeart(playerData.GetCurrentCureAtOneTap());

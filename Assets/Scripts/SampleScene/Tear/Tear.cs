@@ -35,17 +35,17 @@ public class Tear : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        CallThisWhenTearDropped();
-    }
+        if (collision.CompareTag("Ground"))
+        {
+            CallThisWhenTearDropped();
+        }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        CallThisWhenTearDropped();
     }
 
     //바닥에 닿으면 호출되는 메서드. 지금 위치에 TearBlast 프리팹을 소환하고 현 오브젝트를 파괴시킨다.
     public void CallThisWhenTearDropped()
     {
+
         GameObject tearBlast = Instantiate(tearBlastPref) as GameObject;
 
         tearBlast.GetComponent<RectTransform>().SetParent(GameObject.Find("Canvas").GetComponent<RectTransform>());

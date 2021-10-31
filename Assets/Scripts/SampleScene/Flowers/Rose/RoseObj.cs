@@ -25,11 +25,6 @@ public class RoseObj : MonoBehaviour
         gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        isarrived = true;
-        
-    }
 
     //터치하면 호출되는 메서드.  인스펙터에서 버튼 온클릭 속성으로 호출한다.
     public void OnRoseClick()

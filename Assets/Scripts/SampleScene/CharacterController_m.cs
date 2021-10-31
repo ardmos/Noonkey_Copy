@@ -94,7 +94,8 @@ public class CharacterController_m : MonoBehaviour
 
     //화면 터치 시 GameManager로부터 호출되는 sadFace 애니메이션 실행 메서드.
     public void MakeSadFace(string touchspeed)
-    {      
+    {
+        MakeTear();
         //터치스피드는 일단 저장. sadface 애니메이션에서 호출되는 MakeTear 메서드에서 사용됨.
         this.touchspeed = touchspeed;
         //sadface 애니메이션 실행.
@@ -106,6 +107,7 @@ public class CharacterController_m : MonoBehaviour
     {
         //Debug.Log("눈물 발사!!" + touchspeed);
 
+        
         //1. 눈물 흘리는 메서드(느린) : 발사 프리팹(티어드랍)  
         if (touchspeed == "slow")
         {
@@ -119,11 +121,11 @@ public class CharacterController_m : MonoBehaviour
         {
             //2 가지 랜덤 발사
             TearGenerator(tear_storms[Random.Range(0, 2)]);
-
             //어깨들썩 실행
             GetComponent<Animator>().SetTrigger("cry");
         }
         else Debug.Log("MakeTear에 잘못된 파라미터가 넘어왔습니다. slow나 fast 둘 중 하나로 변경해주세요.");
+        
     }
 
     void TearGenerator(GameObject tearPrefabObj)
@@ -160,6 +162,7 @@ public class CharacterController_m : MonoBehaviour
             default:
                 break;
         }
+
 
         //양쪽 눈가에서 똑같은게 반대로 발사되어야하는것을 잊지말자. lTearPoint, rTearPoint 두 곳에서 같은 값으로 동시 발사.
         lTearObj.GetComponent<RectTransform>().rotation = Quaternion.Euler(0, 0, 120f);
