@@ -28,7 +28,7 @@ public class ScreenTouchController : MonoBehaviour
                 //touchedObject should be the object someone touched.
                 if (touchedObject.layer == 8)
                 {
-                    Debug.Log("터치 성공!!! :  " + touchedObject.name);
+                    //Debug.Log("터치 성공!!! :  " + touchedObject.name);
 
                     gameManager.OnScreenBtnTouched();
                 }

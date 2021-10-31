@@ -25,7 +25,7 @@ public class Item0_RoseElf : MonoBehaviour
 
     //UI
     public Text detailText, levelText, btn_increaseText, btn_priceText, btnCover_Text;
-    public GameObject btnObj, btnCovoerObj;
+    public GameObject generateBtnObj, upgradeBtnObj, coverBtnObj;
 
 
     //눈물스킬컨트롤러
@@ -48,8 +48,8 @@ public class Item0_RoseElf : MonoBehaviour
         qulificationTearLevel = 10;
 
         //처음엔 비활성화.
-        btnObj.SetActive(false);
-        btnCovoerObj.SetActive(true);
+        generateBtnObj.SetActive(false);
+        coverBtnObj.SetActive(true);
 
     }
 
@@ -67,10 +67,10 @@ public class Item0_RoseElf : MonoBehaviour
             if (level == 0)
             {
                 //소환버튼 활성화 
-                btnObj.SetActive(true);
+                generateBtnObj.SetActive(true);
                 btn_increaseText.text = "+" + heartOneSecIncreasement + " 치유력";
                 btn_priceText.text = price.ToString();
-                btnCovoerObj.SetActive(false);
+                coverBtnObj.SetActive(false);
             }
         }
 
@@ -82,37 +82,53 @@ public class Item0_RoseElf : MonoBehaviour
 
             btnCover_Text.text = "눈물 레벨 " + qulificationTearLevel;
         }
-        else if (level == 1)
-        {
+        else { 
             //데이터 UI에 맞춤적용.
             detailText.text = "초당 치유력 " + heartOneSec;
             levelText.text = "레벨 " + level;
-
-            btnCover_Text.text = " ";
+            //btnCover_Text.text = " ";
         }
 
     }
 
 
 
-    //버튼이 눌리면 소환!(엘프제너레이터한테 소환 부탁하자.) 버튼의 온클릭 속성으로 호출한다.
+    //소환 버튼이 눌림!!(엘프제너레이터한테 소환 부탁하자.) 버튼의 온클릭 속성으로 호출한다.
     public void OnGenerateRoseElfBtnClicked()
     {
-        //소환 하면서 버튼 비활성화도 하고 상세내용도 업데이트 하고. 
+        //소환 하면서 업그레이드 버튼으로 바꿔주고 상세내용도 업데이트 하고. 
  
         level ++;
-        heartOneSec += heartOneSec + heartOneSecIncreasement;
+        heartOneSec += heartOneSecIncreasement;
         heartOneSecIncreasement = 2;
         price = 30;
-        qulificationTearLevel = 10;
+        //qulificationTearLevel = 10;
 
         btn_increaseText.text = "+" + heartOneSecIncreasement + " 치유력";
         btn_priceText.text = price.ToString();
 
-        btnObj.SetActive(false);
-        btnCovoerObj.SetActive(true);
+        generateBtnObj.SetActive(false);
+        //btnCovoerObj.SetActive(true);
+        upgradeBtnObj.SetActive(true);
 
 
         elfGenerator.GenerateRoseElf();
+    }
+
+    //업그레이드 버튼이 눌림!!
+    public void OnUpgradeRoseElfBtnClicked()
+    {
+        level++;
+        heartOneSec += heartOneSecIncreasement;
+        heartOneSecIncreasement = 2;
+        price = 30;
+        //qulificationTearLevel = 10;
+
+        btn_increaseText.text = "+" + heartOneSecIncreasement + " 치유력";
+        btn_priceText.text = price.ToString();
+
+
+        //비용 지불
+        GameObject.Find("PlayerData").GetComponent<PlayerData>().heart -= price;
     }
 }

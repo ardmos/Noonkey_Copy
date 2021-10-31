@@ -24,7 +24,7 @@ public class RoseElfController : MonoBehaviour
         yield return new WaitForSeconds(10f);
         //장미프리팹 생성하기 
         GameObject prefObj = Instantiate(rosePrefObj) as GameObject;
-        prefObj.GetComponent<RectTransform>().SetParent(GameObject.Find("=====Elves=====").GetComponent<RectTransform>());
+        prefObj.GetComponent<RectTransform>().SetParent(GameObject.Find("=====Elves=====").GetComponent<RectTransform>());        
         prefObj.GetComponent<RectTransform>().anchoredPosition = gameObject.GetComponent<RectTransform>().anchoredPosition;
 
         StartCoroutine(DropRose(10));

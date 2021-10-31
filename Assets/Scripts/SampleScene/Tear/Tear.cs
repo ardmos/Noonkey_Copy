@@ -48,7 +48,7 @@ public class Tear : MonoBehaviour
 
         GameObject tearBlast = Instantiate(tearBlastPref) as GameObject;
 
-        tearBlast.GetComponent<RectTransform>().SetParent(GameObject.Find("Canvas").GetComponent<RectTransform>());
+        tearBlast.GetComponent<RectTransform>().SetParent(GameObject.Find("=====PrefLayer=====").GetComponent<RectTransform>());
         tearBlast.GetComponent<RectTransform>().position = gameObject.GetComponent<RectTransform>().position;
 
         Destroy(gameObject);    //Tear는 파괴

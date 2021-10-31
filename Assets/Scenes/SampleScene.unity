@@ -1139,8 +1139,8 @@ GameObject:
   m_Component:
   - component: {fileID: 28350024}
   - component: {fileID: 28350027}
-  - component: {fileID: 28350025}
   - component: {fileID: 28350028}
+  - component: {fileID: 28350025}
   m_Layer: 5
   m_Name: "Item7(\uBC31\uC77C\uD64D\uC758 \uC694\uC815)"
   m_TagString: BottomUI
@@ -1167,10 +1167,10 @@ RectTransform:
   m_Father: {fileID: 316390690}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 584.146, y: -1280}
-  m_SizeDelta: {x: 1040, y: 160}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &28350025
 MonoBehaviour:
@@ -1181,24 +1181,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 28350023}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 369174a301372bc4fab01d4f79aa94bb, type: 3}
+  m_Script: {fileID: 11500000, guid: e41dfff0c9f91ab47b44664595567be5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 0
-  heartOneSec: 0
-  heartOneSecIncreasement: 0
-  price: 0
-  qulificationTearLevel: 0
-  detailText: {fileID: 633188449}
-  levelText: {fileID: 1771804774}
-  btn_increaseText: {fileID: 298882685}
-  btn_priceText: {fileID: 1455536341}
-  btnCover_Text: {fileID: 827899583}
-  btnObj: {fileID: 1296189410}
-  btnCovoerObj: {fileID: 1728703635}
-  item_Tear: {fileID: 1264324890}
-  elfGenerator: {fileID: 757833423}
-  isSohwan: 0
+  power_value: 10.7E
 --- !u!222 &28350027
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1388,7 +1374,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.5, y: -62}
+  m_AnchoredPosition: {x: -7.5, y: -37.2}
   m_SizeDelta: {x: 715.00006, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &32474329
@@ -1423,8 +1409,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uB208\uBB3C \uB808\uBCA8 10 & \uC7A5\uBBF8\uC758 \uC694\uC815 \uB808\uBCA8
-    1\uC5D0\uC11C \uC131\uC7A5"
+  m_Text: "\uB208\uBB3C \uB808\uBCA8 600 & \n\uBC31\uC77C\uD64D\uC758 \uC694\uC815
+    \uB808\uBCA8 500\uC5D0\uC11C \uC131\uC7A5"
 --- !u!222 &32474330
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2940,7 +2926,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 1700}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &77928706
 MonoBehaviour:
@@ -9549,7 +9535,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.5, y: -62}
+  m_AnchoredPosition: {x: -7.5, y: -37.2}
   m_SizeDelta: {x: 715.00006, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &130147383
@@ -9584,8 +9570,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uB208\uBB3C \uB808\uBCA8 10 & \uC7A5\uBBF8\uC758 \uC694\uC815 \uB808\uBCA8
-    1\uC5D0\uC11C \uC131\uC7A5"
+  m_Text: "\uB208\uBB3C \uB808\uBCA8 200 & \n\uC0E4\uD504\uB780\uC758 \uC694\uC815
+    \uB808\uBCA8 100\uC5D0\uC11C \uC131\uC7A5"
 --- !u!222 &130147384
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10493,8 +10479,8 @@ GameObject:
   m_Component:
   - component: {fileID: 165536136}
   - component: {fileID: 165536139}
-  - component: {fileID: 165536137}
   - component: {fileID: 165536140}
+  - component: {fileID: 165536137}
   m_Layer: 5
   m_Name: "Item6(\uCE7C\uB77C\uC758 \uC694\uC815)"
   m_TagString: BottomUI
@@ -10521,10 +10507,10 @@ RectTransform:
   m_Father: {fileID: 316390690}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 584.146, y: -1110}
-  m_SizeDelta: {x: 1040, y: 160}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &165536137
 MonoBehaviour:
@@ -10535,24 +10521,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 165536135}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 369174a301372bc4fab01d4f79aa94bb, type: 3}
+  m_Script: {fileID: 11500000, guid: e41dfff0c9f91ab47b44664595567be5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 0
-  heartOneSec: 0
-  heartOneSecIncreasement: 0
-  price: 0
-  qulificationTearLevel: 0
-  detailText: {fileID: 1039258668}
-  levelText: {fileID: 1109569125}
-  btn_increaseText: {fileID: 427795621}
-  btn_priceText: {fileID: 1880707130}
-  btnCover_Text: {fileID: 1089318007}
-  btnObj: {fileID: 1361109491}
-  btnCovoerObj: {fileID: 2038899540}
-  item_Tear: {fileID: 1264324890}
-  elfGenerator: {fileID: 757833423}
-  isSohwan: 0
+  power_value: 10.4D
 --- !u!222 &165536139
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14992,7 +14964,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 1700}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &316390691
 MonoBehaviour:
@@ -16402,8 +16374,8 @@ GameObject:
   m_Component:
   - component: {fileID: 360933816}
   - component: {fileID: 360933819}
-  - component: {fileID: 360933817}
   - component: {fileID: 360933820}
+  - component: {fileID: 360933817}
   m_Layer: 5
   m_Name: "Item2(\uC218\uC120\uD654\uC758 \uC694\uC815)"
   m_TagString: BottomUI
@@ -16430,10 +16402,10 @@ RectTransform:
   m_Father: {fileID: 316390690}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 584.146, y: -430}
-  m_SizeDelta: {x: 1040, y: 160}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &360933817
 MonoBehaviour:
@@ -16444,24 +16416,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 360933815}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 369174a301372bc4fab01d4f79aa94bb, type: 3}
+  m_Script: {fileID: 11500000, guid: e41dfff0c9f91ab47b44664595567be5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 0
-  heartOneSec: 0
-  heartOneSecIncreasement: 0
-  price: 0
-  qulificationTearLevel: 0
-  detailText: {fileID: 1656572453}
-  levelText: {fileID: 392651612}
-  btn_increaseText: {fileID: 1242883604}
-  btn_priceText: {fileID: 1709501083}
-  btnCover_Text: {fileID: 1236646417}
-  btnObj: {fileID: 814818675}
-  btnCovoerObj: {fileID: 244607411}
-  item_Tear: {fileID: 1264324890}
-  elfGenerator: {fileID: 757833423}
-  isSohwan: 0
+  power_value: 1.2A
 --- !u!222 &360933819
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20030,7 +19988,7 @@ RectTransform:
   - {fileID: 576553801}
   - {fileID: 1975594270}
   m_Father: {fileID: 1779920929}
-  m_RootOrder: 6
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -22176,6 +22134,49 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 513317437}
   m_CullTransparentMesh: 0
+--- !u!1 &513789915
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 513789917}
+  - component: {fileID: 513789916}
+  m_Layer: 0
+  m_Name: ElfManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &513789916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513789915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e4365df777e2344ab8465391f9fd74f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &513789917
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513789915}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 444.2048, y: 1259.6985, z: -91.8125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &516877571
 GameObject:
   m_ObjectHideFlags: 0
@@ -25666,7 +25667,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.5, y: -62}
+  m_AnchoredPosition: {x: -7.5, y: -37.2}
   m_SizeDelta: {x: 715.00006, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &628626581
@@ -25701,8 +25702,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uB208\uBB3C \uB808\uBCA8 10 & \uC7A5\uBBF8\uC758 \uC694\uC815 \uB808\uBCA8
-    1\uC5D0\uC11C \uC131\uC7A5"
+  m_Text: "\uB208\uBB3C \uB808\uBCA8 800 & \n\uC544\uBAAC\uB4DC\uC758 \uC694\uC815
+    \uB808\uBCA8 600\uC5D0\uC11C \uC131\uC7A5"
 --- !u!222 &628626582
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25799,8 +25800,8 @@ GameObject:
   m_Component:
   - component: {fileID: 629898579}
   - component: {fileID: 629898582}
-  - component: {fileID: 629898580}
   - component: {fileID: 629898583}
+  - component: {fileID: 629898580}
   m_Layer: 5
   m_Name: "Item3(\uC0E4\uD504\uB780\uC758 \uC694\uC815)"
   m_TagString: BottomUI
@@ -25827,10 +25828,10 @@ RectTransform:
   m_Father: {fileID: 316390690}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 584.146, y: -600}
-  m_SizeDelta: {x: 1040, y: 160}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &629898580
 MonoBehaviour:
@@ -25841,24 +25842,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 629898578}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 369174a301372bc4fab01d4f79aa94bb, type: 3}
+  m_Script: {fileID: 11500000, guid: e41dfff0c9f91ab47b44664595567be5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 0
-  heartOneSec: 0
-  heartOneSecIncreasement: 0
-  price: 0
-  qulificationTearLevel: 0
-  detailText: {fileID: 484915649}
-  levelText: {fileID: 914033544}
-  btn_increaseText: {fileID: 534619014}
-  btn_priceText: {fileID: 339629910}
-  btnCover_Text: {fileID: 2118376361}
-  btnObj: {fileID: 1592355818}
-  btnCovoerObj: {fileID: 389334873}
-  item_Tear: {fileID: 1264324890}
-  elfGenerator: {fileID: 757833423}
-  isSohwan: 0
+  power_value: 9.7A
 --- !u!222 &629898582
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -26253,7 +26240,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.5, y: -62}
+  m_AnchoredPosition: {x: -7.5, y: -37.2}
   m_SizeDelta: {x: 715.00006, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &638529997
@@ -26288,8 +26275,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uB208\uBB3C \uB808\uBCA8 10 & \uC7A5\uBBF8\uC758 \uC694\uC815 \uB808\uBCA8
-    1\uC5D0\uC11C \uC131\uC7A5"
+  m_Text: "\uB208\uBB3C \uB808\uBCA8 50 & \n\uD2A4\uB9BD\uC758 \uC694\uC815 \uB808\uBCA8
+    30\uC5D0\uC11C \uC131\uC7A5"
 --- !u!222 &638529998
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -29967,7 +29954,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1321152823}
+      - m_Target: {fileID: 0}
         m_MethodName: OnGenerateRoseElfBtnClicked
         m_Mode: 1
         m_Arguments:
@@ -30243,7 +30230,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.5, y: -62}
+  m_AnchoredPosition: {x: -7.5, y: -37.2}
   m_SizeDelta: {x: 715.00006, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &748393035
@@ -30278,8 +30265,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uB208\uBB3C \uB808\uBCA8 10 & \uC7A5\uBBF8\uC758 \uC694\uC815 \uB808\uBCA8
-    1\uC5D0\uC11C \uC131\uC7A5"
+  m_Text: "\uB208\uBB3C \uB808\uBCA8 500 & \n\uCE7C\uB77C\uC758 \uC694\uC815 \uB808\uBCA8
+    400\uC5D0\uC11C \uC131\uC7A5"
 --- !u!222 &748393036
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -31604,7 +31591,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 360933817}
+      - m_Target: {fileID: 0}
         m_MethodName: OnGenerateRoseElfBtnClicked
         m_Mode: 1
         m_Arguments:
@@ -32681,8 +32668,8 @@ GameObject:
   m_Component:
   - component: {fileID: 839086031}
   - component: {fileID: 839086034}
-  - component: {fileID: 839086032}
   - component: {fileID: 839086035}
+  - component: {fileID: 839086032}
   m_Layer: 5
   m_Name: "Item8(\uC544\uBAAC\uB4DC\uC758 \uC694\uC815)"
   m_TagString: BottomUI
@@ -32709,10 +32696,10 @@ RectTransform:
   m_Father: {fileID: 316390690}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 584.146, y: -1450}
-  m_SizeDelta: {x: 1040, y: 160}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &839086032
 MonoBehaviour:
@@ -32723,24 +32710,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 839086030}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 369174a301372bc4fab01d4f79aa94bb, type: 3}
+  m_Script: {fileID: 11500000, guid: e41dfff0c9f91ab47b44664595567be5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 0
-  heartOneSec: 0
-  heartOneSecIncreasement: 0
-  price: 0
-  qulificationTearLevel: 0
-  detailText: {fileID: 974345016}
-  levelText: {fileID: 1355838974}
-  btn_increaseText: {fileID: 1449189666}
-  btn_priceText: {fileID: 1073969084}
-  btnCover_Text: {fileID: 1176949529}
-  btnObj: {fileID: 1163685530}
-  btnCovoerObj: {fileID: 438126742}
-  item_Tear: {fileID: 1264324890}
-  elfGenerator: {fileID: 757833423}
-  isSohwan: 0
+  power_value: 11.0F
 --- !u!222 &839086034
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -34187,8 +34160,8 @@ GameObject:
   m_Component:
   - component: {fileID: 875610009}
   - component: {fileID: 875610012}
-  - component: {fileID: 875610010}
   - component: {fileID: 875610013}
+  - component: {fileID: 875610010}
   m_Layer: 5
   m_Name: "Item9(\uB9E4\uD654\uC758 \uC694\uC815)"
   m_TagString: BottomUI
@@ -34215,10 +34188,10 @@ RectTransform:
   m_Father: {fileID: 316390690}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 584.146, y: -1620}
-  m_SizeDelta: {x: 1040, y: 160}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &875610010
 MonoBehaviour:
@@ -34229,24 +34202,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 875610008}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 369174a301372bc4fab01d4f79aa94bb, type: 3}
+  m_Script: {fileID: 11500000, guid: e41dfff0c9f91ab47b44664595567be5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 0
-  heartOneSec: 0
-  heartOneSecIncreasement: 0
-  price: 0
-  qulificationTearLevel: 0
-  detailText: {fileID: 1549877855}
-  levelText: {fileID: 1594872917}
-  btn_increaseText: {fileID: 743136922}
-  btn_priceText: {fileID: 1855144349}
-  btnCover_Text: {fileID: 1322192168}
-  btnObj: {fileID: 1623965694}
-  btnCovoerObj: {fileID: 2118972951}
-  item_Tear: {fileID: 1264324890}
-  elfGenerator: {fileID: 757833423}
-  isSohwan: 0
+  power_value: 11.2G
 --- !u!222 &875610012
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -37031,7 +36990,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.5, y: -62}
+  m_AnchoredPosition: {x: -7.5, y: -37.2}
   m_SizeDelta: {x: 715.00006, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &973709766
@@ -37066,8 +37025,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uB208\uBB3C \uB808\uBCA8 10 & \uC7A5\uBBF8\uC758 \uC694\uC815 \uB808\uBCA8
-    1\uC5D0\uC11C \uC131\uC7A5"
+  m_Text: "\uB208\uBB3C \uB808\uBCA8 100 & \n\uC218\uC120\uD654\uC758 \uC694\uC815
+    \uB808\uBCA8 70\uC5D0\uC11C \uC131\uC7A5"
 --- !u!222 &973709767
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -38871,7 +38830,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1039258667
 GameObject:
@@ -41019,7 +40978,6 @@ GameObject:
   - component: {fileID: 1130554710}
   - component: {fileID: 1130554709}
   - component: {fileID: 1130554708}
-  - component: {fileID: 1130554707}
   m_Layer: 5
   m_Name: ButtonGenerate
   m_TagString: BottomUI
@@ -41047,25 +41005,6 @@ RectTransform:
   m_AnchoredPosition: {x: 520, y: 0}
   m_SizeDelta: {x: 230, y: 150}
   m_Pivot: {x: 1, y: 0.5}
---- !u!95 &1130554707
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1130554705}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cf932b9e00fe1564abad72b0b7d6be03, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1130554708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41758,7 +41697,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 839086032}
+      - m_Target: {fileID: 0}
         m_MethodName: OnGenerateRoseElfBtnClicked
         m_Mode: 1
         m_Arguments:
@@ -43004,10 +42943,10 @@ RectTransform:
   m_Father: {fileID: 316390690}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 584.146, y: -90}
-  m_SizeDelta: {x: 1040, y: 160}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1213292217
 MonoBehaviour:
@@ -43031,8 +42970,9 @@ MonoBehaviour:
   btn_increaseText: {fileID: 156528672}
   btn_priceText: {fileID: 1439413267}
   btnCover_Text: {fileID: 943738597}
-  btnObj: {fileID: 1130554705}
-  btnCovoerObj: {fileID: 1619904828}
+  generateBtnObj: {fileID: 1130554705}
+  upgradeBtnObj: {fileID: 1349799309}
+  coverBtnObj: {fileID: 1619904828}
   item_Tear: {fileID: 1264324890}
   elfGenerator: {fileID: 757833423}
   isSohwan: 0
@@ -44123,6 +44063,7 @@ RectTransform:
   m_Children:
   - {fileID: 1331931222}
   - {fileID: 973709765}
+  - {fileID: 1984352571}
   m_Father: {fileID: 114601610}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -45548,8 +45489,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1281451929}
   - component: {fileID: 1281451932}
-  - component: {fileID: 1281451930}
   - component: {fileID: 1281451933}
+  - component: {fileID: 1281451930}
   m_Layer: 5
   m_Name: "Item4(\uC544\uB3C4\uB2C8\uC2A4\uC758 \uC694\uC815)"
   m_TagString: BottomUI
@@ -45576,10 +45517,10 @@ RectTransform:
   m_Father: {fileID: 316390690}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 584.146, y: -770}
-  m_SizeDelta: {x: 1040, y: 160}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1281451930
 MonoBehaviour:
@@ -45590,24 +45531,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1281451928}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 369174a301372bc4fab01d4f79aa94bb, type: 3}
+  m_Script: {fileID: 11500000, guid: e41dfff0c9f91ab47b44664595567be5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 0
-  heartOneSec: 0
-  heartOneSecIncreasement: 0
-  price: 0
-  qulificationTearLevel: 0
-  detailText: {fileID: 1874605868}
-  levelText: {fileID: 1120956577}
-  btn_increaseText: {fileID: 1953728143}
-  btn_priceText: {fileID: 1318944159}
-  btnCover_Text: {fileID: 723266944}
-  btnObj: {fileID: 1469881714}
-  btnCovoerObj: {fileID: 1408522017}
-  item_Tear: {fileID: 1264324890}
-  elfGenerator: {fileID: 757833423}
-  isSohwan: 0
+  power_value: 10.0B
 --- !u!222 &1281451932
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -46206,7 +46133,7 @@ RectTransform:
   m_Children:
   - {fileID: 1602507486}
   m_Father: {fileID: 1779920929}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -46393,7 +46320,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 28350025}
+      - m_Target: {fileID: 0}
         m_MethodName: OnGenerateRoseElfBtnClicked
         m_Mode: 1
         m_Arguments:
@@ -47444,8 +47371,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1321152822}
   - component: {fileID: 1321152825}
-  - component: {fileID: 1321152823}
   - component: {fileID: 1321152826}
+  - component: {fileID: 1321152823}
   m_Layer: 5
   m_Name: "Item5(\uC591\uADC0\uBE44\uC758 \uC694\uC815)"
   m_TagString: BottomUI
@@ -47472,10 +47399,10 @@ RectTransform:
   m_Father: {fileID: 316390690}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 584.146, y: -940}
-  m_SizeDelta: {x: 1040, y: 160}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1321152823
 MonoBehaviour:
@@ -47486,24 +47413,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1321152821}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 369174a301372bc4fab01d4f79aa94bb, type: 3}
+  m_Script: {fileID: 11500000, guid: e41dfff0c9f91ab47b44664595567be5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 0
-  heartOneSec: 0
-  heartOneSecIncreasement: 0
-  price: 0
-  qulificationTearLevel: 0
-  detailText: {fileID: 819224834}
-  levelText: {fileID: 504724318}
-  btn_increaseText: {fileID: 1971117936}
-  btn_priceText: {fileID: 559216167}
-  btnCover_Text: {fileID: 366786789}
-  btnObj: {fileID: 743812717}
-  btnCovoerObj: {fileID: 1390112793}
-  item_Tear: {fileID: 1264324890}
-  elfGenerator: {fileID: 757833423}
-  isSohwan: 0
+  power_value: 10.2C
 --- !u!222 &1321152825
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -48337,12 +48250,12 @@ GameObject:
   - component: {fileID: 1349799312}
   - component: {fileID: 1349799311}
   m_Layer: 5
-  m_Name: "ButtonUpgrade_\uBBF8\uAD6C\uD604"
+  m_Name: ButtonUpgrade
   m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1349799310
 RectTransform:
   m_ObjectHideFlags: 0
@@ -48426,7 +48339,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1349799313}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1213292217}
+        m_MethodName: OnUpgradeRoseElfBtnClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1349799313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49172,7 +49096,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 165536137}
+      - m_Target: {fileID: 0}
         m_MethodName: OnGenerateRoseElfBtnClicked
         m_Mode: 1
         m_Arguments:
@@ -49270,8 +49194,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uB208\uBB3C \uB808\uBCA8 10 & \uC7A5\uBBF8\uC758 \uC694\uC815 \uB808\uBCA8
-    1\uC5D0\uC11C \uC131\uC7A5"
+  m_Text: "\uB208\uBB3C \uB808\uBCA8 30 & \n\uC7A5\uBBF8\uC758 \uC694\uC815 \uB808\uBCA8
+    10\uC5D0\uC11C \uC131\uC7A5"
 --- !u!222 &1362301611
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -49296,7 +49220,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.5, y: -62}
+  m_AnchoredPosition: {x: -7.5, y: -37.2}
   m_SizeDelta: {x: 715.00006, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1363014468
@@ -49873,7 +49797,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1779920929}
-  m_RootOrder: 10
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -50052,7 +49976,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.5, y: -62}
+  m_AnchoredPosition: {x: -7.5, y: -37.2}
   m_SizeDelta: {x: 715.00006, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1390727917
@@ -50087,8 +50011,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uB208\uBB3C \uB808\uBCA8 10 & \uC7A5\uBBF8\uC758 \uC694\uC815 \uB808\uBCA8
-    1\uC5D0\uC11C \uC131\uC7A5"
+  m_Text: "\uB208\uBB3C \uB808\uBCA8 400 & \n\uC591\uADC0\uBE44\uC758 \uC694\uC815
+    \uB808\uBCA8 300\uC5D0\uC11C \uC131\uC7A5"
 --- !u!222 &1390727918
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -51487,7 +51411,7 @@ RectTransform:
   - {fileID: 1173357403}
   - {fileID: 452311666}
   m_Father: {fileID: 1779920929}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -52086,7 +52010,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1843652801}
+      - m_Target: {fileID: 0}
         m_MethodName: OnGenerateRoseElfBtnClicked
         m_Mode: 1
         m_Arguments:
@@ -53072,7 +52996,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1281451930}
+      - m_Target: {fileID: 0}
         m_MethodName: OnGenerateRoseElfBtnClicked
         m_Mode: 1
         m_Arguments:
@@ -53249,6 +53173,41 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1474427004}
   m_CullTransparentMesh: 0
+--- !u!1 &1476966235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1476966236}
+  m_Layer: 5
+  m_Name: =====PrefLayer=====
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1476966236
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476966235}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1779920929}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1480196488
 GameObject:
   m_ObjectHideFlags: 0
@@ -53802,7 +53761,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1506296389
 RectTransform:
   m_ObjectHideFlags: 0
@@ -55503,7 +55462,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 629898580}
+      - m_Target: {fileID: 0}
         m_MethodName: OnGenerateRoseElfBtnClicked
         m_Mode: 1
         m_Arguments:
@@ -56394,7 +56353,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 875610010}
+      - m_Target: {fileID: 0}
         m_MethodName: OnGenerateRoseElfBtnClicked
         m_Mode: 1
         m_Arguments:
@@ -59373,7 +59332,7 @@ RectTransform:
   m_Children:
   - {fileID: 1102669551}
   m_Father: {fileID: 1779920929}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -59562,7 +59521,7 @@ RectTransform:
   m_Children:
   - {fileID: 122530643}
   m_Father: {fileID: 1779920929}
-  m_RootOrder: 7
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -60656,7 +60615,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1750869493
 RectTransform:
   m_ObjectHideFlags: 0
@@ -61726,14 +61685,15 @@ RectTransform:
   - {fileID: 513317438}
   - {fileID: 1510833574}
   - {fileID: 200537859}
+  - {fileID: 1946326580}
+  - {fileID: 1476966236}
   - {fileID: 1946833155}
   - {fileID: 1295300646}
   - {fileID: 1714468292}
+  - {fileID: 1387237715}
   - {fileID: 459565933}
   - {fileID: 1718576518}
-  - {fileID: 1946326580}
   - {fileID: 1893297272}
-  - {fileID: 1387237715}
   - {fileID: 1426698981}
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -63852,8 +63812,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1843652800}
   - component: {fileID: 1843652803}
-  - component: {fileID: 1843652801}
   - component: {fileID: 1843652804}
+  - component: {fileID: 1843652801}
   m_Layer: 5
   m_Name: "Item1(\uD2A4\uB9BD\uC758 \uC694\uC815)"
   m_TagString: BottomUI
@@ -63880,10 +63840,10 @@ RectTransform:
   m_Father: {fileID: 316390690}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 584.146, y: -260}
-  m_SizeDelta: {x: 1040, y: 160}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1843652801
 MonoBehaviour:
@@ -63894,24 +63854,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1843652799}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 369174a301372bc4fab01d4f79aa94bb, type: 3}
+  m_Script: {fileID: 11500000, guid: e41dfff0c9f91ab47b44664595567be5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 0
-  heartOneSec: 0
-  heartOneSecIncreasement: 0
-  price: 0
-  qulificationTearLevel: 0
-  detailText: {fileID: 764833592}
-  levelText: {fileID: 2102214689}
-  btn_increaseText: {fileID: 1697251730}
-  btn_priceText: {fileID: 1892629425}
-  btnCover_Text: {fileID: 1801440233}
-  btnObj: {fileID: 1442690262}
-  btnCovoerObj: {fileID: 1142132294}
-  item_Tear: {fileID: 1264324890}
-  elfGenerator: {fileID: 757833423}
-  isSohwan: 0
+  power_value: 143
 --- !u!222 &1843652803
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -65381,7 +65327,7 @@ RectTransform:
   - {fileID: 1959874394}
   - {fileID: 547289184}
   m_Father: {fileID: 1779920929}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -66275,7 +66221,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.5, y: -62}
+  m_AnchoredPosition: {x: -7.5, y: -37.2}
   m_SizeDelta: {x: 715.00006, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1916956677
@@ -66310,8 +66256,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uB208\uBB3C \uB808\uBCA8 10 & \uC7A5\uBBF8\uC758 \uC694\uC815 \uB808\uBCA8
-    1\uC5D0\uC11C \uC131\uC7A5"
+  m_Text: "\uB208\uBB3C \uB808\uBCA8 1000 & \n\uB9E4\uD654\uC758 \uC694\uC815 \uB808\uBCA8
+    700\uC5D0\uC11C \uC131\uC7A5"
 --- !u!222 &1916956678
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -67163,7 +67109,7 @@ RectTransform:
   - {fileID: 1911755086}
   - {fileID: 496478056}
   m_Father: {fileID: 1779920929}
-  m_RootOrder: 8
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -67253,7 +67199,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1779920929}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -67762,7 +67708,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.5, y: -62}
+  m_AnchoredPosition: {x: -7.5, y: -37.2}
   m_SizeDelta: {x: 715.00006, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1966979444
@@ -67797,8 +67743,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uB208\uBB3C \uB808\uBCA8 10 & \uC7A5\uBBF8\uC758 \uC694\uC815 \uB808\uBCA8
-    1\uC5D0\uC11C \uC131\uC7A5"
+  m_Text: "\uB208\uBB3C \uB808\uBCA8 300 & \n\uC544\uB3C4\uB2C8\uC2A4\uC758 \uC694\uC815
+    \uB808\uBCA8 200\uC5D0\uC11C \uC131\uC7A5"
 --- !u!222 &1966979445
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -68492,6 +68438,84 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1984352570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1984352571}
+  - component: {fileID: 1984352573}
+  - component: {fileID: 1984352572}
+  m_Layer: 5
+  m_Name: NewNoonNa (1)
+  m_TagString: BottomUI
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1984352571
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984352570}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1238354031}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 160, y: 33}
+  m_SizeDelta: {x: 300, y: 40}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1984352572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984352570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.9504018, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 33
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\uC0C8\uB85C\uC6B4 \uB208\uB098 \uD0C4\uC0DD"
+--- !u!222 &1984352573
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984352570}
+  m_CullTransparentMesh: 0
 --- !u!1 &1984542673
 GameObject:
   m_ObjectHideFlags: 0
@@ -69225,6 +69249,84 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2002413933}
   m_CullTransparentMesh: 0
+--- !u!1 &2005838407
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2005838408}
+  - component: {fileID: 2005838410}
+  - component: {fileID: 2005838409}
+  m_Layer: 5
+  m_Name: NewNoonNa
+  m_TagString: BottomUI
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2005838408
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005838407}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2008055305}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 160, y: 33}
+  m_SizeDelta: {x: 300, y: 40}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2005838409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005838407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.9504018, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 33
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\uC0C8\uB85C\uC6B4 \uB208\uB098 \uD0C4\uC0DD"
+--- !u!222 &2005838410
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005838407}
+  m_CullTransparentMesh: 0
 --- !u!1 &2008055304
 GameObject:
   m_ObjectHideFlags: 0
@@ -69254,6 +69356,7 @@ RectTransform:
   m_Children:
   - {fileID: 2140817246}
   - {fileID: 748393034}
+  - {fileID: 2005838408}
   m_Father: {fileID: 1384373301}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
