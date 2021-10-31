@@ -80,9 +80,7 @@ public class Item_MagicTearStream : MonoBehaviour
     }
     void Update()
     {
-
-
-
+        GameObject.Find("=====BottomUI=====").GetComponent<NewIconController>().lvl_magicTearStream = level;    //new 아이콘을 위한 갱신
         tearLevelCheck = item_Tear.level;
 
         switch (level)
@@ -131,6 +129,7 @@ public class Item_MagicTearStream : MonoBehaviour
             buttonCovoerObj.SetActive(false);
             //버튼 켜고
             buttonObj.SetActive(true);
+
         }
         else
         {
@@ -142,6 +141,7 @@ public class Item_MagicTearStream : MonoBehaviour
             //버튼 끄고
             buttonObj.SetActive(false);
             btnCover_qualification.text = "눈물레벨 " + needLevel.ToString();
+
         }
 
         //저장

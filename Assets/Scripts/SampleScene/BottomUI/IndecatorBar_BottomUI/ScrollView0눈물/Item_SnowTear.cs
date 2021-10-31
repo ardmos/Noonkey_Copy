@@ -49,15 +49,10 @@ public class Item_SnowTear : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        GameObject.Find("=====BottomUI=====").GetComponent<NewIconController>().lvl_snowTear = level;    //new 아이콘을 위한 갱신
         switch (level)
         {
             case 0:
-                //커버 켜고
-                buttonCovoerObj.SetActive(true);
-                //버튼 끄고
-                buttonObj.SetActive(false);
-                btnCover_qualification.text = "눈물레벨 2";
-
                 //눈꽃눈물 스킬이 2일때 개방됨. 
                 if (item_Tear.level >= 2 )
                 {
@@ -65,6 +60,14 @@ public class Item_SnowTear : MonoBehaviour
                     buttonCovoerObj.SetActive(false);
                     //버튼 켜고
                     buttonObj.SetActive(true);
+                }
+                else
+                {
+                    //커버 켜고
+                    buttonCovoerObj.SetActive(true);
+                    //버튼 끄고
+                    buttonObj.SetActive(false);
+                    btnCover_qualification.text = "눈물레벨 2";
                 }
                 
                 break;

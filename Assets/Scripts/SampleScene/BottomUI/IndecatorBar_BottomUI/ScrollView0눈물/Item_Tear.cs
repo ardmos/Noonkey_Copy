@@ -73,6 +73,9 @@ public class Item_Tear : MonoBehaviour
     }
     void Update()
     {
+        GameObject.Find("=====BottomUI=====").GetComponent<NewIconController>().lvl_tear = level;    //new 아이콘을 위한 갱신
+        GameObject.Find("=====BottomUI=====").GetComponent<NewIconController>().price_tear = price;
+
         // 1. 현재 스킬 내용 detail에 설명.
         itemDetail.text = "탭당 치유력 " + playerData.GetCurrentCureAtOneTap().ToString();
         // 현재 레벨 출력. level

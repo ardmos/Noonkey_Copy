@@ -85,7 +85,6 @@ GameObject:
   - component: {fileID: 2760855047281871126}
   - component: {fileID: 2760855047281871120}
   - component: {fileID: 2760855047281871127}
-  - component: {fileID: 1439609951025049885}
   m_Layer: 5
   m_Name: Wing
   m_TagString: Untagged
@@ -149,25 +148,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!95 &1439609951025049885
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2760855047281871125}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 57aa9fcbadbf20140a79bbe382c4deb5, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2760855047382094747
 GameObject:
   m_ObjectHideFlags: 0
@@ -325,7 +305,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2760855048189836675}
-  - component: {fileID: -6727395197715888443}
   - component: {fileID: 353710395766588987}
   m_Layer: 5
   m_Name: RoseElf
@@ -357,25 +336,6 @@ RectTransform:
   m_AnchoredPosition: {x: -292, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!95 &-6727395197715888443
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2760855048189836674}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: fee60b6127685d2498b14232edcc7740, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &353710395766588987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -390,3 +350,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rosePrefObj: {fileID: 1368062258428342875, guid: 4e0ec967bc36ae9479bb0a7704eb5409,
     type: 3}
+  wingSprites:
+  - {fileID: 21300000, guid: ff06df9e0968ff9439e8165d3e9f3ea1, type: 3}
+  - {fileID: 21300000, guid: c1cf5ec2eeb82c348a33a37037fd118c, type: 3}
+  leftMoveEndPoint: {fileID: 0}
+  rightMoveEndPoint: {fileID: 0}

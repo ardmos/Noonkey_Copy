@@ -25,6 +25,9 @@ public class Item0_Tree1 : MonoBehaviour
     //나무심을곳
     public GameObject tree__PointObj;
 
+    //new 아이콘
+    public GameObject newicon_tree;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,9 +39,10 @@ public class Item0_Tree1 : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {        
+
         //눈물10 이상, 요정 1 이상
-        if (item_Tear.level>=10 && item0_RoseElf.level>=1 )
+        if (item_Tear.level>=30 && item0_RoseElf.level>=10 )
         {
             if (isAlreadyGrown == false)
             {
@@ -46,6 +50,9 @@ public class Item0_Tree1 : MonoBehaviour
                 btnObj.SetActive(true);
                 btnCover_notYet.SetActive(false);
                 btnCover_AlreadyGrown.SetActive(false);
+
+                //버튼 개방시 new 알림 추가.
+                newicon_tree.SetActive(true);
             }
             else
             {
@@ -53,6 +60,9 @@ public class Item0_Tree1 : MonoBehaviour
                 btnObj.SetActive(false);
                 btnCover_notYet.SetActive(false);
                 btnCover_AlreadyGrown.SetActive(true);
+
+                //new 알림 종료.
+                newicon_tree.SetActive(false);
             }
 
         }
@@ -65,8 +75,9 @@ public class Item0_Tree1 : MonoBehaviour
 
         //나무 오브젝트 생성
         GameObject prefObj = Instantiate(treeObject) as GameObject;
-        prefObj.GetComponent<RectTransform>().SetParent(tree__PointObj.GetComponent<RectTransform>());
-        prefObj.GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
+        prefObj.transform.SetParent(tree__PointObj.transform);
+        prefObj.transform.position = new Vector3(0, 1.5f, 0f);
+        prefObj.transform.localScale = Vector3.one;
 
     }
 }

@@ -16,8 +16,10 @@ public class Apple_Big : MonoBehaviour
         int gainheart = GameObject.Find("PlayerData").GetComponent<PlayerData>().GetCurrentCureAtOneTap() * 200;
         GameObject.Find("PlayerData").GetComponent<PlayerData>().heart += gainheart;
         GameObject prefObj = Instantiate(gUTMC) as GameObject;
-        prefObj.GetComponent<RectTransform>().SetParent(GameObject.Find("Canvas").GetComponent<RectTransform>());
-        prefObj.GetComponent<RectTransform>().anchoredPosition = gameObject.GetComponent<RectTransform>().anchoredPosition;
+        prefObj.GetComponent<RectTransform>().SetParent(gameObject.GetComponent<RectTransform>().parent);
+        prefObj.GetComponent<RectTransform>().anchoredPosition = new Vector2(gameObject.GetComponent<RectTransform>().anchoredPosition.x, gameObject.GetComponent<RectTransform>().anchoredPosition.y + 10);
         prefObj.GetComponent<GoingUpTextMessageController>().StartGUTM(gainheart);
+
+        Destroy(gameObject);
     }
 }

@@ -37,10 +37,10 @@ public class RoseObj : MonoBehaviour
         int gainheart = GameObject.Find("PlayerData").GetComponent<PlayerData>().heartOneSec * 10;
         //현재 Item0_RoseElf의 초당 치유량 * 10 만큼 얻어짐!
         GameObject.Find("PlayerData").GetComponent<PlayerData>().heart += gainheart;
-        //머리 위에 얻은 양이 뾰롱 하고 뜨기도 함. 
+        //장미 위에 얻은 양이 뾰롱 하고 뜨기도 함. 
         GameObject prefObj = Instantiate(gUTMprefObj) as GameObject;
-        prefObj.GetComponent<RectTransform>().SetParent(GameObject.Find("Canvas").GetComponent<RectTransform>());
-        prefObj.GetComponent<RectTransform>().anchoredPosition = gameObject.GetComponent<RectTransform>().anchoredPosition;
+        prefObj.GetComponent<RectTransform>().SetParent(gameObject.GetComponent<RectTransform>().parent);
+        prefObj.GetComponent<RectTransform>().anchoredPosition = new Vector2( gameObject.GetComponent<RectTransform>().anchoredPosition.x, gameObject.GetComponent<RectTransform>().anchoredPosition.y+10);
         prefObj.GetComponent<GoingUpTextMessageController>().StartGUTM(gainheart);
         //마지막으로 스스로 파괴
         Destroy(gameObject);

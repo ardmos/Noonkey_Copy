@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7402536004483588047}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 7402536005825638917}
   m_Layer: 5
   m_Name: apple_Normal
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -34,8 +34,14 @@ public class Item0_RoseElf : MonoBehaviour
     //엘프 제너레이터
     public ElfGenerator elfGenerator;
 
-    //소환조건에 맞는지
-    public bool isSohwan;
+    //소환조건에 맞는지, 이미 소환되었는가?
+    public bool isSohwan, isalreadySohwaned;
+
+    //new 아이콘
+    public GameObject newicon_elf;
+
+    PlayerData playerData;
+
 
     // Start is called before the first frame update
     void Start()
@@ -51,14 +57,16 @@ public class Item0_RoseElf : MonoBehaviour
         generateBtnObj.SetActive(false);
         coverBtnObj.SetActive(true);
 
+        playerData = GameObject.Find("PlayerData").GetComponent<PlayerData>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        GameObject.Find("=====BottomUI=====").GetComponent<NewIconController>().lvl_RoseElf = level;    //new 아이콘을 위한 갱신
         //저장
-        GameObject.Find("PlayerData").GetComponent<PlayerData>().heartOneSec = heartOneSec;
-        GameObject.Find("PlayerData").GetComponent<PlayerData>().elfProvidesOneSec_total = heartOneSec;
+        playerData.heartOneSec = heartOneSec;
+        playerData.elfProvidesOneSec_total = heartOneSec;
 
         //소환조건체크
         if (item_Tear.level>=10)
@@ -71,8 +79,25 @@ public class Item0_RoseElf : MonoBehaviour
                 btn_increaseText.text = "+" + heartOneSecIncreasement + " 치유력";
                 btn_priceText.text = price.ToString();
                 coverBtnObj.SetActive(false);
+
+                //new 아이콘 활성화
+                newicon_elf.SetActive(true);
             }
         }
+        //업그레이드 조건 체크
+        if (playerData.heart >= price && isalreadySohwaned)
+        {
+            GameObject.Find("=====BottomUI=====").GetComponent<NewIconController>().roseElf_CanUpgrade = true;
+            upgradeBtnObj.SetActive(true);
+            coverBtnObj.SetActive(false);
+        }
+        else
+        {
+            GameObject.Find("=====BottomUI=====").GetComponent<NewIconController>().roseElf_CanUpgrade = false;
+            coverBtnObj.SetActive(true);
+            upgradeBtnObj.SetActive(false);
+        }
+
 
         if (level == 0)
         {
@@ -96,11 +121,11 @@ public class Item0_RoseElf : MonoBehaviour
     //소환 버튼이 눌림!!(엘프제너레이터한테 소환 부탁하자.) 버튼의 온클릭 속성으로 호출한다.
     public void OnGenerateRoseElfBtnClicked()
     {
-        //소환 하면서 업그레이드 버튼으로 바꿔주고 상세내용도 업데이트 하고. 
+        //소환 하면서 상세내용도 업데이트 하고. 
  
         level ++;
         heartOneSec += heartOneSecIncreasement;
-        heartOneSecIncreasement = 2;
+        heartOneSecIncreasement = 10;
         price = 30;
         //qulificationTearLevel = 10;
 
@@ -109,10 +134,11 @@ public class Item0_RoseElf : MonoBehaviour
 
         generateBtnObj.SetActive(false);
         //btnCovoerObj.SetActive(true);
-        upgradeBtnObj.SetActive(true);
-
+        //upgradeBtnObj.SetActive(true);
 
         elfGenerator.GenerateRoseElf();
+
+        isalreadySohwaned = true;
     }
 
     //업그레이드 버튼이 눌림!!
@@ -120,8 +146,8 @@ public class Item0_RoseElf : MonoBehaviour
     {
         level++;
         heartOneSec += heartOneSecIncreasement;
-        heartOneSecIncreasement = 2;
-        price = 30;
+        heartOneSecIncreasement = 1*level;
+        price += 110*level;
         //qulificationTearLevel = 10;
 
         btn_increaseText.text = "+" + heartOneSecIncreasement + " 치유력";
