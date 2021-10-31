@@ -19,6 +19,5 @@ public class Apple_Big : MonoBehaviour
         prefObj.GetComponent<RectTransform>().SetParent(GameObject.Find("Canvas").GetComponent<RectTransform>());
         prefObj.GetComponent<RectTransform>().anchoredPosition = gameObject.GetComponent<RectTransform>().anchoredPosition;
         prefObj.GetComponent<GoingUpTextMessageController>().StartGUTM(gainheart);
-
     }
 }

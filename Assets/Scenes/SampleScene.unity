@@ -253,7 +253,7 @@ GameObject:
   - component: {fileID: 7509322}
   m_Layer: 5
   m_Name: ButtonCover_Img_NotYet
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -402,7 +402,7 @@ GameObject:
   - component: {fileID: 15243598}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -632,7 +632,7 @@ GameObject:
   - component: {fileID: 18538147}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -788,7 +788,7 @@ GameObject:
   - component: {fileID: 24625090}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1143,7 +1143,7 @@ GameObject:
   - component: {fileID: 28350028}
   m_Layer: 5
   m_Name: "Item7(\uBC31\uC77C\uD64D\uC758 \uC694\uC815)"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1231,7 +1231,7 @@ GameObject:
   - component: {fileID: 28758692}
   m_Layer: 5
   m_Name: "Btn0_\uB208\uAF43\uB208\uBB3C"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1289,7 +1289,7 @@ GameObject:
   - component: {fileID: 30203590}
   m_Layer: 5
   m_Name: Name
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1367,7 +1367,7 @@ GameObject:
   - component: {fileID: 32474329}
   m_Layer: 5
   m_Name: Detail
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1446,7 +1446,7 @@ GameObject:
   - component: {fileID: 36995564}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1642,7 +1642,7 @@ GameObject:
   - component: {fileID: 40037896}
   m_Layer: 5
   m_Name: Name
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1720,7 +1720,7 @@ GameObject:
   - component: {fileID: 45481572}
   m_Layer: 5
   m_Name: "\uB9D0\uD48D\uC120"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1877,7 +1877,7 @@ GameObject:
   - component: {fileID: 47475862}
   m_Layer: 5
   m_Name: ButtonCover_Img_AlreadyGrown
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1990,7 +1990,7 @@ GameObject:
   - component: {fileID: 52947577}
   m_Layer: 5
   m_Name: Title
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2373,7 +2373,7 @@ GameObject:
   - component: {fileID: 64707008}
   m_Layer: 5
   m_Name: Button_Settings
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2682,7 +2682,7 @@ GameObject:
   - component: {fileID: 71313248}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2908,7 +2908,7 @@ GameObject:
   - component: {fileID: 77928706}
   m_Layer: 5
   m_Name: Content
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2993,7 +2993,7 @@ GameObject:
   - component: {fileID: 82034814}
   m_Layer: 5
   m_Name: ButtonCover_Img
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3069,7 +3069,7 @@ GameObject:
   - component: {fileID: 89132346}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3147,7 +3147,7 @@ GameObject:
   - component: {fileID: 90061501}
   m_Layer: 5
   m_Name: IconImage
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3221,7 +3221,7 @@ GameObject:
   - component: {fileID: 96458313}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8123,7 +8123,7 @@ GameObject:
   - component: {fileID: 99791702}
   m_Layer: 5
   m_Name: ButtonCover_Img_NotYet
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8198,7 +8198,7 @@ GameObject:
   - component: {fileID: 105491473}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8471,7 +8471,7 @@ GameObject:
   - component: {fileID: 110645863}
   m_Layer: 5
   m_Name: Scroll View
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8650,7 +8650,7 @@ GameObject:
   - component: {fileID: 113289860}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8728,7 +8728,7 @@ GameObject:
   - component: {fileID: 113615645}
   m_Layer: 5
   m_Name: "Item8(\uB098\uBB34 8\uB2E8\uACC4)"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8788,7 +8788,7 @@ GameObject:
   - component: {fileID: 114444944}
   m_Layer: 5
   m_Name: "\uD0ED_\uBA38\uB9AC"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8827,7 +8827,7 @@ GameObject:
   - component: {fileID: 114601612}
   m_Layer: 5
   m_Name: "Item3(\uB098\uBB34 3\uB2E8\uACC4)"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8928,7 +8928,7 @@ GameObject:
   - component: {fileID: 120360619}
   m_Layer: 5
   m_Name: Name
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9004,7 +9004,7 @@ GameObject:
   - component: {fileID: 121587228}
   m_Layer: 5
   m_Name: Elf
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9186,7 +9186,7 @@ GameObject:
   - component: {fileID: 122563373}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9260,7 +9260,7 @@ GameObject:
   - component: {fileID: 124302683}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9334,7 +9334,7 @@ GameObject:
   - component: {fileID: 125676440}
   m_Layer: 5
   m_Name: ButtonCover_Img_AlreadyGrown
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9521,7 +9521,7 @@ GameObject:
   - component: {fileID: 130147383}
   m_Layer: 5
   m_Name: Detail
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9904,7 +9904,7 @@ GameObject:
   - component: {fileID: 147626412}
   m_Layer: 5
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10033,7 +10033,7 @@ GameObject:
   - component: {fileID: 149249443}
   m_Layer: 5
   m_Name: "\uD018\uC2A4\uD2B8"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10185,7 +10185,7 @@ GameObject:
   - component: {fileID: 154487478}
   m_Layer: 5
   m_Name: Image_Cover
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10259,7 +10259,7 @@ GameObject:
   - component: {fileID: 156528672}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10411,7 +10411,7 @@ GameObject:
   - component: {fileID: 163031781}
   m_Layer: 5
   m_Name: BG
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10564,7 +10564,7 @@ GameObject:
   - component: {fileID: 165536140}
   m_Layer: 5
   m_Name: "Item6(\uCE7C\uB77C\uC758 \uC694\uC815)"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10732,7 +10732,7 @@ GameObject:
   - component: {fileID: 173403486}
   m_Layer: 5
   m_Name: "\uB2EB\uAE30Button"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11085,7 +11085,7 @@ GameObject:
   - component: {fileID: 177942384}
   m_Layer: 5
   m_Name: "\uBCF4\uC11D 300"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11282,7 +11282,7 @@ GameObject:
   - component: {fileID: 190448566}
   m_Layer: 5
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11428,7 +11428,7 @@ GameObject:
   - component: {fileID: 190925681}
   m_Layer: 5
   m_Name: =MiddleText=
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11742,7 +11742,7 @@ GameObject:
   - component: {fileID: 200303869}
   m_Layer: 5
   m_Name: Viewport
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12108,7 +12108,7 @@ GameObject:
   - component: {fileID: 208332348}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12182,7 +12182,7 @@ GameObject:
   - component: {fileID: 215545311}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12254,7 +12254,7 @@ GameObject:
   - component: {fileID: 219744333}
   m_Layer: 5
   m_Name: RightButtonFriends
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12413,7 +12413,7 @@ GameObject:
   - component: {fileID: 228313247}
   m_Layer: 5
   m_Name: Detail
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12717,7 +12717,7 @@ GameObject:
   - component: {fileID: 244607413}
   m_Layer: 5
   m_Name: ButtonCover_Img
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12791,7 +12791,7 @@ GameObject:
   - component: {fileID: 244933028}
   m_Layer: 5
   m_Name: Btn1
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12910,7 +12910,7 @@ GameObject:
   - component: {fileID: 249339645}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12984,7 +12984,7 @@ GameObject:
   - component: {fileID: 251717564}
   m_Layer: 5
   m_Name: IconImage
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13250,7 +13250,7 @@ GameObject:
   - component: {fileID: 260946806}
   m_Layer: 5
   m_Name: "\uD0ED_\uC9C0\uD321\uC774"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13482,7 +13482,7 @@ GameObject:
   - component: {fileID: 265227206}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13866,7 +13866,7 @@ GameObject:
   - component: {fileID: 287623065}
   m_Layer: 5
   m_Name: "ButtonUpgrade_\uBBF8\uAD6C\uD604"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14005,7 +14005,7 @@ GameObject:
   - component: {fileID: 287873019}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14311,7 +14311,7 @@ GameObject:
   - component: {fileID: 291286090}
   m_Layer: 5
   m_Name: =MiddleText=
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14424,7 +14424,7 @@ GameObject:
   - component: {fileID: 294811138}
   m_Layer: 5
   m_Name: "\uD6A8\uACFC\uC74C"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14501,7 +14501,7 @@ GameObject:
   - component: {fileID: 296650120}
   m_Layer: 5
   m_Name: =MiddleText=
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14693,7 +14693,7 @@ GameObject:
   - component: {fileID: 298882685}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14850,7 +14850,7 @@ GameObject:
   - component: {fileID: 311095154}
   m_Layer: 5
   m_Name: "\uB2EB\uAE30Button"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14979,7 +14979,7 @@ GameObject:
   - component: {fileID: 313694945}
   m_Layer: 5
   m_Name: ButtonCover_Img_AlreadyGrown
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15054,7 +15054,7 @@ GameObject:
   - component: {fileID: 316390691}
   m_Layer: 5
   m_Name: Content
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15139,7 +15139,7 @@ GameObject:
   - component: {fileID: 316745075}
   m_Layer: 5
   m_Name: Background
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15213,7 +15213,7 @@ GameObject:
   - component: {fileID: 318480188}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15287,7 +15287,7 @@ GameObject:
   - component: {fileID: 319419645}
   m_Layer: 5
   m_Name: Image_Cover
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15710,7 +15710,7 @@ GameObject:
   - component: {fileID: 339629910}
   m_Layer: 5
   m_Name: Text (1)
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15788,7 +15788,7 @@ GameObject:
   - component: {fileID: 339873434}
   m_Layer: 5
   m_Name: BG_Transparent
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16351,7 +16351,7 @@ GameObject:
   - component: {fileID: 351764640}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16500,7 +16500,7 @@ GameObject:
   - component: {fileID: 360933820}
   m_Layer: 5
   m_Name: "Item2(\uC218\uC120\uD654\uC758 \uC694\uC815)"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16706,7 +16706,7 @@ GameObject:
   - component: {fileID: 366786789}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16784,7 +16784,7 @@ GameObject:
   - component: {fileID: 367665374}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17131,7 +17131,7 @@ GameObject:
   - component: {fileID: 377292420}
   m_Layer: 5
   m_Name: BG_Transparent
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17401,7 +17401,7 @@ GameObject:
   - component: {fileID: 389307220}
   m_Layer: 5
   m_Name: Name
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17479,7 +17479,7 @@ GameObject:
   - component: {fileID: 389334875}
   m_Layer: 5
   m_Name: ButtonCover_Img
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17594,7 +17594,7 @@ GameObject:
   - component: {fileID: 392651612}
   m_Layer: 5
   m_Name: Level
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17673,7 +17673,7 @@ GameObject:
   - component: {fileID: 400063157}
   m_Layer: 5
   m_Name: "\uB2EB\uAE30Button"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17802,7 +17802,7 @@ GameObject:
   - component: {fileID: 401945146}
   m_Layer: 5
   m_Name: Text (1)
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18028,7 +18028,7 @@ GameObject:
   - component: {fileID: 406441390}
   m_Layer: 5
   m_Name: CoverImage
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18326,7 +18326,7 @@ GameObject:
   - component: {fileID: 409163519}
   m_Layer: 5
   m_Name: "Item9(\uB098\uBB34 9\uB2E8\uACC4)"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18388,7 +18388,7 @@ GameObject:
   - component: {fileID: 410745424}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18464,7 +18464,7 @@ GameObject:
   - component: {fileID: 410993186}
   m_Layer: 5
   m_Name: "ButtonUpgrade_\uBBF8\uAD6C\uD604"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18603,7 +18603,7 @@ GameObject:
   - component: {fileID: 415370200}
   m_Layer: 5
   m_Name: ButtonCover_Img_AlreadyGrown
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18830,7 +18830,7 @@ GameObject:
   - component: {fileID: 427795621}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19139,7 +19139,7 @@ GameObject:
   - component: {fileID: 429547763}
   m_Layer: 5
   m_Name: IconImage
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19211,7 +19211,7 @@ GameObject:
   - component: {fileID: 431261365}
   m_Layer: 5
   m_Name: =MiddleText=
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19368,7 +19368,7 @@ GameObject:
   - component: {fileID: 435558930}
   m_Layer: 5
   m_Name: IconImage
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19442,7 +19442,7 @@ GameObject:
   - component: {fileID: 438126744}
   m_Layer: 5
   m_Name: ButtonCover_Img
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19791,7 +19791,7 @@ GameObject:
   - component: {fileID: 453639601}
   m_Layer: 5
   m_Name: "\uBC84\uD2BC2\uB098\uBB34"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19917,7 +19917,7 @@ GameObject:
   - component: {fileID: 455580301}
   m_Layer: 5
   m_Name: =MiddleText=
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20012,7 +20012,7 @@ GameObject:
   - component: {fileID: 459565934}
   m_Layer: 5
   m_Name: =====BottomUI=====
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20099,7 +20099,7 @@ GameObject:
   - component: {fileID: 461311156}
   m_Layer: 5
   m_Name: ButtonCover_Img_NotYet
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20172,7 +20172,7 @@ GameObject:
   - component: {fileID: 465047229}
   m_Layer: 5
   m_Name: =MiddleText=
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20212,7 +20212,7 @@ GameObject:
   - component: {fileID: 465292628}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20290,7 +20290,7 @@ GameObject:
   - component: {fileID: 465928026}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20438,7 +20438,7 @@ GameObject:
   - component: {fileID: 468208433}
   m_Layer: 5
   m_Name: Name
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20635,7 +20635,7 @@ GameObject:
   - component: {fileID: 471188179}
   m_Layer: 5
   m_Name: ===Indecators-WithBGimg===
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20788,7 +20788,7 @@ GameObject:
   - component: {fileID: 475393470}
   m_Layer: 5
   m_Name: WhiteLine_Img
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20860,7 +20860,7 @@ GameObject:
   - component: {fileID: 480618156}
   m_Layer: 5
   m_Name: Dia
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21006,7 +21006,7 @@ GameObject:
   - component: {fileID: 481271840}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21080,7 +21080,7 @@ GameObject:
   - component: {fileID: 484915649}
   m_Layer: 5
   m_Name: Detail
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21417,7 +21417,7 @@ GameObject:
   - component: {fileID: 500644308}
   m_Layer: 5
   m_Name: ButtonCover_Img_AlreadyGrown
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21648,7 +21648,7 @@ GameObject:
   - component: {fileID: 501546738}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21726,7 +21726,7 @@ GameObject:
   - component: {fileID: 503267191}
   m_Layer: 5
   m_Name: "\uC694\uC815 \uBBF8\uB9AC\uBCF4\uAE30, \uC88C\uC6B0\uBC84\uD2BC"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21881,7 +21881,7 @@ GameObject:
   - component: {fileID: 504724318}
   m_Layer: 5
   m_Name: Level
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22037,7 +22037,7 @@ GameObject:
   - component: {fileID: 508509874}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22192,7 +22192,7 @@ GameObject:
   - component: {fileID: 516877576}
   m_Layer: 5
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22812,7 +22812,7 @@ GameObject:
   - component: {fileID: 526573841}
   m_Layer: 5
   m_Name: Text (1)
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22968,7 +22968,7 @@ GameObject:
   - component: {fileID: 534619014}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23046,7 +23046,7 @@ GameObject:
   - component: {fileID: 536320455}
   m_Layer: 5
   m_Name: ButtonCover_Img_AlreadyGrown
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23393,7 +23393,7 @@ GameObject:
   - component: {fileID: 551679264}
   m_Layer: 5
   m_Name: IconImage
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23676,7 +23676,7 @@ GameObject:
   - component: {fileID: 559216167}
   m_Layer: 5
   m_Name: Text (1)
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23754,7 +23754,7 @@ GameObject:
   - component: {fileID: 561588485}
   m_Layer: 5
   m_Name: Level
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23908,7 +23908,7 @@ GameObject:
   - component: {fileID: 570133495}
   m_Layer: 5
   m_Name: =MiddleText=
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24061,7 +24061,7 @@ GameObject:
   - component: {fileID: 576553803}
   m_Layer: 5
   m_Name: ====IndecatorBar====
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24218,7 +24218,7 @@ GameObject:
   - component: {fileID: 588463252}
   m_Layer: 5
   m_Name: "\uBCF4\uC11D 12,000"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24259,7 +24259,7 @@ GameObject:
   - component: {fileID: 590439425}
   m_Layer: 5
   m_Name: Sentence
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24415,7 +24415,7 @@ GameObject:
   - component: {fileID: 591735202}
   m_Layer: 5
   m_Name: Text (1)
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24555,7 +24555,7 @@ GameObject:
   - component: {fileID: 595793572}
   m_Layer: 5
   m_Name: ButtonCover_Img_AlreadyGrown
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24782,7 +24782,7 @@ GameObject:
   - component: {fileID: 607501982}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24860,7 +24860,7 @@ GameObject:
   - component: {fileID: 611516682}
   m_Layer: 5
   m_Name: Fill
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25054,7 +25054,7 @@ GameObject:
   - component: {fileID: 612405291}
   m_Layer: 5
   m_Name: IconImage
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25321,7 +25321,7 @@ GameObject:
   - component: {fileID: 618455236}
   m_Layer: 5
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25516,7 +25516,7 @@ GameObject:
   - component: {fileID: 628626581}
   m_Layer: 5
   m_Name: Detail
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25595,7 +25595,7 @@ GameObject:
   - component: {fileID: 628645859}
   m_Layer: 5
   m_Name: Text (1)
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25674,7 +25674,7 @@ GameObject:
   - component: {fileID: 629898583}
   m_Layer: 5
   m_Name: "Item3(\uC0E4\uD504\uB780\uC758 \uC694\uC815)"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25763,7 +25763,7 @@ GameObject:
   - component: {fileID: 632669172}
   m_Layer: 5
   m_Name: IconImage
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25837,7 +25837,7 @@ GameObject:
   - component: {fileID: 633188449}
   m_Layer: 5
   m_Name: Detail
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26103,7 +26103,7 @@ GameObject:
   - component: {fileID: 638529997}
   m_Layer: 5
   m_Name: Detail
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26182,7 +26182,7 @@ GameObject:
   - component: {fileID: 639821810}
   m_Layer: 5
   m_Name: Name
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26261,7 +26261,7 @@ GameObject:
   - component: {fileID: 643161370}
   m_Layer: 5
   m_Name: Viewport
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26423,7 +26423,7 @@ GameObject:
   - component: {fileID: 650041824}
   m_Layer: 5
   m_Name: "Item3((\uC2A4\uD0AC)\uD3ED\uD48D \uB208\uBB3C)"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26446,10 +26446,10 @@ RectTransform:
   m_Father: {fileID: 1627181258}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 584.3896, y: -600}
-  m_SizeDelta: {x: 1040, y: 160}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &650041824
 MonoBehaviour:
@@ -26620,7 +26620,7 @@ GameObject:
   - component: {fileID: 655007283}
   m_Layer: 5
   m_Name: "\uD310\uB9E4\uC0C1\uD488\uB4E4"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26722,7 +26722,7 @@ GameObject:
   - component: {fileID: 655261861}
   m_Layer: 5
   m_Name: =MiddleText=
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26762,7 +26762,7 @@ GameObject:
   - component: {fileID: 657188830}
   m_Layer: 5
   m_Name: Name
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26840,7 +26840,7 @@ GameObject:
   - component: {fileID: 659065990}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26919,7 +26919,7 @@ GameObject:
   - component: {fileID: 659375433}
   m_Layer: 5
   m_Name: "\uBC84\uD2BC1\uC694\uC815"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27167,7 +27167,7 @@ GameObject:
   - component: {fileID: 663732642}
   m_Layer: 5
   m_Name: Name
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27245,7 +27245,7 @@ GameObject:
   - component: {fileID: 663971302}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27358,7 +27358,7 @@ GameObject:
   - component: {fileID: 673618692}
   m_Layer: 5
   m_Name: English
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27476,7 +27476,7 @@ GameObject:
   - component: {fileID: 674631832}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27592,7 +27592,7 @@ GameObject:
   - component: {fileID: 675328268}
   m_Layer: 5
   m_Name: Name
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27822,7 +27822,7 @@ GameObject:
   - component: {fileID: 680760351}
   m_Layer: 5
   m_Name: Level
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27975,7 +27975,7 @@ GameObject:
   - component: {fileID: 685340368}
   m_Layer: 5
   m_Name: "\uB2E4\uC774\uC544 \uC0C1\uC810"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28064,7 +28064,7 @@ GameObject:
   - component: {fileID: 687666207}
   m_Layer: 5
   m_Name: ButtonCover_Img
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28468,7 +28468,7 @@ GameObject:
   - component: {fileID: 699351942}
   m_Layer: 5
   m_Name: IconImage
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28542,7 +28542,7 @@ GameObject:
   - component: {fileID: 699928427}
   m_Layer: 5
   m_Name: ButtonCover_Img_NotYet
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28617,7 +28617,7 @@ GameObject:
   - component: {fileID: 707388762}
   m_Layer: 5
   m_Name: "\uAC8C\uC784\uC124\uC815"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28773,7 +28773,7 @@ GameObject:
   - component: {fileID: 712001900}
   m_Layer: 5
   m_Name: Name
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28925,7 +28925,7 @@ GameObject:
   - component: {fileID: 723266944}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29157,7 +29157,7 @@ GameObject:
   - component: {fileID: 728156715}
   m_Layer: 5
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29305,7 +29305,7 @@ GameObject:
   - component: {fileID: 732768034}
   m_Layer: 5
   m_Name: Image_YellowGage
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29453,7 +29453,7 @@ GameObject:
   - component: {fileID: 735291700}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29671,7 +29671,7 @@ GameObject:
   - component: {fileID: 743136922}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29751,7 +29751,7 @@ GameObject:
   - component: {fileID: 743812719}
   m_Layer: 5
   m_Name: ButtonGenerate
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30093,7 +30093,7 @@ GameObject:
   - component: {fileID: 748393035}
   m_Layer: 5
   m_Name: Detail
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30290,7 +30290,7 @@ GameObject:
   - component: {fileID: 754346203}
   m_Layer: 5
   m_Name: Detail
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30367,7 +30367,7 @@ GameObject:
   - component: {fileID: 756932060}
   m_Layer: 5
   m_Name: "\uBCF4\uC11D 800"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30454,7 +30454,7 @@ GameObject:
   - component: {fileID: 764833592}
   m_Layer: 5
   m_Name: Detail
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30533,7 +30533,7 @@ GameObject:
   - component: {fileID: 769495688}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30767,7 +30767,7 @@ GameObject:
   - component: {fileID: 797170746}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30919,7 +30919,7 @@ GameObject:
   - component: {fileID: 804329097}
   m_Layer: 5
   m_Name: "\uB2E4\uC74C\uC120\uBB3C\uAE4C\uC9C0"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31388,7 +31388,7 @@ GameObject:
   - component: {fileID: 814818677}
   m_Layer: 5
   m_Name: ButtonGenerate
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31536,7 +31536,7 @@ GameObject:
   - component: {fileID: 819224834}
   m_Layer: 5
   m_Name: Detail
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31691,7 +31691,7 @@ GameObject:
   - component: {fileID: 827088208}
   m_Layer: 5
   m_Name: "ButtonUpgrade_\uBBF8\uAD6C\uD604"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31830,7 +31830,7 @@ GameObject:
   - component: {fileID: 827899583}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31984,7 +31984,7 @@ GameObject:
   - component: {fileID: 828448001}
   m_Layer: 5
   m_Name: "\uBCF4\uC11D 5,000"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32105,7 +32105,7 @@ GameObject:
   - component: {fileID: 829242248}
   m_Layer: 5
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32333,7 +32333,7 @@ GameObject:
   - component: {fileID: 834879530}
   m_Layer: 5
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32482,7 +32482,7 @@ GameObject:
   - component: {fileID: 839086035}
   m_Layer: 5
   m_Name: "Item8(\uC544\uBAAC\uB4DC\uC758 \uC694\uC815)"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32571,7 +32571,7 @@ GameObject:
   - component: {fileID: 840054650}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32769,7 +32769,7 @@ GameObject:
   - component: {fileID: 842123765}
   m_Layer: 5
   m_Name: "Item4((\uC2A4\uD0AC)\uBCF4\uC11D \uB208\uBB3C)"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32792,10 +32792,10 @@ RectTransform:
   m_Father: {fileID: 1627181258}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 584.3896, y: -770}
-  m_SizeDelta: {x: 1040, y: 160}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &842123765
 MonoBehaviour:
@@ -32999,7 +32999,7 @@ GameObject:
   - component: {fileID: 848141015}
   m_Layer: 5
   m_Name: ButtonCover_Img_NotYet
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33074,7 +33074,7 @@ GameObject:
   - component: {fileID: 850552610}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33300,7 +33300,7 @@ GameObject:
   - component: {fileID: 858939565}
   m_Layer: 5
   m_Name: Level
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33599,7 +33599,7 @@ GameObject:
   - component: {fileID: 865827554}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33678,7 +33678,7 @@ GameObject:
   - component: {fileID: 865878603}
   m_Layer: 5
   m_Name: RBtn
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33795,7 +33795,7 @@ GameObject:
   - component: {fileID: 870041568}
   m_Layer: 5
   m_Name: Handle
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33988,7 +33988,7 @@ GameObject:
   - component: {fileID: 875610013}
   m_Layer: 5
   m_Name: "Item9(\uB9E4\uD654\uC758 \uC694\uC815)"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34078,7 +34078,7 @@ GameObject:
   - component: {fileID: 884042314}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34176,7 +34176,7 @@ GameObject:
   - component: {fileID: 886991645}
   m_Layer: 5
   m_Name: "Item2((\uC2A4\uD0AC)\uB208\uAF43 \uB208\uBB3C)"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34199,10 +34199,10 @@ RectTransform:
   m_Father: {fileID: 1627181258}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 584.3896, y: -430}
-  m_SizeDelta: {x: 1040, y: 160}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &886991643
 MonoBehaviour:
@@ -34434,7 +34434,7 @@ GameObject:
   - component: {fileID: 899610905}
   m_Layer: 5
   m_Name: =MiddleText=
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34474,7 +34474,7 @@ GameObject:
   - component: {fileID: 900070814}
   m_Layer: 5
   m_Name: "\uD018\uC2A4\uD2B8"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34551,7 +34551,7 @@ GameObject:
   - component: {fileID: 903999039}
   m_Layer: 5
   m_Name: Scroll View
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34935,7 +34935,7 @@ GameObject:
   - component: {fileID: 912805610}
   m_Layer: 5
   m_Name: "\uBC84\uD2BC0\uB208\uBB3C"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35063,7 +35063,7 @@ GameObject:
   - component: {fileID: 914033544}
   m_Layer: 5
   m_Name: Level
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35141,7 +35141,7 @@ GameObject:
   - component: {fileID: 917676253}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35293,7 +35293,7 @@ GameObject:
   - component: {fileID: 922774288}
   m_Layer: 5
   m_Name: Text (1)
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35490,7 +35490,7 @@ GameObject:
   - component: {fileID: 923935541}
   m_Layer: 5
   m_Name: "=\uD0ED \uC120\uD0DD \uBC84\uD2BC\uB4E4="
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35530,7 +35530,7 @@ GameObject:
   - component: {fileID: 931774105}
   m_Layer: 5
   m_Name: IconImage
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35875,7 +35875,7 @@ GameObject:
   - component: {fileID: 943738597}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36282,7 +36282,7 @@ GameObject:
   - component: {fileID: 957870273}
   m_Layer: 5
   m_Name: Scroll View
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36387,7 +36387,7 @@ GameObject:
   - component: {fileID: 958210436}
   m_Layer: 5
   m_Name: Level
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36539,7 +36539,7 @@ GameObject:
   - component: {fileID: 963012461}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36613,7 +36613,7 @@ GameObject:
   - component: {fileID: 963256003}
   m_Layer: 5
   m_Name: IconImage
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36685,7 +36685,7 @@ GameObject:
   - component: {fileID: 966527548}
   m_Layer: 5
   m_Name: Fill Area
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36724,7 +36724,7 @@ GameObject:
   - component: {fileID: 971436104}
   m_Layer: 5
   m_Name: "Item1(\uB098\uBB34 1\uB2E8\uACC4)"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36807,7 +36807,7 @@ GameObject:
   - component: {fileID: 973709766}
   m_Layer: 5
   m_Name: Detail
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36886,7 +36886,7 @@ GameObject:
   - component: {fileID: 974345016}
   m_Layer: 5
   m_Name: Detail
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37117,7 +37117,7 @@ GameObject:
   - component: {fileID: 981708299}
   m_Layer: 5
   m_Name: Detail
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37196,7 +37196,7 @@ GameObject:
   - component: {fileID: 984980991}
   m_Layer: 5
   m_Name: Name
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37274,7 +37274,7 @@ GameObject:
   - component: {fileID: 985772278}
   m_Layer: 5
   m_Name: Name
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37352,7 +37352,7 @@ GameObject:
   - component: {fileID: 989804919}
   m_Layer: 5
   m_Name: Name
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37582,7 +37582,7 @@ GameObject:
   - component: {fileID: 996263928}
   m_Layer: 5
   m_Name: WhiteLine_Img (1)
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37654,7 +37654,7 @@ GameObject:
   - component: {fileID: 999935701}
   m_Layer: 5
   m_Name: =MiddleText=
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37691,7 +37691,7 @@ GameObject:
   - component: {fileID: 1000878123}
   m_Layer: 5
   m_Name: Handle Slide Area
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38341,7 +38341,7 @@ GameObject:
   - component: {fileID: 1033164459}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38419,7 +38419,7 @@ GameObject:
   - component: {fileID: 1033547124}
   m_Layer: 5
   m_Name: ButtonCover_Img_AlreadyGrown
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38495,7 +38495,7 @@ GameObject:
   - component: {fileID: 1036581574}
   m_Layer: 5
   m_Name: Button_Cup
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38599,6 +38599,77 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1036581572}
   m_CullTransparentMesh: 0
+--- !u!1 &1037482945
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1037482948}
+  - component: {fileID: 1037482947}
+  - component: {fileID: 1037482946}
+  m_Layer: 8
+  m_Name: ScreenTouchController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1037482946
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037482945}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20, y: 20}
+  m_EdgeRadius: 0
+--- !u!114 &1037482947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037482945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470ecdfdcb33bda4293f65ba4394be2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 1443520612}
+--- !u!4 &1037482948
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037482945}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1039258667
 GameObject:
   m_ObjectHideFlags: 0
@@ -38612,7 +38683,7 @@ GameObject:
   - component: {fileID: 1039258668}
   m_Layer: 5
   m_Name: Detail
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38769,7 +38840,7 @@ GameObject:
   - component: {fileID: 1046620341}
   m_Layer: 5
   m_Name: BG_Transparent
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38843,7 +38914,7 @@ GameObject:
   - component: {fileID: 1051078515}
   m_Layer: 5
   m_Name: WhiteLine_Img
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39229,7 +39300,7 @@ GameObject:
   - component: {fileID: 1073969084}
   m_Layer: 5
   m_Name: Text (1)
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39346,7 +39417,7 @@ GameObject:
   - component: {fileID: 1077214189}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39424,7 +39495,7 @@ GameObject:
   - component: {fileID: 1086437571}
   m_Layer: 5
   m_Name: ButtonCover_Img_AlreadyGrown
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39499,7 +39570,7 @@ GameObject:
   - component: {fileID: 1089318007}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39577,7 +39648,7 @@ GameObject:
   - component: {fileID: 1091326558}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39651,7 +39722,7 @@ GameObject:
   - component: {fileID: 1094394411}
   m_Layer: 5
   m_Name: IconImage
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39762,7 +39833,7 @@ GameObject:
   - component: {fileID: 1097852076}
   m_Layer: 5
   m_Name: =MiddleText=
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39802,7 +39873,7 @@ GameObject:
   - component: {fileID: 1098996719}
   m_Layer: 5
   m_Name: IconImage
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40014,7 +40085,7 @@ GameObject:
   - component: {fileID: 1106704784}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40092,7 +40163,7 @@ GameObject:
   - component: {fileID: 1109569125}
   m_Layer: 5
   m_Name: Level
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40244,7 +40315,7 @@ GameObject:
   - component: {fileID: 1112362720}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40319,7 +40390,7 @@ GameObject:
   - component: {fileID: 1114102403}
   m_Layer: 5
   m_Name: "\uD018\uC2A4\uD2B8\uB4E4"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40497,7 +40568,7 @@ GameObject:
   - component: {fileID: 1120956577}
   m_Layer: 5
   m_Name: Level
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40689,7 +40760,7 @@ GameObject:
   - component: {fileID: 1130554707}
   m_Layer: 5
   m_Name: ButtonGenerate
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40913,7 +40984,7 @@ GameObject:
   - component: {fileID: 1136852885}
   m_Layer: 5
   m_Name: "\uD0ED_\uB0A0\uAC1C"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41030,7 +41101,7 @@ GameObject:
   - component: {fileID: 1142132296}
   m_Layer: 5
   m_Name: ButtonCover_Img
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41106,7 +41177,7 @@ GameObject:
   - component: {fileID: 1151421049}
   m_Layer: 5
   m_Name: "\uC5B8\uC5B4\uC124\uC815"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41264,7 +41335,7 @@ GameObject:
   - component: {fileID: 1163685532}
   m_Layer: 5
   m_Name: ButtonGenerate
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41448,7 +41519,7 @@ GameObject:
   - component: {fileID: 1167510219}
   m_Layer: 5
   m_Name: =MiddleText=
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41488,7 +41559,7 @@ GameObject:
   - component: {fileID: 1173067461}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41566,7 +41637,7 @@ GameObject:
   - component: {fileID: 1173357404}
   m_Layer: 5
   m_Name: "\uC120\uBB3C\uBC1B\uAE30"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41642,7 +41713,7 @@ GameObject:
   - component: {fileID: 1176949529}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41721,7 +41792,7 @@ GameObject:
   - component: {fileID: 1178439277}
   m_Layer: 5
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41847,7 +41918,7 @@ GameObject:
   - component: {fileID: 1179497579}
   m_Layer: 5
   m_Name: =MiddleText=
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41889,7 +41960,7 @@ GameObject:
   - component: {fileID: 1181098021}
   m_Layer: 5
   m_Name: "ButtonUpgrade_\uBBF8\uAD6C\uD604"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42028,7 +42099,7 @@ GameObject:
   - component: {fileID: 1183452850}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42253,7 +42324,7 @@ GameObject:
   - component: {fileID: 1187056501}
   m_Layer: 5
   m_Name: "Btn3_\uBB34\uB8CC\uCDA9\uC804"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42379,7 +42450,7 @@ GameObject:
   - component: {fileID: 1205242105}
   m_Layer: 5
   m_Name: =MiddleText=
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42419,7 +42490,7 @@ GameObject:
   - component: {fileID: 1207461929}
   m_Layer: 5
   m_Name: IconImage
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42493,7 +42564,7 @@ GameObject:
   - component: {fileID: 1208224029}
   m_Layer: 5
   m_Name: Detail
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42573,7 +42644,7 @@ GameObject:
   - component: {fileID: 1213292220}
   m_Layer: 5
   m_Name: "Item0(\uC7A5\uBBF8\uC758 \uC694\uC815)"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43166,7 +43237,7 @@ GameObject:
   - component: {fileID: 1230832797}
   m_Layer: 5
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43285,7 +43356,7 @@ GameObject:
   - component: {fileID: 1232440585}
   m_Layer: 5
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43431,7 +43502,7 @@ GameObject:
   - component: {fileID: 1233179016}
   m_Layer: 5
   m_Name: LeftButtonFriends
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43470,7 +43541,7 @@ GameObject:
   - component: {fileID: 1235573479}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43548,7 +43619,7 @@ GameObject:
   - component: {fileID: 1236646417}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43626,7 +43697,7 @@ GameObject:
   - component: {fileID: 1237473307}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43698,7 +43769,7 @@ GameObject:
   - component: {fileID: 1238354031}
   m_Layer: 5
   m_Name: =MiddleText=
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44011,7 +44082,7 @@ GameObject:
   - component: {fileID: 1242883604}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44089,7 +44160,7 @@ GameObject:
   - component: {fileID: 1244207565}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44163,7 +44234,7 @@ GameObject:
   - component: {fileID: 1244213899}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44237,7 +44308,7 @@ GameObject:
   - component: {fileID: 1246711770}
   m_Layer: 5
   m_Name: Text (1)
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44509,7 +44580,7 @@ GameObject:
   - component: {fileID: 1254995098}
   m_Layer: 5
   m_Name: WhiteLine_Img
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44662,7 +44733,7 @@ GameObject:
   - component: {fileID: 1264324890}
   m_Layer: 5
   m_Name: "Item0(\uB208\uBB3C\uC758 \uCE58\uC720\uB825)"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44685,10 +44756,10 @@ RectTransform:
   m_Father: {fileID: 1627181258}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 584.3896, y: -90}
-  m_SizeDelta: {x: 1040, y: 160}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1264324888
 MonoBehaviour:
@@ -44773,7 +44844,7 @@ GameObject:
   - component: {fileID: 1271511455}
   m_Layer: 5
   m_Name: "Item2(\uB098\uBB34 2\uB2E8\uACC4)"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44835,7 +44906,7 @@ GameObject:
   - component: {fileID: 1276711230}
   m_Layer: 5
   m_Name: BG
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44992,7 +45063,7 @@ GameObject:
   - component: {fileID: 1279208850}
   m_Layer: 5
   m_Name: IconImage
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45066,7 +45137,7 @@ GameObject:
   - component: {fileID: 1280350889}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45145,7 +45216,7 @@ GameObject:
   - component: {fileID: 1281451933}
   m_Layer: 5
   m_Name: "Item4(\uC544\uB3C4\uB2C8\uC2A4\uC758 \uC694\uC815)"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45426,7 +45497,7 @@ GameObject:
   - component: {fileID: 1285151577}
   m_Layer: 5
   m_Name: "\uAFB8\uBBF8\uAE30 \uC0C1\uC810"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45785,7 +45856,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1295300646
 RectTransform:
   m_ObjectHideFlags: 0
@@ -45899,7 +45970,7 @@ GameObject:
   - component: {fileID: 1296189412}
   m_Layer: 5
   m_Name: ButtonGenerate
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46122,7 +46193,7 @@ GameObject:
   - component: {fileID: 1301504668}
   m_Layer: 5
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46252,7 +46323,7 @@ GameObject:
   - component: {fileID: 1302678917}
   m_Layer: 5
   m_Name: "\uBC84\uD2BC4\uAFB8\uBBF8\uAE30"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46380,7 +46451,7 @@ GameObject:
   - component: {fileID: 1304517021}
   m_Layer: 5
   m_Name: Text (1)
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46532,7 +46603,7 @@ GameObject:
   - component: {fileID: 1311111274}
   m_Layer: 5
   m_Name: Image_YellowGage
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46606,7 +46677,7 @@ GameObject:
   - component: {fileID: 1315644223}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46680,7 +46751,7 @@ GameObject:
   - component: {fileID: 1316214064}
   m_Layer: 5
   m_Name: Name
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46832,7 +46903,7 @@ GameObject:
   - component: {fileID: 1318944159}
   m_Layer: 5
   m_Name: Text (1)
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46911,7 +46982,7 @@ GameObject:
   - component: {fileID: 1321152826}
   m_Layer: 5
   m_Name: "Item5(\uC591\uADC0\uBE44\uC758 \uC694\uC815)"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47000,7 +47071,7 @@ GameObject:
   - component: {fileID: 1322192168}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47195,7 +47266,7 @@ GameObject:
   - component: {fileID: 1325445601}
   m_Layer: 5
   m_Name: Name
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47273,7 +47344,7 @@ GameObject:
   - component: {fileID: 1326157225}
   m_Layer: 5
   m_Name: IconImage
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47347,7 +47418,7 @@ GameObject:
   - component: {fileID: 1331931223}
   m_Layer: 5
   m_Name: Name
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47425,7 +47496,7 @@ GameObject:
   - component: {fileID: 1334372473}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47801,7 +47872,7 @@ GameObject:
   - component: {fileID: 1349799311}
   m_Layer: 5
   m_Name: "ButtonUpgrade_\uBBF8\uAD6C\uD604"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48059,7 +48130,7 @@ GameObject:
   - component: {fileID: 1352764544}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48234,7 +48305,7 @@ GameObject:
   - component: {fileID: 1355838974}
   m_Layer: 5
   m_Name: Level
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48468,7 +48539,7 @@ GameObject:
   - component: {fileID: 1359173247}
   m_Layer: 5
   m_Name: Text (1)
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48548,7 +48619,7 @@ GameObject:
   - component: {fileID: 1361109493}
   m_Layer: 5
   m_Name: ButtonGenerate
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48696,7 +48767,7 @@ GameObject:
   - component: {fileID: 1362301610}
   m_Layer: 5
   m_Name: Detail
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49180,7 +49251,7 @@ GameObject:
   - component: {fileID: 1381390794}
   m_Layer: 5
   m_Name: BG
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49259,7 +49330,7 @@ GameObject:
   - component: {fileID: 1384373303}
   m_Layer: 5
   m_Name: "Item7(\uB098\uBB34 7\uB2E8\uACC4)"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49356,7 +49427,7 @@ GameObject:
   - component: {fileID: 1388211755}
   m_Layer: 5
   m_Name: "Item6(\uB098\uBB34 6\uB2E8\uACC4)"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49418,7 +49489,7 @@ GameObject:
   - component: {fileID: 1390112795}
   m_Layer: 5
   m_Name: ButtonCover_Img
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49494,7 +49565,7 @@ GameObject:
   - component: {fileID: 1390727917}
   m_Layer: 5
   m_Name: Detail
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49973,7 +50044,7 @@ GameObject:
   - component: {fileID: 1400443436}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50070,7 +50141,7 @@ GameObject:
   - component: {fileID: 1400840740}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50148,7 +50219,7 @@ GameObject:
   - component: {fileID: 1402487393}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50224,7 +50295,7 @@ GameObject:
   - component: {fileID: 1402983509}
   m_Layer: 5
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50372,7 +50443,7 @@ GameObject:
   - component: {fileID: 1408522019}
   m_Layer: 5
   m_Name: ButtonCover_Img
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50526,7 +50597,7 @@ GameObject:
   - component: {fileID: 1419026093}
   m_Layer: 5
   m_Name: WhiteLine_Img
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50674,7 +50745,7 @@ GameObject:
   - component: {fileID: 1422265919}
   m_Layer: 5
   m_Name: "\uBC30\uACBD\uC74C"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50946,7 +51017,7 @@ GameObject:
   - component: {fileID: 1428769762}
   m_Layer: 5
   m_Name: "Item10(\uB098\uBB34 10\uB2E8\uACC4)"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51008,7 +51079,7 @@ GameObject:
   - component: {fileID: 1428827075}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51244,7 +51315,7 @@ GameObject:
   - component: {fileID: 1439413267}
   m_Layer: 5
   m_Name: Text (1)
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51360,7 +51431,7 @@ GameObject:
   - component: {fileID: 1442690264}
   m_Layer: 5
   m_Name: ButtonGenerate
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51510,7 +51581,7 @@ GameObject:
   - component: {fileID: 1443103538}
   m_Layer: 5
   m_Name: "ButtonUpgrade_\uBBF8\uAD6C\uD604"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51695,7 +51766,7 @@ GameObject:
   - component: {fileID: 1445565871}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51770,7 +51841,7 @@ GameObject:
   - component: {fileID: 1445731890}
   m_Layer: 5
   m_Name: LBtn
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51926,7 +51997,7 @@ GameObject:
   - component: {fileID: 1449189666}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52078,7 +52149,7 @@ GameObject:
   - component: {fileID: 1455536341}
   m_Layer: 5
   m_Name: Text (1)
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52154,7 +52225,7 @@ GameObject:
   - component: {fileID: 1456543842}
   m_Layer: 5
   m_Name: "\uBBF8\uB9AC\uBCF4\uAE30\uC6A9\uC694\uC815"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52195,7 +52266,7 @@ GameObject:
   - component: {fileID: 1457627958}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52269,7 +52340,7 @@ GameObject:
   - component: {fileID: 1459469654}
   m_Layer: 5
   m_Name: Image_Dia
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52345,7 +52416,7 @@ GameObject:
   - component: {fileID: 1469881716}
   m_Layer: 5
   m_Name: ButtonGenerate
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52494,7 +52565,7 @@ GameObject:
   - component: {fileID: 1474427006}
   m_Layer: 5
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52622,7 +52693,7 @@ GameObject:
   - component: {fileID: 1480196490}
   m_Layer: 5
   m_Name: BG_Transparent
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52696,7 +52767,7 @@ GameObject:
   - component: {fileID: 1489016126}
   m_Layer: 5
   m_Name: Timer
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52774,7 +52845,7 @@ GameObject:
   - component: {fileID: 1494174605}
   m_Layer: 5
   m_Name: BG
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53004,7 +53075,7 @@ GameObject:
   - component: {fileID: 1504504523}
   m_Layer: 5
   m_Name: Name
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53158,7 +53229,7 @@ GameObject:
   - component: {fileID: 1506296389}
   m_Layer: 5
   m_Name: "===ScrollView1\uC694\uC815==="
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53197,7 +53268,7 @@ GameObject:
   - component: {fileID: 1507571567}
   m_Layer: 5
   m_Name: Text_BlinkAnim
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53485,7 +53556,7 @@ GameObject:
   - component: {fileID: 1540862705}
   m_Layer: 5
   m_Name: BG_Transparent
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53633,7 +53704,7 @@ GameObject:
   - component: {fileID: 1543862265}
   m_Layer: 5
   m_Name: IconImage
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53819,7 +53890,7 @@ GameObject:
   - component: {fileID: 1549877855}
   m_Layer: 5
   m_Name: Detail
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54046,7 +54117,7 @@ GameObject:
   - component: {fileID: 1554073333}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54392,7 +54463,7 @@ GameObject:
   - component: {fileID: 1565468577}
   m_Layer: 5
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54543,7 +54614,7 @@ GameObject:
   - component: {fileID: 1571422531}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54691,7 +54762,7 @@ GameObject:
   - component: {fileID: 1585107243}
   m_Layer: 5
   m_Name: BG
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54850,7 +54921,7 @@ GameObject:
   - component: {fileID: 1592355820}
   m_Layer: 5
   m_Name: ButtonGenerate
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54998,7 +55069,7 @@ GameObject:
   - component: {fileID: 1594872917}
   m_Layer: 5
   m_Name: Level
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55205,7 +55276,7 @@ GameObject:
   - component: {fileID: 1607489419}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55402,7 +55473,7 @@ GameObject:
   - component: {fileID: 1613106332}
   m_Layer: 5
   m_Name: IconImage
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55478,7 +55549,7 @@ GameObject:
   - component: {fileID: 1614586186}
   m_Layer: 5
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55624,7 +55695,7 @@ GameObject:
   - component: {fileID: 1617547198}
   m_Layer: 5
   m_Name: =MiddleText=
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55663,7 +55734,7 @@ GameObject:
   - component: {fileID: 1619904830}
   m_Layer: 5
   m_Name: ButtonCover_Img
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55741,7 +55812,7 @@ GameObject:
   - component: {fileID: 1623965696}
   m_Layer: 5
   m_Name: ButtonGenerate
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55889,7 +55960,7 @@ GameObject:
   - component: {fileID: 1627181260}
   m_Layer: 5
   m_Name: Content
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56165,7 +56236,7 @@ GameObject:
   - component: {fileID: 1641894467}
   m_Layer: 5
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56351,7 +56422,7 @@ GameObject:
   - component: {fileID: 1646040067}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56577,7 +56648,7 @@ GameObject:
   - component: {fileID: 1648754167}
   m_Layer: 5
   m_Name: WhiteLine_Img
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56651,7 +56722,7 @@ GameObject:
   - component: {fileID: 1649106866}
   m_Layer: 5
   m_Name: Text (1)
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56836,7 +56907,7 @@ GameObject:
   - component: {fileID: 1652420192}
   m_Layer: 5
   m_Name: BG_Transparent
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56910,7 +56981,7 @@ GameObject:
   - component: {fileID: 1652799238}
   m_Layer: 5
   m_Name: Name
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56986,7 +57057,7 @@ GameObject:
   - component: {fileID: 1653474424}
   m_Layer: 5
   m_Name: =MiddleText=
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57100,7 +57171,7 @@ GameObject:
   - component: {fileID: 1656572453}
   m_Layer: 5
   m_Name: Detail
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57295,7 +57366,7 @@ GameObject:
   - component: {fileID: 1660797115}
   m_Layer: 5
   m_Name: ButtonCover_Img_NotYet
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57370,7 +57441,7 @@ GameObject:
   - component: {fileID: 1661083227}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57487,7 +57558,7 @@ GameObject:
   - component: {fileID: 1666388415}
   m_Layer: 5
   m_Name: IconImage
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57561,7 +57632,7 @@ GameObject:
   - component: {fileID: 1668971245}
   m_Layer: 5
   m_Name: "\uC694\uC815 \uC774\uB984 \uB77C\uBCA8"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57639,7 +57710,7 @@ GameObject:
   - component: {fileID: 1669082637}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57717,7 +57788,7 @@ GameObject:
   - component: {fileID: 1680916363}
   m_Layer: 5
   m_Name: ButtonCover_Img
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58097,7 +58168,7 @@ GameObject:
   - component: {fileID: 1697251730}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58177,7 +58248,7 @@ GameObject:
   - component: {fileID: 1701991898}
   m_Layer: 5
   m_Name: "ButtonUpgrade_\uBBF8\uAD6C\uD604"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58316,7 +58387,7 @@ GameObject:
   - component: {fileID: 1706814823}
   m_Layer: 5
   m_Name: Name
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58394,7 +58465,7 @@ GameObject:
   - component: {fileID: 1709501083}
   m_Layer: 5
   m_Name: Text (1)
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58472,7 +58543,7 @@ GameObject:
   - component: {fileID: 1712207171}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58584,7 +58655,7 @@ GameObject:
   - component: {fileID: 1716859757}
   m_Layer: 5
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58949,7 +59020,7 @@ GameObject:
   - component: {fileID: 1722026022}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59184,7 +59255,7 @@ GameObject:
   - component: {fileID: 1728616965}
   m_Layer: 5
   m_Name: Viewport
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59272,7 +59343,7 @@ GameObject:
   - component: {fileID: 1728703637}
   m_Layer: 5
   m_Name: ButtonCover_Img
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59427,7 +59498,7 @@ GameObject:
   - component: {fileID: 1736254701}
   m_Layer: 5
   m_Name: "Item1(\uB9C8\uBC95\uC758 \uB208\uBB3C\uC0D8) "
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59450,10 +59521,10 @@ RectTransform:
   m_Father: {fileID: 1627181258}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 584.3896, y: -260}
-  m_SizeDelta: {x: 1040, y: 160}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1736254699
 MonoBehaviour:
@@ -59538,7 +59609,7 @@ GameObject:
   - component: {fileID: 1736575436}
   m_Layer: 5
   m_Name: ButtonCover_Img_AlreadyGrown
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59611,7 +59682,7 @@ GameObject:
   - component: {fileID: 1737346844}
   m_Layer: 5
   m_Name: =MiddleText=
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59652,7 +59723,7 @@ GameObject:
   - component: {fileID: 1739355421}
   m_Layer: 5
   m_Name: "\uB2EB\uAE30Button"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59781,7 +59852,7 @@ GameObject:
   - component: {fileID: 1746300134}
   m_Layer: 5
   m_Name: "Item4(\uB098\uBB34 4\uB2E8\uACC4)"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59841,7 +59912,7 @@ GameObject:
   - component: {fileID: 1750869493}
   m_Layer: 5
   m_Name: "===ScrollView2\uB098\uBB34==="
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59968,7 +60039,7 @@ GameObject:
   - component: {fileID: 1754299921}
   m_Layer: 5
   m_Name: BG
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60091,7 +60162,7 @@ GameObject:
   - component: {fileID: 1760104187}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60169,7 +60240,7 @@ GameObject:
   - component: {fileID: 1765005715}
   m_Layer: 5
   m_Name: Name
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60247,7 +60318,7 @@ GameObject:
   - component: {fileID: 1766555445}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60321,7 +60392,7 @@ GameObject:
   - component: {fileID: 1766688771}
   m_Layer: 5
   m_Name: Name
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60399,7 +60470,7 @@ GameObject:
   - component: {fileID: 1771804774}
   m_Layer: 5
   m_Name: Level
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60478,7 +60549,7 @@ GameObject:
   - component: {fileID: 1775558903}
   m_Layer: 5
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60608,7 +60679,7 @@ GameObject:
   - component: {fileID: 1776239447}
   m_Layer: 5
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61111,7 +61182,7 @@ GameObject:
   - component: {fileID: 1795544484}
   m_Layer: 5
   m_Name: "ButtonUpgrade_\uBBF8\uAD6C\uD604"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61402,7 +61473,7 @@ GameObject:
   - component: {fileID: 1799570064}
   m_Layer: 5
   m_Name: ButtonCover_Img
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61480,7 +61551,7 @@ GameObject:
   - component: {fileID: 1800339567}
   m_Layer: 5
   m_Name: "ButtonUpgrade_\uBBF8\uAD6C\uD604"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61619,7 +61690,7 @@ GameObject:
   - component: {fileID: 1800966746}
   m_Layer: 5
   m_Name: ButtonCover_Img_NotYet
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61694,7 +61765,7 @@ GameObject:
   - component: {fileID: 1801440233}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61770,7 +61841,7 @@ GameObject:
   - component: {fileID: 1805871465}
   m_Layer: 5
   m_Name: =MiddleText=
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61809,7 +61880,7 @@ GameObject:
   - component: {fileID: 1806858877}
   m_Layer: 5
   m_Name: "\uAC8C\uC784\uC124\uC815"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61963,7 +62034,7 @@ GameObject:
   - component: {fileID: 1809602162}
   m_Layer: 5
   m_Name: "Item5(\uB098\uBB34 5\uB2E8\uACC4)"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62144,7 +62215,7 @@ GameObject:
   - component: {fileID: 1822555589}
   m_Layer: 5
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62273,7 +62344,7 @@ GameObject:
   - component: {fileID: 1824088104}
   m_Layer: 5
   m_Name: WhiteLine_Img
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62347,7 +62418,7 @@ GameObject:
   - component: {fileID: 1826599938}
   m_Layer: 5
   m_Name: IconImage
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62421,7 +62492,7 @@ GameObject:
   - component: {fileID: 1826705649}
   m_Layer: 5
   m_Name: Level
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62692,7 +62763,7 @@ GameObject:
   - component: {fileID: 1836043856}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62844,7 +62915,7 @@ GameObject:
   - component: {fileID: 1837982702}
   m_Layer: 5
   m_Name: Title
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62920,7 +62991,7 @@ GameObject:
   - component: {fileID: 1843235088}
   m_Layer: 5
   m_Name: =MiddleText=
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62960,7 +63031,7 @@ GameObject:
   - component: {fileID: 1843652804}
   m_Layer: 5
   m_Name: "Item1(\uD2A4\uB9BD\uC758 \uC694\uC815)"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63405,7 +63476,7 @@ GameObject:
   - component: {fileID: 1855144349}
   m_Layer: 5
   m_Name: Text (1)
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63522,7 +63593,7 @@ GameObject:
   - component: {fileID: 1857275868}
   m_Layer: 5
   m_Name: Text (1)
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63600,7 +63671,7 @@ GameObject:
   - component: {fileID: 1866009897}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63676,7 +63747,7 @@ GameObject:
   - component: {fileID: 1871941307}
   m_Layer: 5
   m_Name: Btn2
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63717,7 +63788,7 @@ GameObject:
   - component: {fileID: 1874605868}
   m_Layer: 5
   m_Name: Detail
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63796,7 +63867,7 @@ GameObject:
   - component: {fileID: 1879366260}
   m_Layer: 5
   m_Name: ButtonCover_Img_NotYet
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63985,7 +64056,7 @@ GameObject:
   - component: {fileID: 1880707130}
   m_Layer: 5
   m_Name: Text (1)
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64063,7 +64134,7 @@ GameObject:
   - component: {fileID: 1884018330}
   m_Layer: 5
   m_Name: ButtonCover_Img_NotYet
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64136,7 +64207,7 @@ GameObject:
   - component: {fileID: 1885362583}
   m_Layer: 5
   m_Name: Heart
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64175,7 +64246,7 @@ GameObject:
   - component: {fileID: 1885564668}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64249,7 +64320,7 @@ GameObject:
   - component: {fileID: 1887291053}
   m_Layer: 5
   m_Name: ButtonCover_Img_NotYet
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64390,7 +64461,7 @@ GameObject:
   - component: {fileID: 1892629425}
   m_Layer: 5
   m_Name: Text (1)
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64937,7 +65008,7 @@ GameObject:
   - component: {fileID: 1910537889}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65050,7 +65121,7 @@ GameObject:
   - component: {fileID: 1911931679}
   m_Layer: 5
   m_Name: Detail
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65203,7 +65274,7 @@ GameObject:
   - component: {fileID: 1916956677}
   m_Layer: 5
   m_Name: Detail
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65360,7 +65431,7 @@ GameObject:
   - component: {fileID: 1918607664}
   m_Layer: 5
   m_Name: Slider
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65537,7 +65608,7 @@ GameObject:
   - component: {fileID: 1937637438}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65761,7 +65832,7 @@ GameObject:
   - component: {fileID: 1943180898}
   m_Layer: 5
   m_Name: "ButtonUpgrade_\uBBF8\uAD6C\uD604"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66018,7 +66089,7 @@ GameObject:
   - component: {fileID: 1945717424}
   m_Layer: 5
   m_Name: ====Midlle Skill Belt====
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66336,7 +66407,7 @@ GameObject:
   - component: {fileID: 1953728143}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66492,7 +66563,7 @@ GameObject:
   - component: {fileID: 1957195126}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66716,7 +66787,7 @@ GameObject:
   - component: {fileID: 1966979444}
   m_Layer: 5
   m_Name: Detail
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66795,7 +66866,7 @@ GameObject:
   - component: {fileID: 1971117936}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66873,7 +66944,7 @@ GameObject:
   - component: {fileID: 1971553658}
   m_Layer: 5
   m_Name: ButtonCover_Img
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67022,7 +67093,7 @@ GameObject:
   - component: {fileID: 1973173381}
   m_Layer: 5
   m_Name: "===ScrollView0\uB208\uBB3C==="
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67147,7 +67218,7 @@ GameObject:
   - component: {fileID: 1975594271}
   m_Layer: 5
   m_Name: ====BottomMenu====
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67250,7 +67321,7 @@ GameObject:
   - component: {fileID: 1977310110}
   m_Layer: 5
   m_Name: IconImage
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67400,7 +67471,7 @@ GameObject:
   - component: {fileID: 1978804061}
   m_Layer: 5
   m_Name: "\uAD11\uACE0 \uC2DC\uCCAD\uD558\uACE0 \uBCF4\uC0C1\uBC1B\uAE30"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67440,7 +67511,7 @@ GameObject:
   - component: {fileID: 1979601378}
   m_Layer: 5
   m_Name: =MiddleText=
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67787,7 +67858,7 @@ GameObject:
   - component: {fileID: 1990517769}
   m_Layer: 5
   m_Name: =MiddleText=
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67826,7 +67897,7 @@ GameObject:
   - component: {fileID: 1990934734}
   m_Layer: 5
   m_Name: Detail
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67983,7 +68054,7 @@ GameObject:
   - component: {fileID: 1994320039}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68057,7 +68128,7 @@ GameObject:
   - component: {fileID: 2001809721}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68211,7 +68282,7 @@ GameObject:
   - component: {fileID: 2008055305}
   m_Layer: 5
   m_Name: =MiddleText=
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68286,7 +68357,7 @@ GameObject:
   - component: {fileID: 2011549227}
   m_Layer: 5
   m_Name: Text (1)
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68365,7 +68436,7 @@ GameObject:
   - component: {fileID: 2012565957}
   m_Layer: 5
   m_Name: UpDownBtn
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68494,7 +68565,7 @@ GameObject:
   - component: {fileID: 2013064244}
   m_Layer: 5
   m_Name: "\uD55C\uAD6D\uC5B4"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68612,7 +68683,7 @@ GameObject:
   - component: {fileID: 2015826692}
   m_Layer: 5
   m_Name: "\uD558\uB2E8\uC0C1\uD488\uC120\uD0DD"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68690,7 +68761,7 @@ GameObject:
   - component: {fileID: 2017407276}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68768,7 +68839,7 @@ GameObject:
   - component: {fileID: 2017668500}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68842,7 +68913,7 @@ GameObject:
   - component: {fileID: 2022793816}
   m_Layer: 5
   m_Name: IconImage
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68916,7 +68987,7 @@ GameObject:
   - component: {fileID: 2038120481}
   m_Layer: 5
   m_Name: Name
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68994,7 +69065,7 @@ GameObject:
   - component: {fileID: 2038899542}
   m_Layer: 5
   m_Name: ButtonCover_Img
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69148,7 +69219,7 @@ GameObject:
   - component: {fileID: 2041721250}
   m_Layer: 5
   m_Name: Level
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69227,7 +69298,7 @@ GameObject:
   - component: {fileID: 2041910867}
   m_Layer: 5
   m_Name: "\uBC84\uD2BC3\uB2E4\uC774\uC544"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69356,7 +69427,7 @@ GameObject:
   - component: {fileID: 2041959180}
   m_Layer: 5
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69483,7 +69554,7 @@ GameObject:
   - component: {fileID: 2045276363}
   m_Layer: 5
   m_Name: =MiddleText=
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69721,7 +69792,7 @@ GameObject:
   - component: {fileID: 2057711343}
   m_Layer: 5
   m_Name: Image_Cover
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69795,7 +69866,7 @@ GameObject:
   - component: {fileID: 2059076871}
   m_Layer: 5
   m_Name: Image_YellowGage
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69947,7 +70018,7 @@ GameObject:
   - component: {fileID: 2062101206}
   m_Layer: 5
   m_Name: IconImage
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70019,7 +70090,7 @@ GameObject:
   - component: {fileID: 2069114481}
   m_Layer: 5
   m_Name: "\uBCF4\uC11D 2,000"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70058,7 +70129,7 @@ GameObject:
   - component: {fileID: 2071200516}
   m_Layer: 5
   m_Name: Tear
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70175,7 +70246,7 @@ GameObject:
   - component: {fileID: 2072388881}
   m_Layer: 5
   m_Name: IconImage
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70447,7 +70518,7 @@ GameObject:
   - component: {fileID: 2078712739}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70599,7 +70670,7 @@ GameObject:
   - component: {fileID: 2082449191}
   m_Layer: 5
   m_Name: "\uC0C1\uC810"
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70992,7 +71063,7 @@ GameObject:
   - component: {fileID: 2091818925}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71064,7 +71135,7 @@ GameObject:
   - component: {fileID: 2094480790}
   m_Layer: 5
   m_Name: =MiddleText=
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71103,7 +71174,7 @@ GameObject:
   - component: {fileID: 2097791059}
   m_Layer: 5
   m_Name: Name
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71181,7 +71252,7 @@ GameObject:
   - component: {fileID: 2099441017}
   m_Layer: 5
   m_Name: Name
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71259,7 +71330,7 @@ GameObject:
   - component: {fileID: 2102214689}
   m_Layer: 5
   m_Name: Level
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71338,7 +71409,7 @@ GameObject:
   - component: {fileID: 2102790699}
   m_Layer: 5
   m_Name: Button_Box
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71455,7 +71526,7 @@ GameObject:
   - component: {fileID: 2107840492}
   m_Layer: 5
   m_Name: IconImage
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71720,7 +71791,7 @@ GameObject:
   - component: {fileID: 2118376361}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71798,7 +71869,7 @@ GameObject:
   - component: {fileID: 2118972953}
   m_Layer: 5
   m_Name: ButtonCover_Img
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72339,7 +72410,7 @@ GameObject:
   - component: {fileID: 2136055029}
   m_Layer: 5
   m_Name: IconImage
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72562,7 +72633,7 @@ GameObject:
   - component: {fileID: 2140003382}
   m_Layer: 5
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72691,7 +72762,7 @@ GameObject:
   - component: {fileID: 2140817247}
   m_Layer: 5
   m_Name: Name
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72769,7 +72840,7 @@ GameObject:
   - component: {fileID: 2142833775}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: BottomUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
