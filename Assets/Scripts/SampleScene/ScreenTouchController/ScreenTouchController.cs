@@ -28,7 +28,7 @@ public class ScreenTouchController : MonoBehaviour
                 for (int i = 0; i < Input.touchCount; i++)
                 {
                     tempTouches = Input.GetTouch(i);
-                    if (tempTouches.phase == TouchPhase.Began)
+                    if (tempTouches.phase == TouchPhase.Began && !IsPointerOverUIObject(tempTouches.position))
                     {
                         gameManager.OnScreenBtnTouched();
                     }
@@ -37,7 +37,7 @@ public class ScreenTouchController : MonoBehaviour
         }
         else
         {
-            if (Input.GetKeyDown(KeyCode.Mouse0) && !IsPointerOverUIObject())
+            if (Input.GetKeyDown(KeyCode.Mouse0) && !IsPointerOverUIObject(Input.mousePosition))
             {
                 Vector2 touchPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 RaycastHit2D hitInformation = Physics2D.Raycast(touchPos, Camera.main.transform.forward);
@@ -66,10 +66,11 @@ public class ScreenTouchController : MonoBehaviour
     }
 
     // UI터치 시 GameObject 터치 무시하는 코드 -> 변형 해서 BottomUI가 터치 안됐을때만 재화 획득하게 만들것.
-    private bool IsPointerOverUIObject()
+    private bool IsPointerOverUIObject(Vector2 pos)
     {
         PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
-        eventDataCurrentPosition.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+        //eventDataCurrentPosition.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+        eventDataCurrentPosition.position = pos;
         List<RaycastResult> results = new List<RaycastResult>();
         EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
 
