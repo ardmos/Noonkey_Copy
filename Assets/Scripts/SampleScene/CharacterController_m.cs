@@ -50,37 +50,37 @@ public class CharacterController_m : MonoBehaviour
         {
             case 0:
             case 1:
-                body.GetComponent<SpriteRenderer>().sprite = level0[0];
-                lArm.GetComponent<SpriteRenderer>().sprite = level0[1];
-                lHand.GetComponent<SpriteRenderer>().sprite = level0[2];
-                rArm.GetComponent<SpriteRenderer>().sprite = level0[3];
-                rHand.GetComponent<SpriteRenderer>().sprite = level0[4];
-                sadFace.GetComponent<SpriteRenderer>().sprite = level0[5];
+                body.GetComponent<Image>().sprite = level0[0];
+                lArm.GetComponent<Image>().sprite = level0[1];
+                lHand.GetComponent<Image>().sprite = level0[2];
+                rArm.GetComponent<Image>().sprite = level0[3];
+                rHand.GetComponent<Image>().sprite = level0[4];
+                sadFace.GetComponent<Image>().sprite = level0[5];
                 //sadFace.GetComponent<Image>().enabled = false;   Idle애니메이션에서 해줍니다.
-                wig.GetComponent<SpriteRenderer>().enabled = false;
+                wig.GetComponent<Image>().enabled = false;
                 break;
             case 2:
             case 3:
             case 4:
             case 5:
-                body.GetComponent<SpriteRenderer>().sprite = level2[0];
-                lArm.GetComponent<SpriteRenderer>().sprite = level2[1];
-                lHand.GetComponent<SpriteRenderer>().sprite = level2[2];
-                rArm.GetComponent<SpriteRenderer>().sprite = level2[3];
-                rHand.GetComponent<SpriteRenderer>().sprite = level2[4];
-                sadFace.GetComponent<SpriteRenderer>().sprite = level2[5];
+                body.GetComponent<Image>().sprite = level2[0];
+                lArm.GetComponent<Image>().sprite = level2[1];
+                lHand.GetComponent<Image>().sprite = level2[2];
+                rArm.GetComponent<Image>().sprite = level2[3];
+                rHand.GetComponent<Image>().sprite = level2[4];
+                sadFace.GetComponent<Image>().sprite = level2[5];
                 //sadFace.GetComponent<Image>().enabled = false;   Idle애니메이션에서 해줍니다.
-                wig.GetComponent<SpriteRenderer>().sprite = level2[6];
+                wig.GetComponent<Image>().sprite = level2[6];
                 break;
             case 6:
-                body.GetComponent<SpriteRenderer>().sprite = level6[0];
-                lArm.GetComponent<SpriteRenderer>().sprite = level6[1];
-                lHand.GetComponent<SpriteRenderer>().sprite = level6[2];
-                rArm.GetComponent<SpriteRenderer>().sprite = level6[3];
-                rHand.GetComponent<SpriteRenderer>().sprite = level6[4];
-                sadFace.GetComponent<SpriteRenderer>().sprite = level6[5];
+                body.GetComponent<Image>().sprite = level6[0];
+                lArm.GetComponent<Image>().sprite = level6[1];
+                lHand.GetComponent<Image>().sprite = level6[2];
+                rArm.GetComponent<Image>().sprite = level6[3];
+                rHand.GetComponent<Image>().sprite = level6[4];
+                sadFace.GetComponent<Image>().sprite = level6[5];
                 //sadFace.GetComponent<Image>().enabled = false;   Idle애니메이션에서 해줍니다.
-                wig.GetComponent<SpriteRenderer>().sprite = level6[6];
+                wig.GetComponent<Image>().sprite = level6[6];
                 break;
 
             default:
