@@ -10,6 +10,6 @@ public class TestButton : MonoBehaviour
 {
     public void OnButtonClicked()
     {
-        GameObject.Find("PlayerData").GetComponent<PlayerData>().heart += 500;
+        GameObject.Find("PlayerData").GetComponent<PlayerData>().heart += 1500;
     }
 }

@@ -24,7 +24,7 @@ public class NewIconController : MonoBehaviour
     //플레이어데이타
     PlayerData playerData;
 
-    public bool isnewicon_tearOn;
+    public bool isnewicon_tearOn, isnewicon_elfOn;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,6 +36,7 @@ public class NewIconController : MonoBehaviour
     void Update()
     {
         isnewicon_tearOn = false;
+        isnewicon_elfOn = false;
         #region 눈물
         //눈물 
         if (playerData.heart >= price_tear)
@@ -110,20 +111,29 @@ public class NewIconController : MonoBehaviour
         else newicon_tear.SetActive(false);
         #endregion
         #region 요정
-        if (lvl_tear >= 10 && lvl_RoseElf == 0)
+        if (playerData.lvl_item_Tear >= 10 && playerData.lvl_Item0_RoseElf == 0)
         {
-                //new 아이콘 활성화
-                newicon_elf.SetActive(true); 
-        }else newicon_elf.SetActive(false);
+            //new 아이콘 활성화
+            isnewicon_elfOn = true;
+        }
+        //else newicon_elf.SetActive(false);
         if (roseElf_CanUpgrade)
+        {
+            isnewicon_elfOn = true;
+        }
+        //else newicon_elf.SetActive(false);
+
+
+        if (isnewicon_elfOn)
         {
             newicon_elf.SetActive(true);
         }
         else newicon_elf.SetActive(false);
+
         #endregion
         #region 나무
         //나무 1
-        if (lvl_tear >= 30 && lvl_RoseElf >= 10)
+        if (playerData.lvl_item_Tear >= 30 && playerData.lvl_Item0_RoseElf >= 10)
         {
             if (isAlreadyGrown == false)
             {

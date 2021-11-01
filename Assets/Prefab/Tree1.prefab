@@ -201,3 +201,5 @@ MonoBehaviour:
     type: 3}
   applePoint1Obj: {fileID: 506230594077560349}
   applePoint2Obj: {fileID: 506230594047797454}
+  canvasApplePoint0: {fileID: 506230594077560349}
+  canvasApplePoint1: {fileID: 506230594047797454}

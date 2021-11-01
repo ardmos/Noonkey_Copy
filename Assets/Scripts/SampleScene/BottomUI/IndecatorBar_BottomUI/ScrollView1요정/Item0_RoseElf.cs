@@ -27,10 +27,6 @@ public class Item0_RoseElf : MonoBehaviour
     public Text detailText, levelText, btn_increaseText, btn_priceText, btnCover_Text;
     public GameObject generateBtnObj, upgradeBtnObj, coverBtnObj;
 
-
-    //눈물스킬컨트롤러
-    public Item_Tear item_Tear;
-
     //엘프 제너레이터
     public ElfGenerator elfGenerator;
 
@@ -63,13 +59,14 @@ public class Item0_RoseElf : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        playerData.lvl_Item0_RoseElf = level;
         GameObject.Find("=====BottomUI=====").GetComponent<NewIconController>().lvl_RoseElf = level;    //new 아이콘을 위한 갱신
         //저장
         playerData.heartOneSec = heartOneSec;
         playerData.elfProvidesOneSec_total = heartOneSec;
 
         //소환조건체크
-        if (item_Tear.level>=10)
+        if (playerData.lvl_item_Tear >= 10)
         {
 
             if (level == 0)
@@ -84,19 +81,24 @@ public class Item0_RoseElf : MonoBehaviour
                 newicon_elf.SetActive(true);
             }
         }
+
         //업그레이드 조건 체크
-        if (playerData.heart >= price && isalreadySohwaned)
+        if (isalreadySohwaned)
         {
-            GameObject.Find("=====BottomUI=====").GetComponent<NewIconController>().roseElf_CanUpgrade = true;
-            upgradeBtnObj.SetActive(true);
-            coverBtnObj.SetActive(false);
+            if (playerData.heart >= price)
+            {
+                GameObject.Find("=====BottomUI=====").GetComponent<NewIconController>().roseElf_CanUpgrade = true;
+                upgradeBtnObj.SetActive(true);
+                coverBtnObj.SetActive(false);
+            }
+            else
+            {
+                GameObject.Find("=====BottomUI=====").GetComponent<NewIconController>().roseElf_CanUpgrade = false;
+                coverBtnObj.SetActive(true);
+                upgradeBtnObj.SetActive(false);
+            }
         }
-        else
-        {
-            GameObject.Find("=====BottomUI=====").GetComponent<NewIconController>().roseElf_CanUpgrade = false;
-            coverBtnObj.SetActive(true);
-            upgradeBtnObj.SetActive(false);
-        }
+
 
 
         if (level == 0)

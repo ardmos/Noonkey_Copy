@@ -11,7 +11,7 @@ using UnityEngine;
 public class Tree1 : MonoBehaviour
 {
     //열매 두 가지, 열매포인트 두 곳.
-    public GameObject appleBig, appleNormal, applePoint1Obj, applePoint2Obj, canvasApplePoint0, canvasApplePoint1 ;
+    public GameObject appleBig, appleNormal, applePoint1Obj, applePoint2Obj; //, canvasApplePoint0, canvasApplePoint1 ;
         
 
     // Update is called once per frame
@@ -19,11 +19,11 @@ public class Tree1 : MonoBehaviour
     {
         StartCoroutine(CheckTreeApples());
 
-        canvasApplePoint0 = GameObject.Find("canvasApplePoint0");
-        canvasApplePoint1 = GameObject.Find("canvasApplePoint1");
+        //canvasApplePoint0 = GameObject.Find("canvasApplePoint0");
+        //canvasApplePoint1 = GameObject.Find("canvasApplePoint1");
 
-        canvasApplePoint0.GetComponent<RectTransform>().position = Camera.main.WorldToScreenPoint(applePoint1Obj.transform.position);
-        canvasApplePoint1.GetComponent<RectTransform>().position = Camera.main.WorldToScreenPoint(applePoint2Obj.transform.position);
+        //canvasApplePoint0.GetComponent<RectTransform>().position = Camera.main.WorldToScreenPoint(applePoint1Obj.transform.position);
+        //canvasApplePoint1.GetComponent<RectTransform>().position = Camera.main.WorldToScreenPoint(applePoint2Obj.transform.position);
     }
 
 
@@ -32,36 +32,38 @@ public class Tree1 : MonoBehaviour
         yield return new WaitForSeconds(5f);
 
         //열매 포인트 차례대로 확인. 
-        if (canvasApplePoint0.GetComponent<RectTransform>().childCount == 0)
+        //if (canvasApplePoint0.GetComponent<RectTransform>().childCount == 0)
+        if (applePoint1Obj.GetComponent<RectTransform>().childCount == 0)
         {
             switch (Random.Range(0, 2))
             {
                 case 0:
                     GameObject prefObj0 = Instantiate(appleBig) as GameObject;
-                    prefObj0.GetComponent<RectTransform>().SetParent(canvasApplePoint0.GetComponent<RectTransform>());
+                    prefObj0.GetComponent<RectTransform>().SetParent(applePoint1Obj.GetComponent<RectTransform>());
                     prefObj0.GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
                     break;
                 case 1:
                     GameObject prefObj1 = Instantiate(appleNormal) as GameObject;
-                    prefObj1.GetComponent<RectTransform>().SetParent(canvasApplePoint0.GetComponent<RectTransform>());
+                    prefObj1.GetComponent<RectTransform>().SetParent(applePoint1Obj.GetComponent<RectTransform>());
                     prefObj1.GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
                     break;
                 default:
                     break;
             }
         }
-        else if (canvasApplePoint1.GetComponent<RectTransform>().childCount == 0)
+        //else if (canvasApplePoint1.GetComponent<RectTransform>().childCount == 0)
+        else if (applePoint2Obj.GetComponent<RectTransform>().childCount == 0)
         {
             switch (Random.Range(0, 2))
             {
                 case 0:
                     GameObject prefObj0 = Instantiate(appleBig) as GameObject;
-                    prefObj0.GetComponent<RectTransform>().SetParent(canvasApplePoint1.GetComponent<RectTransform>());
+                    prefObj0.GetComponent<RectTransform>().SetParent(applePoint2Obj.GetComponent<RectTransform>());
                     prefObj0.GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
                     break;
                 case 1:
                     GameObject prefObj1 = Instantiate(appleNormal) as GameObject;
-                    prefObj1.GetComponent<RectTransform>().SetParent(canvasApplePoint1.GetComponent<RectTransform>());
+                    prefObj1.GetComponent<RectTransform>().SetParent(applePoint2Obj.GetComponent<RectTransform>());
                     prefObj1.GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
                     break;
                 default:

@@ -44,6 +44,11 @@ public class PlayerData : MonoBehaviour
     public int buff_power, bufftime_min;
 
 
+    //스킬들 정보
+    public int lvl_Item0_RoseElf, lvl_item_Tear;
+
+
+
     //*** 재화 표기법 수정***
     public string GetHeartCount()
     {
@@ -89,6 +94,7 @@ public class PlayerData : MonoBehaviour
 
     private void Start()
     {
+        //heart = 100000000;
         currentCureAtOneTap = 1;    //1로 시작
 
         //마법의 샘 스킬 초기정보 세팅

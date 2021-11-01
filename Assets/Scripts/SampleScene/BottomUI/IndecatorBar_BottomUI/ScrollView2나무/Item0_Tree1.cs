@@ -14,9 +14,6 @@ public class Item0_Tree1 : MonoBehaviour
 {
     public GameObject btnObj, btnCover_notYet, btnCover_AlreadyGrown;
 
-    public Item_Tear item_Tear;
-    public Item0_RoseElf item0_RoseElf;
-
     public bool isAlreadyGrown;
 
 
@@ -41,8 +38,8 @@ public class Item0_Tree1 : MonoBehaviour
     void Update()
     {        
 
-        //눈물10 이상, 요정 1 이상
-        if (item_Tear.level>=30 && item0_RoseElf.level>=10 )
+        //눈물30 이상, 요정 10 이상
+        if (GameObject.Find("PlayerData").GetComponent<PlayerData>().lvl_item_Tear>= 30 && GameObject.Find("PlayerData").GetComponent<PlayerData>().lvl_Item0_RoseElf>=10 )
         {
             if (isAlreadyGrown == false)
             {
@@ -75,9 +72,12 @@ public class Item0_Tree1 : MonoBehaviour
 
         //나무 오브젝트 생성
         GameObject prefObj = Instantiate(treeObject) as GameObject;
-        prefObj.transform.SetParent(tree__PointObj.transform);
-        prefObj.transform.position = new Vector3(0, 1.5f, 0f);
-        prefObj.transform.localScale = Vector3.one;
+        prefObj.GetComponent<RectTransform>().SetParent(tree__PointObj.GetComponent<RectTransform>());
+        prefObj.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 195f);
+        //prefObj.transform.SetParent(tree__PointObj.transform);
+        //prefObj.transform.position = new Vector3(0, 1.5f, 0f);
+        //prefObj.transform.position = new Vector3(0f, 0f, 0f);
+        //prefObj.transform.localScale = Vector3.one;
 
         //효과음!
         GameObject.Find("SFX").GetComponent<SFX_Controller>().PlaySFX(SFX_Controller.Sounds.create);
